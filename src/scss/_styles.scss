@@ -1,0 +1,7 @@
+@import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+@import './pages/home-page.scss';
+
+
+html {
+  color: ds-color(primary, 400);
+}

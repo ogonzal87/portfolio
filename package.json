@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-2018",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Oscar Gonzalez oskrhq.com/",
+  "dependencies": {
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sass": "^1.0.18",
+    "oskrhq-design-system": "^0.1.6",
+    "react-helmet": "^5.2.0",
+    "react-highlight": "^0.10.0",
+    "react-markdown": "^3.2.2",
+    "react-parallax-component": "^1.0.6",
+    "react-plx": "^1.0.6",
+    "styled-components": "^3.2.3"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.0"
+  }
+}

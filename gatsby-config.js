@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/oskrhq-portfolio`,
+  pathPrefix: '/oskrhq-portfolio',
   siteMetadata: {
     title: 'OSKRHQ Portfolio',
   },

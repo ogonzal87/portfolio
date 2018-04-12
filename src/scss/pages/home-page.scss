@@ -1,0 +1,23 @@
+.hero-button-text-style {
+  color: ds-color(neutral, 500);
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+img {
+  max-width: 723px;
+  margin-bottom: 100px;
+  filter: drop-shadow(0 50px 5px rgba(0,0,0,.06));
+}
+
+.hero-subheading-text {
+  max-width: 575px;
+  color: ds-color(neutral, 500);
+  text-align: center;
+}
+
+.hero-scroll-down {
+  position: absolute;
+  bottom: 10px;
+}
+

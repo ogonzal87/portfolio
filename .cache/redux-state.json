@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0918c6edc988604a024c966965051ffd",
+        "contentDigest": "c09006468b32304ea5af7d0d55f1df98",
         "owner": "internal-data-bridge"
       }
     },
@@ -404,7 +404,7 @@
       "resolve": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "4031735fa6665e8fe316fbfcc46897df",
+      "version": "4ef2b5b30d702afbe1803e3cf0fd43ad",
       "pluginOptions": {
         "plugins": []
       },
@@ -497,7 +497,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0f4fb667c44a4b39e82fb82c82039d70",
+        "contentDigest": "3374f1b3038917f14150b535da8adc6a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -509,12 +509,13 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
-      "buildTime": "2018-04-09T06:18:50.607Z",
+      "polyfill": true,
+      "buildTime": "2018-04-12T20:38:44.668Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "be920cda95899e8714b5d2a8b21de26d",
+        "contentDigest": "4ad5611b74dc6d08d6871b6bf509319a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -535,14 +536,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70a84d61e53066bfe161bbed3305020e",
+        "contentDigest": "38e6e0f14ec527b314c4d090024292b3",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1c9db49adc76e8d60da4295f5ea85748"
+    "PLUGINS_HASH": "f47dc7787a8615fb8dd7c0f81772daa6"
   },
   "componentDataDependencies": {
     "nodes": {},

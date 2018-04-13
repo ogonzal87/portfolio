@@ -4,7 +4,7 @@
   margin-bottom: 50px;
 }
 
-img {
+.portfolio-logo-img {
   max-width: 723px;
   margin-bottom: 100px;
   filter: drop-shadow(0 50px 5px rgba(0,0,0,.06));
@@ -16,3 +16,23 @@ img {
   text-align: center;
 }
 
+.project-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ds-img-browser {
+  max-width: 565px;
+  box-shadow: ds-depth(400);
+  margin-left: ds-space(extra-loose)
+}
+
+.project-button-container {
+  margin-top: ds-space(extra-loose);
+}
+
+.yolko-img-project {
+  max-width: 315px;
+  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, .24)) drop-shadow(0 25px 55px rgba(0, 0, 0, .19)); 
+}

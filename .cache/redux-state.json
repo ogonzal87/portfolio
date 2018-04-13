@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c09006468b32304ea5af7d0d55f1df98",
+        "contentDigest": "5202ec1ac98d1a7c622d15c2a1ec05c6",
         "owner": "internal-data-bridge"
       }
     },
@@ -441,7 +441,7 @@
           },
           {
             "name": "oskrhq-design-system",
-            "version": "^0.1.6"
+            "version": "^0.1.7"
           },
           {
             "name": "react-helmet",
@@ -510,12 +510,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-04-12T20:38:44.668Z",
+      "buildTime": "2018-04-13T01:26:32.515Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4ad5611b74dc6d08d6871b6bf509319a",
+        "contentDigest": "8018f2fa6f5ac5b62dfd0f37c5a9a2fc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -536,14 +536,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "38e6e0f14ec527b314c4d090024292b3",
+        "contentDigest": "f7b6d25dfddf6c8c1b01c80e1789f83e",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f47dc7787a8615fb8dd7c0f81772daa6"
+    "PLUGINS_HASH": "84c998b446bfe370a47bb5973e98a98b"
   },
   "componentDataDependencies": {
     "nodes": {},

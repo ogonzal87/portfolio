@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5202ec1ac98d1a7c622d15c2a1ec05c6",
+        "contentDigest": "28b944f491f42fde0103472307d00655",
         "owner": "internal-data-bridge"
       }
     },
@@ -440,8 +440,8 @@
             "version": "^1.0.18"
           },
           {
-            "name": "oskrhq-design-system",
-            "version": "^0.1.7"
+            "name": "nuka-carousel",
+            "version": "^4.1.0"
           },
           {
             "name": "react-helmet",
@@ -510,12 +510,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-04-13T01:26:32.515Z",
+      "buildTime": "2018-04-22T01:26:53.387Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8018f2fa6f5ac5b62dfd0f37c5a9a2fc",
+        "contentDigest": "edba0103bd975ae9f3d2d35d2a5f9785",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -536,14 +536,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7b6d25dfddf6c8c1b01c80e1789f83e",
+        "contentDigest": "66eb647d15504bf01a7c346bf66211b7",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "84c998b446bfe370a47bb5973e98a98b"
+    "PLUGINS_HASH": "860390922e33ea234238e7dfa44e2c27"
   },
   "componentDataDependencies": {
     "nodes": {},

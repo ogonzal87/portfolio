@@ -17,14 +17,14 @@
 }
 
 .project-image-container {
+  padding: 0 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .ds-img-browser {
-  max-width: 565px;
-  box-shadow: ds-depth(400);
+  max-width: 750px;
   margin-left: ds-space(extra-loose)
 }
 
@@ -33,6 +33,28 @@
 }
 
 .yolko-img-project {
-  max-width: 315px;
-  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, .24)) drop-shadow(0 25px 55px rgba(0, 0, 0, .19)); 
+  max-width: 340px;
+}
+
+.yolko-img-project2 {
+  margin-top: ds-space(super-loose);
+  max-width: 800px;
+}
+
+.carousel-slide-btn {
+  background: transparent;
+  border: none;
+  color: ds-color(neutral, 400);
+  transition: ds-speed(slowest) ds-easing(base) all;
+
+  &:hover {
+    color: ds-color(neutral, 700);
+  }
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: ds-space(super-loose);
 }

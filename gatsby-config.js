@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/oskrhq-portfolio',
   siteMetadata: {
-    title: 'OSKRHQ Portfolio',
+    title: 'OSKR Design & Code',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

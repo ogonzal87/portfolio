@@ -12,5 +12,26 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "index.json",
         "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-yolko-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "yolko-project.json",
+        "path": "/yolko-project/"
+    },
+    {
+        "componentChunkName": "component---src-pages-ds-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "ds-project.json",
+        "path": "/ds-project/"
+    },
+    {
+        "componentChunkName": "component---src-pages-client-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "client-project.json",
+        "path": "/client-project/"
     }
 ]

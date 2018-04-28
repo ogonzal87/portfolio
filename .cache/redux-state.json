@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "28b944f491f42fde0103472307d00655",
+        "contentDigest": "1194cfc389d442c1cb6115b3cf62184d",
         "owner": "internal-data-bridge"
       }
     },
@@ -444,6 +444,10 @@
             "version": "^4.1.0"
           },
           {
+            "name": "oskrhq-design-system",
+            "version": "^0.1.9"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           },
@@ -504,18 +508,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "OSKRHQ Portfolio"
+        "title": "OSKR Design & Code"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
-      "polyfill": true,
-      "buildTime": "2018-04-22T01:26:53.387Z",
+      "buildTime": "2018-04-27T01:25:28.669Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "edba0103bd975ae9f3d2d35d2a5f9785",
+        "contentDigest": "17a7c59bd796c6b7df70a915eee1cc9c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -536,14 +539,74 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "66eb647d15504bf01a7c346bf66211b7",
+        "contentDigest": "2fd6980198dc6646802f7c5d03141433",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /yolko-project/": {
+      "layout": "index",
+      "jsonName": "yolko-project.json",
+      "internalComponentName": "ComponentYolkoProject",
+      "path": "/yolko-project/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
+      "componentChunkName": "component---src-pages-yolko-project-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
+      "id": "SitePage /yolko-project/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "47388df861d9fcd63ba3d4381a614122",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /ds-project/": {
+      "layout": "index",
+      "jsonName": "ds-project.json",
+      "internalComponentName": "ComponentDsProject",
+      "path": "/ds-project/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
+      "componentChunkName": "component---src-pages-ds-project-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
+      "id": "SitePage /ds-project/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "153f43199e5020fff8f61a94aef79669",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /client-project/": {
+      "layout": "index",
+      "jsonName": "client-project.json",
+      "internalComponentName": "ComponentClientProject",
+      "path": "/client-project/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/client-project.js",
+      "componentChunkName": "component---src-pages-client-project-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/client-project.js",
+      "id": "SitePage /client-project/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58d2885a41d6c46cc07228641c4b290d",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "860390922e33ea234238e7dfa44e2c27"
+    "PLUGINS_HASH": "9f44082a77179ae73797e5c2daaf750c"
   },
   "componentDataDependencies": {
     "nodes": {},

@@ -7,6 +7,20 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-client-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "client-project.json",
+        "path": "/client-project/"
+    },
+    {
+        "componentChunkName": "component---src-pages-ds-project-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "ds-project.json",
+        "path": "/ds-project/"
+    },
+    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -19,19 +33,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "yolko-project.json",
         "path": "/yolko-project/"
-    },
-    {
-        "componentChunkName": "component---src-pages-ds-project-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "ds-project.json",
-        "path": "/ds-project/"
-    },
-    {
-        "componentChunkName": "component---src-pages-client-project-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "client-project.json",
-        "path": "/client-project/"
     }
 ]

@@ -97,7 +97,7 @@ class HomePage extends React.Component {
             <p className="ds-subheading-text-style">💡 The system is based on something I call <i>"The Anatomy of UI"</i>. Check out <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">my Medium series</a> to learn more.</p>
             <div className="project-button-container">
               <a href="https://oskrhq-ds.surge.sh/" target="_blank" className="project-btn__cta"><DSButton type="primary" label="view the site" /></a>
-              <Link to="/ds-project/" className="project-btn__cta"><DSButton type="ghost" label="See the story" /></Link>
+              <Link to="/ds-project/" className="project-btn__cta"><DSButton type="ghost" label="Design Process" /></Link>
             </div>      
           </div>
           <div className="ds-video-container ds-col-7">
@@ -116,7 +116,7 @@ class HomePage extends React.Component {
             <p className="ds-subheading-text-style">💡 <i>"YOLKO"</i> comes from the word "yolk" since an emoji looks like a yolk. 😜</p>
             <div className="project-button-container">
               <a href="https://imyolko.com/#!/" target="_blank" className="project-btn__cta"><DSButton type="primary" label="play with yolko" /></a>
-              <Link to="/yolko-project/" className="project-btn__cta"><DSButton type="ghost" label="See the story" /></Link>
+              <Link to="/yolko-project/" className="project-btn__cta"><DSButton type="ghost" label="Design Process" /></Link>
             </div>      
           </div>
           <div className="ds-col-7 project-image-container">
@@ -160,8 +160,7 @@ class HomePage extends React.Component {
             
             <p className="ds-subheading-text-style">💡 The system is based on something I call <i>"The Anatomy of UI"</i>. Check out <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">my Medium series</a> to learn more.</p>
             <div className="project-button-container">
-              <a href="https://oskrhq-ds.surge.sh/" target="_blank" className="project-btn__cta"><DSButton type="primary" label="view the site" /></a>
-              <Link to="/client-project/" className="project-btn__cta"><DSButton type="ghost" label="See the story" /></Link>
+              <Link to="/client-project/" className="project-btn__cta"><DSButton type="primary" size="medium" label="Design Process" /></Link>
             </div>      
           </div>
           <div className="ds-video-container ds-col-7">

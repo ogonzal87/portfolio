@@ -1,8 +1,16 @@
 @import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
 @import './pages/home-page.scss';
 @import './pages/project-page.scss';
+@import './pages/yolko-project-page.scss';
 
 
 html {
   background: #f9fafc;
+
+  .special-text-styling {
+    font-size: 14px;
+    color: #828890;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
 }

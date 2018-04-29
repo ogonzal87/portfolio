@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1194cfc389d442c1cb6115b3cf62184d",
+        "contentDigest": "31cb7bef3a2dba2b036da84de7322d38",
         "owner": "internal-data-bridge"
       }
     },
@@ -404,7 +404,7 @@
       "resolve": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "4ef2b5b30d702afbe1803e3cf0fd43ad",
+      "version": "3b527ae0d6e60aabb891b49336a82eb4",
       "pluginOptions": {
         "plugins": []
       },
@@ -501,7 +501,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3374f1b3038917f14150b535da8adc6a",
+        "contentDigest": "984f5703bbb70e2b803ae0222ba7988c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -513,73 +513,14 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
-      "buildTime": "2018-04-27T01:25:28.669Z",
+      "polyfill": true,
+      "buildTime": "2018-04-29T03:58:40.907Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "17a7c59bd796c6b7df70a915eee1cc9c",
+        "contentDigest": "82b1b44d583dfee3e4bc363efab16f74",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2fd6980198dc6646802f7c5d03141433",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /yolko-project/": {
-      "layout": "index",
-      "jsonName": "yolko-project.json",
-      "internalComponentName": "ComponentYolkoProject",
-      "path": "/yolko-project/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
-      "componentChunkName": "component---src-pages-yolko-project-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
-      "id": "SitePage /yolko-project/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "47388df861d9fcd63ba3d4381a614122",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /ds-project/": {
-      "layout": "index",
-      "jsonName": "ds-project.json",
-      "internalComponentName": "ComponentDsProject",
-      "path": "/ds-project/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
-      "componentChunkName": "component---src-pages-ds-project-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
-      "id": "SitePage /ds-project/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "153f43199e5020fff8f61a94aef79669",
         "owner": "internal-data-bridge"
       }
     },
@@ -599,14 +540,74 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "58d2885a41d6c46cc07228641c4b290d",
+        "contentDigest": "20a553bfbe64c06fdcace10713d578fd",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /ds-project/": {
+      "layout": "index",
+      "jsonName": "ds-project.json",
+      "internalComponentName": "ComponentDsProject",
+      "path": "/ds-project/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
+      "componentChunkName": "component---src-pages-ds-project-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js",
+      "id": "SitePage /ds-project/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7ee60bca65c089213660921104c9713",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f89c7be78f570be38e4ca25c8da44a91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /yolko-project/": {
+      "layout": "index",
+      "jsonName": "yolko-project.json",
+      "internalComponentName": "ComponentYolkoProject",
+      "path": "/yolko-project/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
+      "componentChunkName": "component---src-pages-yolko-project-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js",
+      "id": "SitePage /yolko-project/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "29ea9a27948cc3dcae50abcc1bd3669b",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9f44082a77179ae73797e5c2daaf750c"
+    "PLUGINS_HASH": "5877741a199d261d0c907e201f212577"
   },
   "componentDataDependencies": {
     "nodes": {},

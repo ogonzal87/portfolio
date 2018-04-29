@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":4,"edges":[{"node":{"path":"/"}},{"node":{"path":"/yolko-project/"}},{"node":{"path":"/ds-project/"}},{"node":{"path":"/client-project/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":4,"edges":[{"node":{"path":"/client-project/"}},{"node":{"path":"/ds-project/"}},{"node":{"path":"/"}},{"node":{"path":"/yolko-project/"}}]}},"pathContext":{}}

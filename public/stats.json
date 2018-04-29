@@ -1,28 +1,52 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-ds-project-js": [
+      "component---src-pages-ds-project-js-9cd58d22beb8bcaf5d73.js",
+      "component---src-pages-ds-project-js-9cd58d22beb8bcaf5d73.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-00e5d1cc53fb405cfffe.js",
-      "component---src-pages-index-js-00e5d1cc53fb405cfffe.js.map"
+      "component---src-pages-index-js-03f95ef229cbf0e6890f.js",
+      "component---src-pages-index-js-03f95ef229cbf0e6890f.js.map"
+    ],
+    "path---yolko-project": [
+      "path---yolko-project-a0e39f21c11f6a62c5ab.js",
+      "path---yolko-project-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---client-project": [
+      "path---client-project-a0e39f21c11f6a62c5ab.js",
+      "path---client-project-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-37e2f1e34640a7e8fb8a.js",
       "component---src-layouts-index-js-37e2f1e34640a7e8fb8a.js.map"
+    ],
+    "path---ds-project": [
+      "path---ds-project-a0e39f21c11f6a62c5ab.js",
+      "path---ds-project-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-client-project-js": [
+      "component---src-pages-client-project-js-2aa2b3f05b27a5e4cdaa.js",
+      "component---src-pages-client-project-js-2aa2b3f05b27a5e4cdaa.js.map"
+    ],
     "commons": [
-      "commons-57f259f66bde6a64c69d.js",
-      "commons-57f259f66bde6a64c69d.js.map"
+      "commons-138fc8ccc80f6d492565.js",
+      "commons-138fc8ccc80f6d492565.js.map"
+    ],
+    "component---src-pages-yolko-project-js": [
+      "component---src-pages-yolko-project-js-b478ba03e182c2ed0979.js",
+      "component---src-pages-yolko-project-js-b478ba03e182c2ed0979.js.map"
     ],
     "app": [
-      "app-cf57faf4c9e24fe11cb3.js",
-      "app-cf57faf4c9e24fe11cb3.js.map"
+      "app-cc5567422fb1c7c693fb.js",
+      "app-cc5567422fb1c7c693fb.js.map"
     ]
   }
 }

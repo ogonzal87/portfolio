@@ -1,7 +1,12 @@
 @import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+// Pages
 @import './pages/home-page.scss';
 @import './pages/project-page.scss';
-@import './pages/yolko-project-page.scss';
+@import './pages/projects/yolko-page.scss';
+@import './pages/projects/ds-page.scss';
+@import './pages/projects/client-page.scss';
+//Components
+@import './components/portfolio-footer.scss';
 
 
 html {
@@ -12,5 +17,13 @@ html {
     color: #828890;
     letter-spacing: 1px;
     text-transform: uppercase;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-top: 100px;
+    color: ds-color(neutral, 500);
+    text-transform: uppercase;
+    font-weight: ds-font-weight(title, base);
   }
 }

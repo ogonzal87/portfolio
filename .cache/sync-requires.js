@@ -8,17 +8,17 @@ exports.layouts = {
 
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js")),
-  "component---src-pages-client-project-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/client-project.js")),
-  "component---src-pages-ds-project-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/ds-project.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js")),
-  "component---src-pages-yolko-project-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/yolko-project.js"))
+  "component---src-pages-projects-client-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js")),
+  "component---src-pages-projects-design-system-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js")),
+  "component---src-pages-projects-yolko-js": preferDefault(require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js"))
 }
 
 exports.json = {
   "layout-index.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/dev-404-page.json"),
-  "client-project.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/client-project.json"),
-  "ds-project.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/ds-project.json"),
   "index.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/index.json"),
-  "yolko-project.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/yolko-project.json")
+  "projects-client.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-client.json"),
+  "projects-design-system.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-design-system.json"),
+  "projects-yolko.json": require("/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-yolko.json")
 }

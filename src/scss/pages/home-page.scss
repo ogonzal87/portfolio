@@ -2,7 +2,7 @@
   display: grid;
   grid-row-gap: 300px;
   grid-template-columns: 100%; 
-  margin-bottom: 300px; 
+
 
   .portfolio-logo-img {
     width: 100%;
@@ -94,6 +94,51 @@
     
     iframe {
       box-shadow: ds-depth(500);
+    }
+  }
+
+  .home-posts-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+
+    a {
+      display: block;
+      color: inherit;
+      width: 400px;
+      height: 100%;
+      margin-top: 20px;
+      box-shadow: ds-depth(100);
+      transition: all ds-easing(base) ds-duration(slowest);
+
+      .img-thumbnail {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 268px;
+        border-radius: 3px 3px 0 0; 
+      }
+
+      .post-text-container {
+        padding: 1rem 1.5rem;
+        border-radius:0 0 3px 3px;
+      }
+      
+      .ds-subheading-text-style {
+        margin: 0;
+      }
+
+      span {
+        color: ds-color(neutral, 500);
+      }
+
+      &:hover {
+        box-shadow: ds-depth(300);
+      }
     }
   }
 }

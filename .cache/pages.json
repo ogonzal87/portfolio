@@ -7,20 +7,6 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-client-project-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "client-project.json",
-        "path": "/client-project/"
-    },
-    {
-        "componentChunkName": "component---src-pages-ds-project-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "ds-project.json",
-        "path": "/ds-project/"
-    },
-    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -28,10 +14,24 @@
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-yolko-project-js",
+        "componentChunkName": "component---src-pages-projects-client-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "yolko-project.json",
-        "path": "/yolko-project/"
+        "jsonName": "projects-client.json",
+        "path": "/projects/client/"
+    },
+    {
+        "componentChunkName": "component---src-pages-projects-design-system-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-design-system.json",
+        "path": "/projects/design-system/"
+    },
+    {
+        "componentChunkName": "component---src-pages-projects-yolko-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-yolko.json",
+        "path": "/projects/yolko/"
     }
 ]

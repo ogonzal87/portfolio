@@ -1,0 +1,16 @@
+.design-system-page {
+  .hero-container {
+    .ds-logo {
+      margin-left: 80px;
+      max-width: 600px;
+    }
+
+    .special-text-styling {
+      margin-top: ds-space(loose);
+    }
+
+    .project-btn__cta {
+      margin-top: ds-space(super-loose);
+    }
+  }
+}

@@ -6,7 +6,8 @@ exports.components = {
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index.js"),
   "component---src-pages-projects-client-js": require("gatsby-module-loader?name=component---src-pages-projects-client-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js"),
   "component---src-pages-projects-design-system-js": require("gatsby-module-loader?name=component---src-pages-projects-design-system-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js"),
-  "component---src-pages-projects-yolko-js": require("gatsby-module-loader?name=component---src-pages-projects-yolko-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js")
+  "component---src-pages-projects-yolko-js": require("gatsby-module-loader?name=component---src-pages-projects-yolko-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js"),
+  "component---src-pages-index-2-js": require("gatsby-module-loader?name=component---src-pages-index-2-js!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index2.js")
 }
 
 exports.json = {
@@ -15,7 +16,8 @@ exports.json = {
   "index.json": require("gatsby-module-loader?name=path---index!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/index.json"),
   "projects-client.json": require("gatsby-module-loader?name=path---projects-client!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-client.json"),
   "projects-design-system.json": require("gatsby-module-loader?name=path---projects-design-system!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-design-system.json"),
-  "projects-yolko.json": require("gatsby-module-loader?name=path---projects-yolko!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-yolko.json")
+  "projects-yolko.json": require("gatsby-module-loader?name=path---projects-yolko!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/projects-yolko.json"),
+  "index-2.json": require("gatsby-module-loader?name=path---index-2!/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/json/index-2.json")
 }
 
 exports.layouts = {

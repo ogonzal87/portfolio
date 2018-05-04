@@ -16,6 +16,7 @@ import mediumPost3Img from '../assets/images/duotone3.png'
 import {DSCircleButton, DSButton} from '../../node_modules/oskrhq-design-system/build/index.js'
 import Carousel from 'nuka-carousel';
 import PortfolioFooter from '../components/footer'
+import viewnLogo from '../assets/images/viewn/viewn-logo.png'
 
 const SectionHero = styled.div`
   display: flex;
@@ -46,7 +47,7 @@ const SectionProject = styled.div`
   flex-direction: row;
   box-sizing: border-box;
   position: relative;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
   z-index: 1;
 
@@ -78,7 +79,7 @@ class HomePage extends React.Component {
 
           <img className="portfolio-logo-img" src={Logo1} />
 
-          <i><p className="ds-headline-text-style hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer based in San Francisco. By day I design + {'<code />'} digital products and also craft <a href="https://www.invisionapp.com/blog/guide-to-design-systems/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</p></i>
+          <i><p className="ds-headline-text-style hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer. By day I design + {'<code />'} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</p></i>
 
           <p className="ds-subheading-text-style">
             <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">oscar@oskrhq.com</a> / <a href="https://github.com/ogonzal87" target="_blank">Github</a> / <a href="https://codepen.io/ogonzal87/" target="_blank">Codepen</a> / <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">Medium</a> / <a href="https://dribbble.com/ogonzal87" target="_blank">Dribbble</a> / <a href="https://www.instagram.com/oskrhq/" target="_blank">Instagram</a></p>
@@ -89,6 +90,7 @@ class HomePage extends React.Component {
         </SectionHero>
 
         {/* <img className="work-lettering" src={workLettering} />     */}
+        {/* <p className="crafted-quote home-quote-statement"><i>In design, I believe less is more. Less words, more connection. Less noise, more clarity. The digital world has a lot to borrow from the analog and my passion lies on translating brand identities into pixels by engeneering feelings.</i></p> */}
         
         <SectionProject className="ds-col-container">
 
@@ -101,7 +103,7 @@ class HomePage extends React.Component {
             <p className="ds-subheading-text-style">💡 The system is based on something I call <i>"The Anatomy of UI"</i>. Check out <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">my Medium series</a> to learn more.</p>
             <div className="project-button-container">
               <a href="https://oskrhq-ds.surge.sh/" target="_blank" className="project-btn__cta"><DSButton type="primary" label="view the site" /></a>
-              <Link to="/projects/design-system/" className="project-btn__cta"><DSButton type="ghost" label="Design Process" /></Link>
+              <Link to="/projects/design-system/" className="project-btn__cta"><DSButton type="ghost" label="Case Study" /></Link>
             </div>      
           </div>
           <div className="ds-video-container ds-col-7">
@@ -120,7 +122,7 @@ class HomePage extends React.Component {
             <p className="ds-subheading-text-style">💡 <i>"YOLKO"</i> comes from the word "yolk" since an emoji looks like a yolk. 😜</p>
             <div className="project-button-container">
               <a href="https://imyolko.com/#!/" target="_blank" className="project-btn__cta"><DSButton type="primary" label="play with yolko" /></a>
-              <Link to="/projects/yolko/" className="project-btn__cta"><DSButton type="ghost" label="Design Process" /></Link>
+              <Link to="/projects/yolko/" className="project-btn__cta"><DSButton type="ghost" label="Case Study" /></Link>
             </div>      
           </div>
           <div className="ds-col-7 project-image-container">
@@ -160,11 +162,9 @@ class HomePage extends React.Component {
 
           <div className="project-text-container ds-col-5">
             <h5>VIEWN</h5>
-            <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs. In fact, this website, along with every Design material I produce, consumes the system. More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture crafted from scratch. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
-            
-            <p className="ds-subheading-text-style">💡 The system is based on something I call <i>"The Anatomy of UI"</i>. Check out <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">my Medium series</a> to learn more.</p>
+            <p className="ds-subheading-text-style">Marketing data playground for non-technical marketers based on the principles of Customer Data Platforms (CDP-s). The platform allows marketers to manage on a single location all customer data, making it easier for marketers to do effective marketing campaigns and connect with customers.</p>
             <div className="project-button-container">
-              <Link to="/projects/client/" className="project-btn__cta"><DSButton type="primary" size="medium" label="Design Process" /></Link>
+              <Link to="/projects/client/" className="project-btn__cta"><DSButton type="primary" size="medium" label="Case Study" /></Link>
             </div>      
           </div>
           <div className="ds-col-7 project-image-container">
@@ -183,7 +183,8 @@ class HomePage extends React.Component {
               )}
             >
               <div className="project-image-container">
-                <img src={yolkoImgProject} className="yolko-img-project project-image-container " />
+                {/* <img src={yolkoImgProject} className="yolko-img-project project-image-container " /> */}
+                <img src={viewnLogo} className="project-img" />
               </div>
               <div className="project-image-container">
                 <img src={yolkoImgProject2} className="yolko-img-project2 project-image-container " />
@@ -200,21 +201,21 @@ class HomePage extends React.Component {
         <div>
           <h4 className="section-title">Recent thoughts</h4>
           <div className="home-posts-container">
-            <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-container" target="_blank">
+            <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
               <img src={mediumPost1Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
                 <p className="ds-subheading-text-style">The Anatomy of All Digital Interfaces</p>
                 <span className="ds-caption-text-style">MEDIUM, MIZ.LI</span>
               </div>
             </a>
-            <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-container" target="_blank">
+            <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-card" target="_blank">
               <img src={mediumPost3Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
                 <p className="ds-subheading-text-style">Crafting a New Visual Language</p>
                 <span className="ds-caption-text-style">MEDIUM, MIZ.LI</span>
               </div>
             </a>
-            <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-container" target="_blank">
+            <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-card" target="_blank">
               <img src={mediumPost2Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
                 <p className="ds-subheading-text-style">A Dictionary for a Design Language</p>

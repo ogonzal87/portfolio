@@ -1,52 +1,52 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-ds-project-js": [
-      "component---src-pages-ds-project-js-9cd58d22beb8bcaf5d73.js",
-      "component---src-pages-ds-project-js-9cd58d22beb8bcaf5d73.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-392d494bf450cbfb3151.js",
-      "component---src-pages-index-js-392d494bf450cbfb3151.js.map"
-    ],
-    "path---yolko-project": [
-      "path---yolko-project-a0e39f21c11f6a62c5ab.js",
-      "path---yolko-project-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-pages-index-js-0562d9b3adb9cd397ef1.js",
+      "component---src-pages-index-js-0562d9b3adb9cd397ef1.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---client-project": [
-      "path---client-project-a0e39f21c11f6a62c5ab.js",
-      "path---client-project-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-projects-client-js": [
+      "component---src-pages-projects-client-js-bfcafe8ddf6cc5812763.js",
+      "component---src-pages-projects-client-js-bfcafe8ddf6cc5812763.js.map"
+    ],
+    "path---projects-yolko": [
+      "path---projects-yolko-a0e39f21c11f6a62c5ab.js",
+      "path---projects-yolko-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-37e2f1e34640a7e8fb8a.js",
       "component---src-layouts-index-js-37e2f1e34640a7e8fb8a.js.map"
     ],
-    "path---ds-project": [
-      "path---ds-project-a0e39f21c11f6a62c5ab.js",
-      "path---ds-project-a0e39f21c11f6a62c5ab.js.map"
+    "path---projects-design-system": [
+      "path---projects-design-system-a0e39f21c11f6a62c5ab.js",
+      "path---projects-design-system-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-client-project-js": [
-      "component---src-pages-client-project-js-2aa2b3f05b27a5e4cdaa.js",
-      "component---src-pages-client-project-js-2aa2b3f05b27a5e4cdaa.js.map"
-    ],
     "commons": [
-      "commons-138fc8ccc80f6d492565.js",
-      "commons-138fc8ccc80f6d492565.js.map"
+      "commons-28fb9b947d737f165c40.js",
+      "commons-28fb9b947d737f165c40.js.map"
     ],
-    "component---src-pages-yolko-project-js": [
-      "component---src-pages-yolko-project-js-3e69af85925c03cdae63.js",
-      "component---src-pages-yolko-project-js-3e69af85925c03cdae63.js.map"
+    "component---src-pages-projects-design-system-js": [
+      "component---src-pages-projects-design-system-js-df166504fb39dfb52209.js",
+      "component---src-pages-projects-design-system-js-df166504fb39dfb52209.js.map"
+    ],
+    "component---src-pages-projects-yolko-js": [
+      "component---src-pages-projects-yolko-js-2de0eab0de223e805ce8.js",
+      "component---src-pages-projects-yolko-js-2de0eab0de223e805ce8.js.map"
+    ],
+    "path---projects-client": [
+      "path---projects-client-a0e39f21c11f6a62c5ab.js",
+      "path---projects-client-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-cc5567422fb1c7c693fb.js",
-      "app-cc5567422fb1c7c693fb.js.map"
+      "app-0d455eba3f1b78d01a60.js",
+      "app-0d455eba3f1b78d01a60.js.map"
     ]
   }
 }

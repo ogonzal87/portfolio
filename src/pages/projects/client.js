@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { DSCircleButton, DSButton } from '../../../node_modules/oskrhq-design-system/build/index.js'
-import yolkoAvatar from '../../assets/images/yolko-avatar.svg'
+import viewnLogo from '../../assets/images/viewn/viewn-logo.png'
 import designProcessImg from '../../assets/images/design-process.png'
 import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
 import PortfolioFooter from '../../components/footer'
@@ -26,47 +26,53 @@ class ClientProjectPage extends React.Component {
       <div className="project-page">
         <div className="hero-container">
           <div className="hero-container__text-container">
+            <span className="special-text-styling">Client Work</span>
             <h1 className="ds-display3-text-style hero-container__title">VIEWN</h1>
-            <p className="ds-subheading-text-style hero-container__description">Real time feedback web application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. It is a fully responsive web app that uses AngularJS 1.5 Component Architecture for the front-end and Firebase for the backend. </p>
-            <p className="special-text-styling">Product, Interaction and Experience Design</p>
+            <p className="ds-subheading-text-style hero-container__description">Marketing data playground for non-technical marketers based on the principles of Customer Data Platforms (CDP-s). The platform allows marketers to manage on a single location all customer data, making it easier for marketers to do effective marketing campaigns and connect with customers.</p>
             <span className="special-text-styling">UX Research</span>
-            <span className="special-text-styling">Development</span>
-            <a href="https://imyolko.com/#!/" className="project-btn__cta"><DSButton type="primary" label="Play with yolko" size="medium" /></a>
+            <span className="special-text-styling">Brand Identity</span>
+            <p className="special-text-styling">Product, Interaction and Experience Design</p>
           </div>
           <div className="hero-container__img-container">
-            <img src={yolkoAvatar} className="yolko-avatar" />
+            <img src={viewnLogo} className="project-img" />
           </div>
         </div>
 
-        <div className="project__video-container">
-          <iframe src="https://player.vimeo.com/video/207403309" width="740" height="415" frameBorder="0" allowFullScreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
-
-        <h4 className="project-section-title">CASE STUDY DOSSIER</h4>
+        <h4 className="project-section-title">Project DOSSIER</h4>
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">When presenting, you are running blind since the audience is only able to provide feedback after the presentation. You do not know what were the highs and lows of your message. Furthermore, through research I found that more than 70% of participants wanted to ask questions or make a point in a presentation-type setting  but chose not to because of fear of reveling themselves to their peers and the presenter. Missed opportunities for learning and participation..?</p>
+            <p className="ds-subheading-text-style">In order to create meaningful and effective marketing campaigns, marketers have to dig through many sources of data to find commonalities that make their marketing efforts more meaningful for customers. Today, many of the efforts are done manually with the help of Data Analysts by querying data.</p>
+
+            <p className="ds-subheading-text-style">Furthermore, VIEWN's original Brand Identity did not effectively align with the image the founders wanted to portray with their audience.</p>
           </div>
           <div className="dossier__users-container">
             <p className="special-text-styling">Users</p>
-            <p className="ds-subheading-text-style">Attendees and presenters at social gatherings such as classes or talks. </p>
+            <p className="ds-subheading-text-style">Non-technical marketers.</p>
           </div>
           <div className="dossier__duration-container">
             <p className="special-text-styling">Duration</p>
-            <p className="ds-subheading-text-style">Apr 2016 - Nov 2017</p>
+            <p className="ds-subheading-text-style">June 2017 - Present</p>
           </div>
           <div className="dossier__tools-container">
             <p className="special-text-styling">Tools</p>
-            <p className="ds-subheading-text-style">Pen, paper, AngularJS 1.5, Firebase, Sketch App, SASS, Gulp.JS, Node.js, Invision.  </p>
+            <p className="ds-subheading-text-style">Pen, paper, Invision, Sketch App, Illustrator, whiteboard, and sticky notes.</p>
           </div>
           <div className="dossier__role-container">
             <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">Attendees and presentors at social gatherings such as classes or talks. </p>
+            <p className="ds-subheading-text-style">Product Designer, Creative Director, and UX Researcher.</p>
           </div>
           <div className="dossier__hypothesis-container">
             <p className="special-text-styling">Hypothetical Solution</p>
-            <p className="ds-subheading-text-style"><strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented.</p>
+            <p className="ds-subheading-text-style"><strong><i>If</i></strong> in order to create effective marketing campaigns, non-technical marketers have to rely on other people or deal with highly technical tools to source and interpret data from various sources, <strong><i>then</i></strong> by creating a platform that aggregates and presents this data in an intuitive non-technical way, brands could create more effective marketing campaigns.</p>
+          </div>
+          <div className="dossier__constraints-container">
+            <p className="special-text-styling">Constraints & Considerations</p>
+            <p className="ds-subheading-text-style">VIEWN is a Certified Google Partner so the founders wanted their UI to e inspired by Google's.</p>
+          </div>
+          <div className="dossier__platforms-container">
+            <p className="special-text-styling">Platforms</p>
+            <p className="ds-subheading-text-style">Desktop</p>
           </div>
         </div>
 
@@ -78,9 +84,13 @@ class ClientProjectPage extends React.Component {
         <div className="design-process__section-container">
           <h5 className="design-process__section-title">EMPATHIZE</h5>
           <div>
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <p className="ds-subheading-text-style">We started from the very basics. Working very closely with the founders, we establish a brand identity that would resonate with their audience. To do this, we used one of my favorite techniques - <i>Humanizing the Product</i>. I wrote a whole article about it so you can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">here</a>. This technique allows me to extract the core essence of the brand which makes my job way easier when it comes to generating a brand identity.</p> 
 
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <blockquote className="crafted-quote"><i>&ldquo; Don't <span className="strikethrough">judge</span> design for a man/woman until you have walked a mile in his/her shoes &rdquo;.</i></blockquote>
+
+            <p className="ds-subheading-text-style">We had a workshop with the founders in which we created a Primary User Persona for VIEWN. We named him Rafael. Since human actions are driven by emotions, through the exercise I looked for cues that I could use through the design process to feel what Rafael feels, what drives or discourages him as a marketer, what are his pains and frustrations. If I am able to empathize with his feelings, I should be able to create more meaningful experiences. </p>
+
+            <p className="ds-subheading-text-style">We also realized that feature prioritization and subsequent design should come from asking the users what they valued the most first. Leveraging Google Surveys we were able to capture to define Rafael's most urgent pains. </p>
           </div>
 
         </div>
@@ -90,7 +100,7 @@ class ClientProjectPage extends React.Component {
         <div className="design-process__section-container">
           <h5 className="design-process__section-title">Define</h5>
           <div>
-            <p className="ds-subheading-text-style">Defining the problem for YOLKO was easier than other projects. I knew something was broken with the way traditional communication in presentations is provided by my experience as a student at General Assembly coding academy. However, I did not know what specifically. I asked my peers and my instructor for general feedback about the class when it ended and one of my peers said something that resonated with me; "it seems that my undestanding depended on that 3% of the class that always asks questions because I was too scare to do so." I had found my problem. The in interaction and subsequent looping feedback is broken.</p>
+            <p className="ds-subheading-text-style">We combined of our research and began highlighting opportunities for innovation. We realized that Rafael would have to dig through many sets of data to find meaningful patterns he could use to target his customers effectively. Furthermore, Rafael is not a technical person, so he would have to rely on other people or pay for existing antiquated solutions that felt too descriptive instead of predictive. I set out to design a product that felt intuitive, helpful, and human having predictive analytics and insightful KPI's as a major differentiator from our competitors in the market. </p>
           </div>
 
         </div>
@@ -103,7 +113,7 @@ class ClientProjectPage extends React.Component {
             <p className="ds-subheading-text-style">I began a Divergence Period where I came up with as many ideas as I could to solve the problem and then sketch/whiteboard some potential solutions. My approach to design is purely scientific — get a hypothesis that attempts to solve a problem, then validate through rapid testing. This was my testable hypothesis: "if the feedback and pulse of the class was available in real time, the interaction between presenter and attendee would improve resulting in a deeper understanding of what is being presented plus an engaged audience". YOLKO was born out of my desire to provide the attendee with a way to see the aggregate emotions of an audience to assess if it matched theirs. I also wanted to provide the presenter the ability to ask for feedback in realtime and for the audience to ask him/her questions among other cool features. With these wireframes/sketches, I began a Convergence Period and I start engineering the experiences. Fun fact - YOLKO was first called "Bubble Gum" and it was meant to show the tension of the audience by inflating and deflating.</p>
           </div>
 
-        </div>
+        </div>  
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
@@ -137,7 +147,7 @@ class ClientProjectPage extends React.Component {
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">This learned</h4>
+        <h4 className="project-section-title">Things I learned</h4>
         <div className="project-things-learned-container">
           <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
         </div>

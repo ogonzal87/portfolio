@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "52c8a46de3c8a5453f25e197b539ce8f",
+        "contentDigest": "346a4c42f2184ff3bee1aa1d9a31927f",
         "owner": "internal-data-bridge"
       }
     },
@@ -514,12 +514,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-04-29T18:35:49.109Z",
+      "buildTime": "2018-05-02T00:25:59.289Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "32ee5f8123cd98ff58dc01cfba899455",
+        "contentDigest": "f9e3c269882e1976293d159b8505b249",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -540,7 +540,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4ec1937dc19799f8a7a40ba0c3d4460",
+        "contentDigest": "0870bebcf634825109f47efd74c8418e",
         "owner": "internal-data-bridge"
       }
     },
@@ -560,7 +560,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "99549b953a4ba8c1d3e664051e1bd96f",
+        "contentDigest": "b30f0e8a60438c88c5fbf96b3bdd5668",
         "owner": "internal-data-bridge"
       }
     },
@@ -580,7 +580,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ab9edca057de5bd22d0ab58520a10377",
+        "contentDigest": "9b49a16313acdb7088fc91a31eb936ef",
         "owner": "internal-data-bridge"
       }
     },
@@ -600,7 +600,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "05733597c6f0b70f85e84b952a473cf4",
+        "contentDigest": "575076533e7df82a05d915febed9b7ec",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /index2/": {
+      "layout": "index",
+      "jsonName": "index-2.json",
+      "internalComponentName": "ComponentIndex2",
+      "path": "/index2/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index2.js",
+      "componentChunkName": "component---src-pages-index-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index2.js",
+      "id": "SitePage /index2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0e10720355b1989af944da442e2f0d72",
         "owner": "internal-data-bridge"
       }
     }

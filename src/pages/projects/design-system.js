@@ -26,6 +26,7 @@ class DSProjectPage extends React.Component {
       <div className="project-page design-system-page">
         <div className="hero-container">
           <div className="hero-container__text-container">
+            <span className="special-text-styling">Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">OSKRHQ.DS</h1>
             <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs. In fact, this website, along with every Design material I produce, consumes the system. More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture crafted from scratch. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
 
@@ -70,13 +71,13 @@ class DSProjectPage extends React.Component {
             <p className="special-text-styling">Hypothetical Solution</p>
             <p className="ds-subheading-text-style"><strong><i>If</i></strong> an inconsistent brand identity dilutes my personal brand, <strong><i>then</i></strong> implementing a Design System </p>
           </div>
-          <div className="dossier__platforms-container">
-            <p className="special-text-styling">Platforms</p>
-            <p className="ds-subheading-text-style">Mobile and Desktop</p>
-          </div>
           <div className="dossier__constraints-container">
             <p className="special-text-styling">Constraints & Considerations</p>
             <p className="ds-subheading-text-style">Avoid getting the audience distracted and provide anonymity for the participants.</p>
+          </div>
+          <div className="dossier__platforms-container">
+            <p className="special-text-styling">Platforms</p>
+            <p className="ds-subheading-text-style">Mobile and Desktop</p>
           </div>
         </div>
 
@@ -147,7 +148,7 @@ class DSProjectPage extends React.Component {
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">This learned</h4>
+        <h4 className="project-section-title">things i learned</h4>
         <div className="project-things-learned-container">
           <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
         </div>

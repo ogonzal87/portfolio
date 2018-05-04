@@ -33,5 +33,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "projects-yolko.json",
         "path": "/projects/yolko/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index-2.json",
+        "path": "/index2/"
     }
 ]

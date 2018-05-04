@@ -1,0 +1,27 @@
+.number2 {
+  position: absolute;
+  margin-right: 32px;
+  max-width: 160px;
+  top: -124px;
+  left: -114px;
+  z-index: -1;;
+}
+
+.project-card-title {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: ds-color(neutral, 000);
+  text-transform: uppercase;
+}
+
+.project-link {
+  min-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.design-process-img2 {
+  margin: 0 auto;
+  max-width: 800px;;
+}

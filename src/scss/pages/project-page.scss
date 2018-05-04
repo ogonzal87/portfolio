@@ -11,6 +11,7 @@
       max-width: 546px;
 
       .hero-container__title {
+        margin-top: ds-space(tight);
         margin-bottom: 40px;
         color: ds-color(neutral, 600)
       }
@@ -34,8 +35,9 @@
       align-items: center;
       justify-content: center;
 
-      .yolko-avatar {
+      .project-img {
         filter: drop-shadow(0 8px 17px rgba(0,0,0,0.20));
+        max-width: 500px;
       }
     }
   }

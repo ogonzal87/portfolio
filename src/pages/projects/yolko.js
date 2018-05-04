@@ -15,6 +15,7 @@ class YolkoProjectPage extends React.Component {
       <div className="project-page">
         <div className="hero-container">
           <div className="hero-container__text-container">
+            <span className="special-text-styling">Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">Yolko</h1>
             <p className="ds-subheading-text-style hero-container__description">Real time feedback web application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. It is a fully responsive web app that uses AngularJS 1.5 Component Architecture for the front-end and Firebase for the backend. </p>
             <p className="special-text-styling">Product, Interaction and Experience Design</p>
@@ -23,7 +24,7 @@ class YolkoProjectPage extends React.Component {
             <a href="https://imyolko.com/#!/" className="project-btn__cta"><DSButton type="primary" label="Play with yolko" size="medium" /></a>
           </div>
           <div className="hero-container__img-container">
-            <img src={yolkoAvatar} className="yolko-avatar"/>
+            <img src={yolkoAvatar} className="project-img"/>
           </div>
         </div>
 
@@ -57,13 +58,13 @@ class YolkoProjectPage extends React.Component {
             <p className="special-text-styling">Hypothetical Solution</p>
             <p className="ds-subheading-text-style"><strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented.</p>
           </div>
-          <div className="dossier__platforms-container">
-            <p className="special-text-styling">Platforms</p>
-            <p className="ds-subheading-text-style">Mobile and Desktop</p>
-          </div>
           <div className="dossier__constraints-container">
             <p className="special-text-styling">Constraints & Considerations</p>
             <p className="ds-subheading-text-style">Avoid getting the audience distracted and provide anonymity for the participants.</p>
+          </div>
+          <div className="dossier__platforms-container">
+            <p className="special-text-styling">Platforms</p>
+            <p className="ds-subheading-text-style">Mobile and Desktop</p>
           </div>
         </div>
 
@@ -134,7 +135,7 @@ class YolkoProjectPage extends React.Component {
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">This learned</h4>
+        <h4 className="project-section-title">things i learned</h4>
         <div className="project-things-learned-container">
           <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
         </div>

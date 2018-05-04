@@ -1,20 +1,55 @@
 .design-process-card__container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .design-process__number {
-    position: absolute;
-    top: -80px;
-    max-width: 100px;
-    z-index: -1;
+  .design-process-card__wrapper {
+    flex: 1;
+
+    .design-process__number {
+        position: absolute;
+        top: -50px;
+        max-width: 100px;
+        z-index: -1;
+      }
+
+      .design-process__card {
+        background: ds-color(neutral, 000);
+        min-height: 200px;
+        max-width: 400px;
+        width: 100%;
+        padding: ds-space(base) ds-space(loose);
+        box-sizing: border-box;
+        box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
+        border-radius: 8px;
+        position: relative;
+
+        .design-process-badge {
+          text-transform: uppercase;
+          display: block;
+          padding: ds-space(tight) ds-space(bit-loose); 
+          text-align: center;
+          border-radius: 0 8px 0 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+
+          &.tertiary {
+            color: ds-color(tertiary, 400);
+            background: ds-color(tertiary, 100);
+          }
+          &.success {
+            color: ds-color(success, 400);
+            background: ds-color(success, 100);
+          }
+          &.warning {
+            color: ds-color(warning, 500);
+            background: ds-color(warning, 100);
+          }
+        }
+      }
   }
 
-  .design-process__card {
-    background: ds-color(neutral, 000);
-    min-height: 200px;
-    max-width: 400px;
-    padding: ds-space(loose);
-    box-sizing: border-box;
-    box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
-    border-radius: 8px;
-  }
+  
 }

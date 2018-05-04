@@ -1,7 +1,6 @@
 @import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
 // Pages
 @import './pages/home-page.scss';
-@import './pages/home2-page.scss';
 @import './pages/project-page.scss';
 @import './pages/projects/yolko-page.scss';
 @import './pages/projects/ds-page.scss';
@@ -13,11 +12,6 @@
 
 html {
   background: #f9fafc;
-
-  .ds-subheading-text-style {
-    // line-height: 32px;
-    // font-size: 17px;
-  }
 
   .crafted-quote {
     font-size: ds-font-size(title);

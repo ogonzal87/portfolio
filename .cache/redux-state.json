@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b3834b537906e98a4b6b6d7be8255cf8",
+        "contentDigest": "46202416845a0503e48f7622e9514337",
         "owner": "internal-data-bridge"
       }
     },
@@ -514,12 +514,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-05-04T00:18:30.745Z",
+      "buildTime": "2018-05-04T07:24:26.747Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c2836088c20ab036874907fc79d8ad7f",
+        "contentDigest": "55125107f457e50598cc86a8cc97190f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -540,27 +540,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "963fd2ddfdcdbe4698ba845600eb5b68",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /index2/": {
-      "layout": "index",
-      "jsonName": "index-2.json",
-      "internalComponentName": "ComponentIndex2",
-      "path": "/index2/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index2.js",
-      "componentChunkName": "component---src-pages-index-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/index2.js",
-      "id": "SitePage /index2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5bcc4a93e27e0e23076b807e95854b49",
+        "contentDigest": "4af7a9dd27665bb653f4b775df0060d9",
         "owner": "internal-data-bridge"
       }
     },
@@ -580,7 +560,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb8ad62b7a06942019e651a980191d52",
+        "contentDigest": "db830a93f9a89f45ac79e04a8d121d00",
         "owner": "internal-data-bridge"
       }
     },
@@ -600,7 +580,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe68b497b954995838f8a205320dec92",
+        "contentDigest": "69471f73fd82f432f9c1fe01eff19ed7",
         "owner": "internal-data-bridge"
       }
     },
@@ -620,7 +600,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "933e6cd0d1691bbd5c0783ef6bf502dc",
+        "contentDigest": "8b651404ec54c997f98719fd60c503a7",
         "owner": "internal-data-bridge"
       }
     }

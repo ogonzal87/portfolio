@@ -35,72 +35,82 @@
     margin: 0 auto; 
   }
 
+
   .number {
     position: absolute;
-    top: -200px;
-    left: -20px;
-    display: block;
-    max-width: 100px;
-    margin: 15rem auto 0 auto;
+    margin-right: 32px;
+    max-width: 160px;
+    top: -124px;
+    left: -114px;
     z-index: -1;
   }
 
-  .project-image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  .project-card-title-container {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: ds-color(neutral, 000);
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
 
-  .ds-video-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: ds-space(super-loose);
-  }
+    .special-text-styling {
+      color: ds-color(neutral, 000);
+      text-align: right;
+      display: block;
+    }
 
-  .ds-img-browser {
-    max-width: 750px;
-    margin-left: ds-space(extra-loose)
-  }
+    .ds-display2-text-style {
+      margin-top: ds-space(base);
+    }
 
-  .project-button-container {
-    display: grid;
-    grid-gap: ds-space(base);
-    grid-row-gap: 0;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    margin-top: ds-space(extra-loose);
-  }
-
-  .yolko-img-project {
-    max-width: 340px;
-  }
-
-  .yolko-img-project2 {
-    margin-top: ds-space(super-loose);
-    max-width: 800px;
-  }
-
-  .carousel-slide-btn {
-    background: transparent;
-    border: none;
-    color: ds-color(neutral, 400);
-    transition: ds-speed(slowest) ds-easing(base) all;
-
-    &:hover {
-      color: ds-color(neutral, 700);
+    .project-card__footer-text {
+      color: ds-color(neutral,200);
     }
   }
 
-  .video-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: ds-space(super-loose);
-    
-    iframe {
-      box-shadow: ds-depth(500);
-    }
+  .project-link {
+    min-width: 90%;
+    display: block;
+    margin: 0 auto;
   }
+
+  .design-process-img2 {
+    margin: 0 auto;
+    max-width: 800px;;
+  }
+
+
+  .design-process-path1 {
+    grid-area: "design-process-path1";
+    z-index: -2;
+  }
+
+  .design-process-path2 {
+    grid-area: "design-process-path2";
+    z-index: -2;
+  }
+
+  .design-process-path3 {
+    grid-area: "design-process-path3";
+    z-index: -2;
+  }
+
+  .design-process-path4 {
+    grid-area: "design-process-path4";
+    z-index: -2;
+  }
+
+  .design-process-path5 {
+    grid-area: "design-process-path5";
+    z-index: -2;
+  }
+
+
+
+
+
+
 
   .home-posts-container {
     margin: 0 auto;

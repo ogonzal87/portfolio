@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "346a4c42f2184ff3bee1aa1d9a31927f",
+        "contentDigest": "b3834b537906e98a4b6b6d7be8255cf8",
         "owner": "internal-data-bridge"
       }
     },
@@ -514,12 +514,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-05-02T00:25:59.289Z",
+      "buildTime": "2018-05-04T00:18:30.745Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f9e3c269882e1976293d159b8505b249",
+        "contentDigest": "c2836088c20ab036874907fc79d8ad7f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -540,67 +540,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0870bebcf634825109f47efd74c8418e",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/client/": {
-      "layout": "index",
-      "jsonName": "projects-client.json",
-      "internalComponentName": "ComponentProjectsClient",
-      "path": "/projects/client/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js",
-      "componentChunkName": "component---src-pages-projects-client-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js",
-      "id": "SitePage /projects/client/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b30f0e8a60438c88c5fbf96b3bdd5668",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/design-system/": {
-      "layout": "index",
-      "jsonName": "projects-design-system.json",
-      "internalComponentName": "ComponentProjectsDesignSystem",
-      "path": "/projects/design-system/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js",
-      "componentChunkName": "component---src-pages-projects-design-system-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js",
-      "id": "SitePage /projects/design-system/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9b49a16313acdb7088fc91a31eb936ef",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/yolko/": {
-      "layout": "index",
-      "jsonName": "projects-yolko.json",
-      "internalComponentName": "ComponentProjectsYolko",
-      "path": "/projects/yolko/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js",
-      "componentChunkName": "component---src-pages-projects-yolko-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js",
-      "id": "SitePage /projects/yolko/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "575076533e7df82a05d915febed9b7ec",
+        "contentDigest": "963fd2ddfdcdbe4698ba845600eb5b68",
         "owner": "internal-data-bridge"
       }
     },
@@ -620,7 +560,67 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e10720355b1989af944da442e2f0d72",
+        "contentDigest": "5bcc4a93e27e0e23076b807e95854b49",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/client/": {
+      "layout": "index",
+      "jsonName": "projects-client.json",
+      "internalComponentName": "ComponentProjectsClient",
+      "path": "/projects/client/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js",
+      "componentChunkName": "component---src-pages-projects-client-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/client.js",
+      "id": "SitePage /projects/client/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb8ad62b7a06942019e651a980191d52",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/design-system/": {
+      "layout": "index",
+      "jsonName": "projects-design-system.json",
+      "internalComponentName": "ComponentProjectsDesignSystem",
+      "path": "/projects/design-system/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js",
+      "componentChunkName": "component---src-pages-projects-design-system-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/design-system.js",
+      "id": "SitePage /projects/design-system/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fe68b497b954995838f8a205320dec92",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/yolko/": {
+      "layout": "index",
+      "jsonName": "projects-yolko.json",
+      "internalComponentName": "ComponentProjectsYolko",
+      "path": "/projects/yolko/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js",
+      "componentChunkName": "component---src-pages-projects-yolko-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/src/pages/projects/yolko.js",
+      "id": "SitePage /projects/yolko/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "933e6cd0d1691bbd5c0783ef6bf502dc",
         "owner": "internal-data-bridge"
       }
     }

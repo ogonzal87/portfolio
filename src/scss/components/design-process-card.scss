@@ -1,0 +1,20 @@
+.design-process-card__container {
+  position: relative;
+
+  .design-process__number {
+    position: absolute;
+    top: -80px;
+    max-width: 100px;
+    z-index: -1;
+  }
+
+  .design-process__card {
+    background: ds-color(neutral, 000);
+    min-height: 200px;
+    max-width: 400px;
+    padding: ds-space(loose);
+    box-sizing: border-box;
+    box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
+    border-radius: 8px;
+  }
+}

@@ -15,6 +15,7 @@ import mediumPost2Img from '../assets/images/duotone2.png'
 import mediumPost3Img from '../assets/images/duotone3.png'
 import { DSCircleButton, DSButton } from '../../node_modules/oskrhq-design-system/build/index.js'
 import PortfolioFooter from '../components/footer'
+import DesignProcessCard from '../components/design-process-card'
 import viewnLogo from '../assets/images/viewn/viewn-logo.png'
 import designProcessImg from '../assets/images/design-process.png'
 
@@ -75,38 +76,55 @@ const ProjectCard = styled.div`
   width: 100%;
   border-radius: 10px;
   position: relative;
-  box-shadow: 0 5px 15px -2px rgba(10, 16, 34, .4);
-  transition: all 200ms ease;
+  box-shadow: 0 1px 1px 1px rgba(10,16,34,.08);
+  transition: all 200ms ease-in-out;
   min-height: 500px;
   padding: 50px;
   box-sizing: border-box;
   cursor: pointer;
 
   &:hover {
+    background: rgba(255, 0, 0, 0.25);
     box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
   }
 
   &.card-1 {
-    background: url(${mediumPost2Img});
+    background-image: url(${mediumPost2Img});
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-  background-attachment: fixed;
+    background-attachment: fixed;
   }
   &.card-2 {
-    background: url(${mediumPost1Img});
+    background-image: url(${mediumPost1Img});
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
   }
   &.card-3 {
-    background: url(${viewnLogo});
+    background-image: url(${viewnLogo});
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
   }
+`
+
+const DesignProcessCardGrid = styled.div`
+  display: grid;
+  grid-template-areas: 
+    "design-process-card1 ."
+    ". design-process-card2"
+    "design-process-card3 ."
+    ". design-process-card4"
+    "design-process-card5 ."
+    ". design-process-card6";
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-column-gap: 10%;
+    grid-row-gap: 40px;
 `
 
 class HomePage extends React.Component {
@@ -133,7 +151,11 @@ class HomePage extends React.Component {
           <Link to="/projects/design-system/" className="project-link">
             <ProjectCard className="card-1">
               <img className="number2" src={number1} />
-              <h5 className="ds-display2-text-style project-card-title ">OSKRHQ Design System</h5>
+              <div className="project-card-title-container">
+                <span className="special-text-styling">Personal Project</span>
+                <h5 className="ds-display2-text-style">OSKRHQ Design System</h5>
+                <span className="special-text-styling project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
+              </div>
             </ProjectCard>
           </Link> 
         </SectionProject>
@@ -142,7 +164,11 @@ class HomePage extends React.Component {
           <Link to="/projects/yolko/" className="project-link">
             <ProjectCard className="card-2">
               <img className="number2" src={number2} />
-              <h5 className="ds-display2-text-style project-card-title ">YOLKO</h5>
+              <div className="project-card-title-container">
+                <span className="special-text-styling">Personal Project</span>
+                <h5 className="ds-display2-text-style">YOLKO</h5>
+                <span className="special-text-styling project-card__footer-text">PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT | UX RESEARCH</span>
+              </div>
             </ProjectCard>
           </Link>
         </SectionProject>
@@ -151,13 +177,61 @@ class HomePage extends React.Component {
           <Link to="/projects/client/" className="project-link">
             <ProjectCard className="card-3">
               <img className="number2" src={number3} />
-              <h5 className="ds-display2-text-style project-card-title ">VIEWN</h5>
+              <div className="project-card-title-container">
+                <span className="special-text-styling ">Client Work</span>
+                <h5 className="ds-display2-text-style">VIEWN</h5>
+                <span className="special-text-styling project-card__footer-text">BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
+              </div>  
             </ProjectCard>
           </Link>
         </SectionProject>
 
         <img src={designProcessImg} className="design-process-img2"/>        
         
+
+
+
+
+        <DesignProcessCardGrid>
+          <DesignProcessCard 
+            numberImg={number1} 
+            text="Don't judge a man [design for a user] until you've walked a mile in his [his/her] shoes." 
+            title="Emphatize"
+            gridAreaName="design-process-card1"/>
+          <DesignProcessCard 
+          numberImg={number2} 
+          text="What's the problem?"
+          title="Define" 
+          gridAreaName="design-process-card2"/>
+          <DesignProcessCard 
+            numberImg={number3} 
+            text="What's the solution'?" 
+            title="Ideate"
+            gridAreaName="design-process-card3" />
+          <DesignProcessCard 
+            numberImg={number1} 
+            text="What does the solution feel like?"  
+            title="Prototype" 
+            gridAreaName="design-process-card4"/>
+          <DesignProcessCard 
+            numberImg={number2} 
+            text="What does the solution look like and what was learned?" 
+            title="Test" 
+            gridAreaName="design-process-card5"/>
+          <DesignProcessCard 
+            numberImg={number3} 
+            text="What's next?" 
+            title="Implement"
+            gridAreaName="design-process-card6"/>
+        </DesignProcessCardGrid>
+
+
+
+
+
+
+
+
 
         <div>
           <h4 className="section-title">Recent thoughts</h4>

@@ -7,12 +7,28 @@
   z-index: -1;;
 }
 
-.project-card-title {
+.project-card-title-container {
   position: absolute;
   bottom: 40px;
   right: 40px;
   color: ds-color(neutral, 000);
   text-transform: uppercase;
+  display: block;
+  text-align: right;
+
+  .special-text-styling {
+    color: ds-color(neutral, 000);
+    text-align: right;
+    display: block;
+  }
+
+  .ds-display2-text-style {
+    margin-top: ds-space(base);
+  }
+
+  .project-card__footer-text {
+    color: ds-color(neutral,200);
+  }
 }
 
 .project-link {

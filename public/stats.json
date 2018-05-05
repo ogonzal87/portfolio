@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-e43cc362f7a030330710.js",
-      "component---src-pages-index-js-e43cc362f7a030330710.js.map"
+      "component---src-pages-index-js-fd05b0b909d71a0b6a58.js",
+      "component---src-pages-index-js-fd05b0b909d71a0b6a58.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -36,10 +36,6 @@
       "component---src-pages-projects-design-system-js-cc8f6c7bab884d4ac536.js",
       "component---src-pages-projects-design-system-js-cc8f6c7bab884d4ac536.js.map"
     ],
-    "path---index-2": [
-      "path---index-2-a0e39f21c11f6a62c5ab.js",
-      "path---index-2-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-projects-yolko-js": [
       "component---src-pages-projects-yolko-js-b51cd0a78599077dea95.js",
       "component---src-pages-projects-yolko-js-b51cd0a78599077dea95.js.map"
@@ -49,12 +45,8 @@
       "path---projects-client-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-18af45c30ec5c53dddab.js",
-      "app-18af45c30ec5c53dddab.js.map"
-    ],
-    "component---src-pages-index-2-js": [
-      "component---src-pages-index-2-js-82ef53ce69faaee1fb1a.js",
-      "component---src-pages-index-2-js-82ef53ce69faaee1fb1a.js.map"
+      "app-0d455eba3f1b78d01a60.js",
+      "app-0d455eba3f1b78d01a60.js.map"
     ]
   }
 }

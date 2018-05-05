@@ -2,6 +2,8 @@
   display: grid;
   grid-row-gap: 300px;
   grid-template-columns: 100%; 
+  position: relative;
+  padding-bottom: 200px;
 
 
   .portfolio-logo-img {

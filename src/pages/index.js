@@ -16,7 +16,9 @@ import mediumPost3Img from '../assets/images/duotone3.png'
 import { DSCircleButton, DSButton } from '../../node_modules/oskrhq-design-system/build/index.js'
 import PortfolioFooter from '../components/footer'
 import DesignProcessCard from '../components/design-process-card'
+import CreativeLabMosque from '../components/creative-lab-mosque'
 import viewnLogo from '../assets/images/viewn/viewn-logo.png'
+import yolkoThumbnail from '../assets/images/yolko/thumbnail-duotone.png'
 import designProcessImg from '../assets/images/design-process.png'
 import designProcessPath1 from '../assets/images/design-process/path1.svg'
 import designProcessPath2 from '../assets/images/design-process/path2.svg'
@@ -102,7 +104,7 @@ const ProjectCard = styled.div`
     background-attachment: fixed;
   }
   &.card-2 {
-    background-image: url(${mediumPost1Img});
+    background-image: url(${yolkoThumbnail});
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -120,6 +122,7 @@ const ProjectCard = styled.div`
 const DesignProcessCardGrid = styled.div`
   display: grid;
   grid-template-areas: 
+    "design-process-title design-process-title"
     "design-process-card1 design-process-path1"
     "design-process-path2 design-process-card2"
     "design-process-card3 design-process-path3"
@@ -132,6 +135,10 @@ const DesignProcessCardGrid = styled.div`
     margin: 0 auto;
     grid-column-gap: 3%;
     grid-row-gap: 20px;
+
+    .design-process-title {
+      grid-area: design-process-title;
+    }
 `
 
 class HomePage extends React.Component {
@@ -195,6 +202,7 @@ class HomePage extends React.Component {
         
 
         <DesignProcessCardGrid>
+          <h4 className="section-title design-process-title">My Design Process</h4>
           <DesignProcessCard 
             numberImg={number1} 
             text={`Begin by understanding what motivates and discourages the user. "Do not judge a man [design for a user] until you've walked a mile in his [his/her] shoes."`}
@@ -278,6 +286,9 @@ class HomePage extends React.Component {
             </a>
           </div>
         </div>
+
+
+        <CreativeLabMosque />
 
         <PortfolioFooter />
 

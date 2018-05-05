@@ -28,28 +28,24 @@ class DSProjectPage extends React.Component {
           <div className="hero-container__text-container">
             <span className="special-text-styling">Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">OSKRHQ.DS</h1>
-            <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs. In fact, this website, along with every Design material I produce, consumes the system. More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture crafted from scratch. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
+            <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs. <strong>In fact, this website, along with every Design material I produce, consumes the system.</strong> More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
 
             <p className="special-text-styling">Creative Direction and Multidisciplinary Design </p>
             <span className="special-text-styling">Design Systems</span>
             <span className="special-text-styling">Development</span>
             <span className="special-text-styling">UX Research</span>
-            <a href="https://imyolko.com/#!/" className="project-btn__cta"><DSButton type="primary" label="View the Site" size="medium" /></a>
+            <a href="https://imyolko.com/#!/" className="project-btn__cta" target="_blank"><DSButton type="primary" label="View the Site" size="medium" /></a>
           </div>
           <div className="hero-container__img-container">
             <img src={dsLogo} className="ds-logo" />
           </div>
         </div>
 
-        <div className="project__video-container">
-          <iframe src="https://player.vimeo.com/video/265949113" width="780" height="571" frameBorder="0" allowFullScreen></iframe>
-        </div>
-
         <h4 className="project-section-title">CASE STUDY DOSSIER</h4>
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">As a designer and developer, you are your own brand and the products and services you produce become an extension of that brand. However, as you create artifacts overtime, your identity tends to get diluted as  you are typically building these artifacts in isolation, or end up building the artifacts from scratch creating inconsistencies in design and code. This creates fragmented experiences for your audience as they move from one artifact to the next.</p>
+            <p className="ds-subheading-text-style">As a designer or developer, you are your own brand. The products and services you produce become an extension of that brand. However, as you create artifacts overtime, your identity tends to get diluted since you are typically building these artifacts in isolation, or end up building the artifacts from scratch. This creates fragmented experiences for your audience as they move from one artifact to the next.</p>
           </div>
           <div className="dossier__users-container">
             <p className="special-text-styling">Users</p>
@@ -69,7 +65,7 @@ class DSProjectPage extends React.Component {
           </div>
           <div className="dossier__hypothesis-container">
             <p className="special-text-styling">Hypothetical Solution</p>
-            <p className="ds-subheading-text-style"><strong><i>If</i></strong> an inconsistent brand identity dilutes my personal brand, <strong><i>then</i></strong> implementing a Design System </p>
+            <p className="ds-subheading-text-style"><strong><i>If</i></strong> inconsistent artifacts of design and code dilutes my personal brand and its extensions, <strong><i>then</i></strong> implementing a full Design System for it should create a harmonious identity felt by my audience.</p>
           </div>
           <div className="dossier__constraints-container">
             <p className="special-text-styling">Constraints & Considerations</p>
@@ -81,10 +77,13 @@ class DSProjectPage extends React.Component {
           </div>
         </div>
 
+        <div className="project__video-container">
+          <iframe src="https://player.vimeo.com/video/265949113" width="1000" height="800" frameBorder="0" allowFullScreen></iframe>
+        </div>
+
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
         <h4 className="project-section-title">How I got to the pixels</h4>
-        <img src={designProcessImg} className="design-process-img" />
 
         <div className="design-process__section-container">
           <h5 className="design-process__section-title">EMPATHIZE</h5>

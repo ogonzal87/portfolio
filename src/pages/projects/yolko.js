@@ -17,20 +17,17 @@ class YolkoProjectPage extends React.Component {
           <div className="hero-container__text-container">
             <span className="special-text-styling">Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">Yolko</h1>
-            <p className="ds-subheading-text-style hero-container__description">Real time feedback web application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. It is a fully responsive web app that uses AngularJS 1.5 Component Architecture for the front-end and Firebase for the backend. </p>
+            <p className="ds-subheading-text-style hero-container__description">Real time feedback application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. It is a fully responsive web app that uses AngularJS 1.5 Component Architecture for the front-end and Firebase for the backend. </p>
             <p className="special-text-styling">Product, Interaction and Experience Design</p>
             <span className="special-text-styling">UX Research</span>
             <span className="special-text-styling">Development</span>
-            <a href="https://imyolko.com/#!/" className="project-btn__cta"><DSButton type="primary" label="Play with yolko" size="medium" /></a>
+            <span className="special-text-styling">Creative Direction</span>
+            <a href="https://imyolko.com/#!/" className="project-btn__cta"><DSButton type="primary" label="Meet Yolko" size="medium" /></a>
           </div>
           <div className="hero-container__img-container">
             <img src={yolkoAvatar} className="project-img"/>
           </div>
         </div>
-
-        <div className="project__video-container">
-          <iframe src="https://player.vimeo.com/video/207403309" width="740" height="415" frameBorder="0" allowFullScreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>  
         
         <h4 className="project-section-title">CASE STUDY DOSSIER</h4>
         <div className="case-study-dossier-container">
@@ -68,10 +65,13 @@ class YolkoProjectPage extends React.Component {
           </div>
         </div>
 
+        <div className="project__video-container">
+          <iframe src="https://player.vimeo.com/video/207403309" width="1000" height="800" frameBorder="0" allowFullScreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>  
+
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">Design Process</h4>
-        <img src={designProcessImg} className="design-process-img" />     
+        <h4 className="project-section-title">How I got to the pixels</h4>  
 
         <div className="design-process__section-container">
           <h5 className="design-process__section-title">EMPATHIZE</h5>

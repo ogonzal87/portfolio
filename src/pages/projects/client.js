@@ -78,8 +78,7 @@ class ClientProjectPage extends React.Component {
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">Design Process</h4>
-        <img src={designProcessImg} className="design-process-img" />
+        <h4 className="project-section-title">How I got to the pixels</h4>
 
         <div className="design-process__section-container">
           <h5 className="design-process__section-title">EMPATHIZE</h5>
@@ -152,7 +151,7 @@ class ClientProjectPage extends React.Component {
           <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
         </div>
 
-        <PortfolioFooter />
+        {/* <PortfolioFooter /> */}
 
       </div>
     )

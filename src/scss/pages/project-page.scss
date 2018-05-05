@@ -1,5 +1,6 @@
 .project-page {
-  margin: 144px 0 200px 0;
+  padding: 144px 0 200px 0;
+  position: relative;
 
   .hero-container {
     max-width: 1200px;
@@ -43,21 +44,15 @@
   }
 
   .project__video-container {
-    margin: 200px auto;
+    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    iframe {
-      max-width: 600px;
-      max-height: 400px;
-    }
   }
 
   .project-section-title {
     text-align: center;
     margin-top: 100px;
-    color: ds-color(neutral, 500);
     text-transform: uppercase;
     font-weight: ds-font-weight(title, base);
   }
@@ -107,7 +102,7 @@
 
   .project-things-learned-container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 200px auto;
   }
 }
 

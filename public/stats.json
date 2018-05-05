@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-fd05b0b909d71a0b6a58.js",
-      "component---src-pages-index-js-fd05b0b909d71a0b6a58.js.map"
+      "component---src-pages-index-js-4266dd357b158c92230a.js",
+      "component---src-pages-index-js-4266dd357b158c92230a.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-projects-client-js": [
-      "component---src-pages-projects-client-js-b987c59ef38b3454b3de.js",
-      "component---src-pages-projects-client-js-b987c59ef38b3454b3de.js.map"
+      "component---src-pages-projects-client-js-f04adb8814cc66567be7.js",
+      "component---src-pages-projects-client-js-f04adb8814cc66567be7.js.map"
     ],
     "path---projects-yolko": [
       "path---projects-yolko-a0e39f21c11f6a62c5ab.js",
@@ -33,12 +33,12 @@
       "commons-2e918df3116dbeec7163.js.map"
     ],
     "component---src-pages-projects-design-system-js": [
-      "component---src-pages-projects-design-system-js-cc8f6c7bab884d4ac536.js",
-      "component---src-pages-projects-design-system-js-cc8f6c7bab884d4ac536.js.map"
+      "component---src-pages-projects-design-system-js-541a95a8fcb7669d5129.js",
+      "component---src-pages-projects-design-system-js-541a95a8fcb7669d5129.js.map"
     ],
     "component---src-pages-projects-yolko-js": [
-      "component---src-pages-projects-yolko-js-b51cd0a78599077dea95.js",
-      "component---src-pages-projects-yolko-js-b51cd0a78599077dea95.js.map"
+      "component---src-pages-projects-yolko-js-08c1c5f95751eb1f9da5.js",
+      "component---src-pages-projects-yolko-js-08c1c5f95751eb1f9da5.js.map"
     ],
     "path---projects-client": [
       "path---projects-client-a0e39f21c11f6a62c5ab.js",

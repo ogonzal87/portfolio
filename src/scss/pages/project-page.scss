@@ -1,5 +1,5 @@
 .project-page {
-  padding: 144px 0 200px 0;
+  padding: 164px 0 200px 0;
   position: relative;
 
   .hero-container {
@@ -93,11 +93,25 @@
     grid-template-columns: 1fr 2fr;
     margin-top: ds-space(super-loose)*2;
 
-    .design-process__section-title {
-      color: ds-color(neutral, 500);
-      text-transform: uppercase;
-      font-weight: ds-font-weight(title, base);
+    .project-design-process-title-container {
+      position: relative;
+
+      .project-design-process-number {
+        position: absolute;
+        max-width: 160px;
+        top: -60px;
+        left: -100px;
+        opacity: .5;
+      }
+
+      .design-process__section-title {
+        color: ds-color(primary, 600);
+        text-transform: uppercase;
+        font-weight: ds-font-weight(title, bold);
+      }
     }
+
+    
   }
 
   .project-things-learned-container {

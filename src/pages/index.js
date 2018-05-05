@@ -7,9 +7,14 @@ import dsImgBrowser from '../assets/images/ds-img-browser.png'
 import yolkoImgProject from '../assets/images/yolko-project-img.png'
 import yolkoImgProject2 from '../assets/images/yolko-project-img2.png'
 import workLettering from '../assets/images/portfolio-work.png'
-import number1 from '../assets/images/portfolio-numbers1.png'
-import number2 from '../assets/images/portfolio-numbers2.png'
-import number3 from '../assets/images/portfolio-numbers3.png'
+import number1 from '../assets/images/hand-brush/01.png'
+import number2 from '../assets/images/hand-brush/02.png'
+import number3 from '../assets/images/hand-brush/03.png'
+import number4 from '../assets/images/hand-brush/04.png'
+import number5 from '../assets/images/hand-brush/05.png'
+import number6 from '../assets/images/hand-brush/06.png'
+import processImg from '../assets/images/hand-brush/process.png'
+import thoughtsImg from '../assets/images/hand-brush/thoughts.png'
 import mediumPost1Img from '../assets/images/duotone1.png'
 import mediumPost2Img from '../assets/images/duotone2.png'
 import mediumPost3Img from '../assets/images/duotone3.png'
@@ -19,7 +24,6 @@ import DesignProcessCard from '../components/design-process-card'
 import CreativeLabMosque from '../components/creative-lab-mosque'
 import viewnLogo from '../assets/images/viewn/viewn-logo.png'
 import yolkoThumbnail from '../assets/images/yolko/thumbnail-duotone.png'
-import designProcessImg from '../assets/images/design-process.png'
 import designProcessPath1 from '../assets/images/design-process/path1.svg'
 import designProcessPath2 from '../assets/images/design-process/path2.svg'
 import designProcessPath3 from '../assets/images/design-process/path3.svg'
@@ -202,7 +206,9 @@ class HomePage extends React.Component {
         
 
         <DesignProcessCardGrid>
-          <h4 className="section-title design-process-title">My Design Process</h4>
+          <div className="section-title-container design-process-title">
+            <img src={processImg} alt=""/>
+          </div>
           <DesignProcessCard 
             numberImg={number1} 
             text={`Begin by understanding what motivates and discourages the user. "Do not judge a man [design for a user] until you've walked a mile in his [his/her] shoes."`}
@@ -228,7 +234,7 @@ class HomePage extends React.Component {
             badgeText="Explore"/>
           <img src={designProcessPath3} alt="" className="design-process-path3" />
           <DesignProcessCard 
-            numberImg={number1} 
+            numberImg={number4} 
             text="What does the solution feel like? The goal in this step is to create an experience for the solution that delivers the least Cognitive Dissonance and most positive feelings."  
             title="Prototype" 
             gridAreaName="design-process-card4"
@@ -236,7 +242,7 @@ class HomePage extends React.Component {
             badgeText="Explore"/>
           <img src={designProcessPath4} alt="" className="design-process-path4" />
           <DesignProcessCard 
-            numberImg={number2} 
+            numberImg={number5} 
             text="What was learned?" 
             title="Test" 
             gridAreaName="design-process-card5"
@@ -244,7 +250,7 @@ class HomePage extends React.Component {
             badgeText="Materialize"/>
           <img src={designProcessPath1} alt="" className="design-process-path5" />
           <DesignProcessCard 
-            numberImg={number3} 
+            numberImg={number6} 
             text="Prepare for a next run of testing or implement the solution in case that the hypothesis was proven right" 
             title="Implement"
             gridAreaName="design-process-card6"
@@ -261,7 +267,9 @@ class HomePage extends React.Component {
 
 
         <div>
-          <h4 className="section-title">Recent thoughts</h4>
+          <div className="section-title-container">
+            <img src={thoughtsImg} alt=""/>
+          </div>
           <div className="home-posts-container">
             <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
               <img src={mediumPost1Img} alt="" className="img-thumbnail" />

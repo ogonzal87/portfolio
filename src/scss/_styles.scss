@@ -1,6 +1,7 @@
 @import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
 // Pages
 @import './pages/home-page.scss';
+@import './pages/about-page.scss';
 @import './pages/project-page.scss';
 @import './pages/projects/yolko-page.scss';
 @import './pages/projects/ds-page.scss';
@@ -8,6 +9,7 @@
 //Components
 @import './components/portfolio-footer.scss';
 @import './components/design-process-card.scss';
+@import './components/top-nav.scss';
 
 
 html {

@@ -21,6 +21,7 @@ import clouds from '../assets/images/musgho/clouds.jpg'
 import hustle from '../assets/images/musgho/hustle.jpg'
 import illustration1 from '../assets/images/creative-lab/illustration1.png'
 import illustration2 from '../assets/images/creative-lab/illustration2.png'
+import labImg from '../assets/images/hand-brush/lab.png'
 
 
 
@@ -59,6 +60,9 @@ const MosqueImg = styled.div`
 
 const CreativeLabMosque = ({ ...rest }) => (
   <div>
+    <div className="section-title-container">
+      <img src={labImg} alt=""/>
+    </div>
     <MosqueGrid>
       <MosqueImg style={{ backgroundImage: `url(${calligraphyMov})`, gridArea: `a` }}></MosqueImg>
       <MosqueImg style={{ backgroundImage: `url(${calligraphy1})`, gridArea: `b` }}></MosqueImg>

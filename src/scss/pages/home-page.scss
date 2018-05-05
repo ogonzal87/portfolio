@@ -37,11 +37,10 @@
     margin: 0 auto; 
   }
 
-
   .number {
     position: absolute;
     margin-right: 32px;
-    max-width: 160px;
+    max-width: 208px;
     top: -124px;
     left: -114px;
     z-index: -1;
@@ -77,6 +76,22 @@
     margin: 0 auto;
   }
 
+  .section-title-container {  
+    max-width: 1400px;
+    margin: 0 auto;
+
+    &.design-process-title {
+      grid-area: design-process-title;
+    }
+
+    img {
+      display: block;
+      max-height: 200px;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+  }
+
   .design-process-img2 {
     margin: 0 auto;
     max-width: 800px;;
@@ -107,11 +122,6 @@
     grid-area: "design-process-path5";
     z-index: -2;
   }
-
-
-
-
-
 
 
   .home-posts-container {

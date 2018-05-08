@@ -27,6 +27,7 @@ import labImg from '../assets/images/hand-brush/lab.png'
 
 const MosqueGrid = styled.div`
   display: grid;
+  margin: 0 auto;
   max-width: 1800px;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0;

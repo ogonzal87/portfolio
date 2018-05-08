@@ -20,9 +20,12 @@ html {
     padding: ds-space(bit-loose);
     color: ds-color(primary, 400);
 
-    .strikethrough {
-      text-decoration: line-through;
-    }
+    
+  }
+
+  .strikethrough-text {
+    text-decoration: line-through;
+
   }
 
   .special-text-styling {

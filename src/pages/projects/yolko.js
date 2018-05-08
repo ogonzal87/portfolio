@@ -25,7 +25,7 @@ class YolkoProjectPage extends React.Component {
         <div className="hero-container">
           <div className="hero-container__text-container">
             <span className="special-text-styling">Personal Project</span>
-            <h1 className="ds-display3-text-style hero-container__title">Yolko</h1>
+            <h1 className="ds-display3-text-style hero-container__title">YOLKO</h1>
             <p className="ds-subheading-text-style hero-container__description">Real time feedback application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. It is a fully responsive web app that uses AngularJS 1.5 Component Architecture for the front-end and Firebase for the backend. </p>
             <p className="special-text-styling">Product, Interaction and Experience Design</p>
             <span className="special-text-styling">UX Research</span>
@@ -42,7 +42,7 @@ class YolkoProjectPage extends React.Component {
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">When presenting, you are running blind since the audience is only able to provide feedback after the presentation. You do not know what were the highs and lows of your message. Furthermore, through research I found that more than 70% of participants wanted to ask questions or make a point in a presentation-type setting  but chose not to because of fear of reveling themselves to their peers and the presenter. Missed opportunities for learning and participation..?</p>
+            <p className="ds-subheading-text-style">As a presenter, you are running blind since the audience is only able to provide feedback after the presentation. You do not know what were the highs and lows of your delivery. As an attendee, I found that 7 out of 10 people found themselves restraining themselves from asking a question out of fear of reveling themselves to their peers and the presenter. I see these as missed opportunities for learning and participation.</p>
           </div>
           <div className="dossier__users-container">
             <p className="special-text-styling">Users</p>
@@ -58,11 +58,11 @@ class YolkoProjectPage extends React.Component {
           </div>
           <div className="dossier__role-container">
             <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">Attendees and presenters at social gatherings such as classes or talks. </p>
+            <p className="ds-subheading-text-style">I created, designed, tested and developed YOLKO.</p>
           </div>
           <div className="dossier__hypothesis-container">
             <p className="special-text-styling">Hypothetical Solution</p>
-            <p className="ds-subheading-text-style"><strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented.</p>
+            <p className="ds-subheading-text-style"><strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions at social settings, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented, and the presenter could use this data to adjust to the needs of the audience.</p>
           </div>
           <div className="dossier__constraints-container">
             <p className="special-text-styling">Constraints & Considerations</p>
@@ -80,7 +80,7 @@ class YolkoProjectPage extends React.Component {
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
-        <h4 className="project-section-title">How I got the pixels</h4>  
+        <h4 className="project-section-title">the story of the pixels</h4>  
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
@@ -88,9 +88,9 @@ class YolkoProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">EMPATHIZE</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <p className="ds-subheading-text-style">The story on this one begins back in 2015 when I attended General Assembly to learn how to code. While taking the class, I realized that very few people would ask questions. Personally, I did not ask questions because I didn't want to sound dumb or hold up the class. I can accept that. But since no one was asking questions, I thought I was the only one not getting it... It wasn't until the last day of school when all my classmates when out to grab dinner that we all realized we were feeling the same way - We were afraid of asking questions because we didn't want to hold up the class or afraid of asking "dumb" questions.</p>
 
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <p className="ds-subheading-text-style">Social anxiety is a natural emotion especially when you are trying to convey the way you think or our lack of knowledge. Everyone has experienced this in one way.</p>
           </div>
           
         </div>
@@ -103,9 +103,25 @@ class YolkoProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">Define</h5>
           </div>
           <div>
-            <p className="ds-subheading-text-style">Defining the problem for YOLKO was easier than other projects. I knew something was broken with the way traditional communication in presentations is provided by my experience as a student at General Assembly coding academy. However, I did not know what specifically. I asked my peers and my instructor for general feedback about the class when it ended and one of my peers said something that resonated with me; "it seems that my undestanding depended on that 3% of the class that always asks questions because I was too scare to do so." I had found my problem. The in interaction and subsequent looping feedback is broken.</p>
-          </div>
+            <p className="ds-subheading-text-style">So people feel uncomfortable asking questions or participating in social settings because when they do, they reveal not only who they are but also their vulnerabilities to the whole group.</p>
 
+            <p className="ds-subheading-text-style">On the presenter's side, s/he is running blind. In the context of classes for example, the teacher only gets true feedback after the fact usually though exams and quizzes to gauge whether or not people are understanding the material. To me, this is broken. I am paying to understand the material not to have someone stand in front of me and read notes like most college classes are nowadays.</p>
+
+            <p className="ds-subheading-text-style">At this point, these problems were just assumptions backed by some nodes and a few agreements over dinner. My class was set to present a final project 2 weeks after the last class. The rules were simple; find a real problem and built an app that solves it. To make sure I had a real problem, I conducted some guerilla research.</p>
+          </div>
+        </div>
+
+
+        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+
+
+        <div className="design-process__section-container">
+          <div></div>
+          <div>
+            <p className="ds-subheading-text-style">The results of the research let me know I had a legitimate problem. So, I set out to find a way to give the audience an opportunity to communicate with the Presenter in real time in a way that was honest yet anonymous, while providing a way for the presenter to gauge the understanding or overall mood of the audience in real-time while making the setting more engaging and fun.</p>
+
+            <p className="ds-subheading-text-style">My testable hypothesis became: <strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions at social settings, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented, and the presenter could use this data to adjust to the needs of the audience.</p>
+          </div>
         </div>
 
         <img src={yolkoDisplayImg1} className="project-displayfb-img" />
@@ -116,7 +132,15 @@ class YolkoProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">Ideate</h5>            
           </div>
           <div>
-            <p className="ds-subheading-text-style">I began a Divergence Period where I came up with as many ideas as I could to solve the problem and then sketch/whiteboard some potential solutions. My approach to design is purely scientific — get a hypothesis that attempts to solve a problem, then validate through rapid testing. This was my testable hypothesis: "if the feedback and pulse of the class was available in real time, the interaction between presenter and attendee would improve resulting in a deeper understanding of what is being presented plus an engaged audience". YOLKO was born out of my desire to provide the attendee with a way to see the aggregate emotions of an audience to assess if it matched theirs. I also wanted to provide the presenter the ability to ask for feedback in realtime and for the audience to ask him/her questions among other cool features. With these wireframes/sketches, I began a Convergence Period and I start engineering the experiences. Fun fact - YOLKO was first called "Bubble Gum" and it was meant to show the tension of the audience by inflating and deflating.</p>
+            <p className="ds-subheading-text-style">I was designing two solutions for two separate users; the audience and the presenter. My original requirements were: </p>
+              <ol>
+                <li>Audience can provide feedback to the Presenter in real time</li>
+                <li>Audience can see how everyone is feeling in real time</li>
+                <li>Presenter can see how the audience is feeling as a whole in real time</li>
+                <li>Presenter can ask questions to the audience and see the results in real time</li>
+              </ol>
+              
+            <p className="ds-subheading-text-style">The original ideas that came to me were to create a bumble gum like app were the bubble would grow as the tension in the class increased. So I began creating wireframes but upon feedback from my Teacher and a few classmates, I realized that the concept needed to be more human. I wanted to provide the attendee with a way to see the aggregate emotions of an audience to assess if it matched theirs. I also wanted to provide the presenter the ability to ask for feedback in realtime and for the audience to ask him/her questions among other cool features. With these wireframes/sketches, I began a Convergence Period and I start engineering the experiences. Fun fact - YOLKO was first called "Bubble Gum" and it was meant to show the tension of the audience by inflating and deflating.</p>
           </div>
 
         </div>

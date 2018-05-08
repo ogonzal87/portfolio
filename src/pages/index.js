@@ -145,6 +145,13 @@ const DesignProcessCardGrid = styled.div`
     }
 `
 
+const StrikethroughText = styled.span`
+  text-decoration: line-through;
+`
+
+const strikeThroughvar = "judge a man".strike();
+
+
 class HomePage extends React.Component {
   render() {
 
@@ -209,53 +216,59 @@ class HomePage extends React.Component {
           <div className="section-title-container design-process-title">
             <img src={processImg} alt=""/>
           </div>
-          <DesignProcessCard 
-            numberImg={number1} 
-            text={`Begin by understanding what motivates and discourages the user. "Do not judge a man [design for a user] until you've walked a mile in his [his/her] shoes."`}
+          <DesignProcessCard
+            numberImg={number1}
             title="Emphatize"
             gridAreaName="design-process-card1"
             badgeType="tertiary"
-            badgeText="Understand"/>
+            badgeText="Understand">
+            Begin by understanding what motivates and discourages the user. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text"><i>judge a man</i></span> [design for a user] until you've walked a mile in <span className="strikethrough-text"><i>his</i></span> [his/her] shoes."`
+          </DesignProcessCard>
           <img src={designProcessPath1} alt="" className="design-process-path1"/>
           <DesignProcessCard 
             numberImg={number2} 
-            text="What's the problem?"
             title="Define" 
             gridAreaName="design-process-card2"
             badgeType="tertiary"
-            badgeText="Understand" />
+            badgeText="Understand" >
+            What's the problem? Combine all the research and observations from Step uno and begin to highlight opportunities for innovation.
+          </DesignProcessCard>
           <img src={designProcessPath2} alt="" className="design-process-path2" />
           <DesignProcessCard 
             numberImg={number3} 
-            text="What's the solution? Come up with as many ideas as possible to solve the problem, choose a solution, and formulate a testable hypothesis." 
             title="Ideate"
             gridAreaName="design-process-card3"
             badgeType="warning"
-            badgeText="Explore"/>
+            badgeText="Explore"> 
+            What's the solution? Come up with as many crazy ideas as possible to solve the problem, choose a solution, and formulate a testable hypothesis then validate through rapid testing.
+          </DesignProcessCard>
           <img src={designProcessPath3} alt="" className="design-process-path3" />
           <DesignProcessCard 
-            numberImg={number4} 
-            text="What does the solution feel like? The goal in this step is to create an experience for the solution that delivers the least Cognitive Dissonance and most positive feelings."  
+            numberImg={number4}   
             title="Prototype" 
             gridAreaName="design-process-card4"
             badgeType="warning"
-            badgeText="Explore"/>
+            badgeText="Explore">
+            What does the solution feel like? The goal in this step is to create an experience for the solution that delivers the least Cognitive Dissonance and most positive feelings.
+          </DesignProcessCard>
           <img src={designProcessPath4} alt="" className="design-process-path4" />
           <DesignProcessCard 
-            numberImg={number5} 
-            text="What was learned?" 
+            numberImg={number5}  
             title="Test" 
             gridAreaName="design-process-card5"
             badgeType="success"
-            badgeText="Materialize"/>
+            badgeText="Materialize">
+            What was learned?
+          </DesignProcessCard>
           <img src={designProcessPath1} alt="" className="design-process-path5" />
           <DesignProcessCard 
             numberImg={number6} 
-            text="Prepare for a next run of testing or implement the solution in case that the hypothesis was proven right" 
             title="Implement"
             gridAreaName="design-process-card6"
             badgeType="success"
-            badgeText="Materialize"/>
+            badgeText="Materialize">
+            Prepare for a next run of testing or implement the solution in case that the hypothesis was proven right
+          </DesignProcessCard>
         </DesignProcessCardGrid>
 
 

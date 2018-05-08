@@ -7,6 +7,13 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -33,12 +40,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "projects-yolko.json",
         "path": "/projects/yolko/"
-    },
-    {
-        "componentChunkName": "component---src-pages-about-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "about.json",
-        "path": "/about/"
     }
 ]

@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-1687bff9576cf8e571f1.js",
-      "component---src-pages-index-js-1687bff9576cf8e571f1.js.map"
+      "component---src-pages-index-js-3a95ecfc65b73a8fc2e8.js",
+      "component---src-pages-index-js-3a95ecfc65b73a8fc2e8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-projects-client-js": [
-      "component---src-pages-projects-client-js-f04adb8814cc66567be7.js",
-      "component---src-pages-projects-client-js-f04adb8814cc66567be7.js.map"
+      "component---src-pages-projects-client-js-4c3ed09466e740aebb0c.js",
+      "component---src-pages-projects-client-js-4c3ed09466e740aebb0c.js.map"
     ],
     "path---projects-yolko": [
       "path---projects-yolko-a0e39f21c11f6a62c5ab.js",
@@ -29,24 +29,32 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-2e918df3116dbeec7163.js",
-      "commons-2e918df3116dbeec7163.js.map"
+      "commons-44944588ad146f26b35e.js",
+      "commons-44944588ad146f26b35e.js.map"
     ],
     "component---src-pages-projects-design-system-js": [
-      "component---src-pages-projects-design-system-js-541a95a8fcb7669d5129.js",
-      "component---src-pages-projects-design-system-js-541a95a8fcb7669d5129.js.map"
+      "component---src-pages-projects-design-system-js-12cb23d08a04e3ee1795.js",
+      "component---src-pages-projects-design-system-js-12cb23d08a04e3ee1795.js.map"
     ],
     "component---src-pages-projects-yolko-js": [
-      "component---src-pages-projects-yolko-js-08c1c5f95751eb1f9da5.js",
-      "component---src-pages-projects-yolko-js-08c1c5f95751eb1f9da5.js.map"
+      "component---src-pages-projects-yolko-js-1db08b240e538e1a1652.js",
+      "component---src-pages-projects-yolko-js-1db08b240e538e1a1652.js.map"
     ],
     "path---projects-client": [
       "path---projects-client-a0e39f21c11f6a62c5ab.js",
       "path---projects-client-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-0d455eba3f1b78d01a60.js",
-      "app-0d455eba3f1b78d01a60.js.map"
+      "app-8e1d06876459ca6b5222.js",
+      "app-8e1d06876459ca6b5222.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-5c25306b77470617c576.js",
+      "component---src-pages-about-js-5c25306b77470617c576.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }

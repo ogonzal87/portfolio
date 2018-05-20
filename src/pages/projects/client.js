@@ -366,7 +366,7 @@ class ClientProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">lessons learned</h5>
           </div>
           <div>
-            <p className="ds-subheading-text-style">This project was a class on how to efficiently and lean. I really loved working with Roberto and Ayreya, the founders of VIEWN. I learned so much from them about managing projects efficiently and keeping each other focused. </p>
+            <p className="ds-subheading-text-style">This project was a class on how to efficiently and lean. I really loved working with Roberto and Ayreya, the founders of VIEWN. I learned so much from them about managing projects efficiently and keeping each other focused.   I learned how to read good documentation from Material Design</p>
           </div>
         </div>
 

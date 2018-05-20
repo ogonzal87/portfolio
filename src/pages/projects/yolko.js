@@ -255,7 +255,9 @@ It was hard to test for YOLKO because you need an audience, a presenter, and som
             <h5 className="design-process__section-title ds-headline-text-style">Implement</h5>
           </div>
           <div>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">I decided to use AngularJS with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+
+            <p className="ds-subheading-text-style">I worked on YOLKO's implementation as I was learning how to code right after General Assembly. My goal with the project was to really understand how design is transferred into code and how to work with data served from a Database in realtime. YOLKO still has a few interaction problems and inconsistencies in design. Learning to code was my main and number one priority with the project so I neglected to spend time on great aesthetics and interaction for the sake of functionality and learning.</p>
           </div>
 
         </div>
@@ -270,32 +272,32 @@ It was hard to test for YOLKO because you need an audience, a presenter, and som
         <DemoGrid>
           <div>
             <h5>YOLKO</h5>
-            <p className="ds-subheading-text-style">Remember, YOLKO is the face of the audience. But he can only be awoken by the presenter when he needs the feedback. Throughout a presentation, you usually have these pauses that the presenter does when shitting from one topic to another. Sometimes they even ask questions before moving foward so I wanted the presenter to take advantage of these pauses to active YOLKO and get a pulse from the audience. Also, as an attendee, you only have one "vote" per YOLKO activation. All of these are recorded for the presenter to see what were his ups and downs throughout the presentation. </p>
+            <p className="ds-subheading-text-style">YOLKO is the face of the audience but he can only be awoken by the presenter when he needs the feedback. Throughout a presentation, you usually have these pauses that the presenter does when shitting from one topic to another. Sometimes they even ask questions before moving forward so I wanted the presenter to take advantage of these pauses to active YOLKO and get a pulse from the audience. Also, as an attendee, you only have one "vote" per YOLKO activation. All of these are recorded for the presenter to see what were his ups and downs throughout the presentation. Notice that YOLKO changes in the attendee's view as well. This lets the attendee know how everyone is feeling collectively. </p>
           </div>         
           <img src={demo1} alt="" className="grid-img" />
           <div>
             <h5>LOST-O-METER</h5>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">While interviewing my teachers I asked them what were the top things they wanted to know while giving a class. One of the things they said was, "we want to know if people are lost?". This would let them address the problem right away. The Lost-O-Meter tells the presenter the percentage of people that are lost at that point in time and it is only activated when the presenter needs it. </p>
           </div> 
           <img src={demo2} alt="" className="grid-img" />
           <div>
             <h5>AUDIENCE QUESTIONS</h5>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">I needed to provide a way for the audience to ask questions without revealing themselves. Every question is stored in the database in Firebase, but the presenter and the audience do not know who that person is. I also introduced the ability for the attendees to up-vote the questions to prioritize the questions for the presenter. Notice that the presenter activates the questions when he wants and can leave the questions active the whole presentation if need it be. .</p>
           </div> 
           <img src={demo3} alt="" className="grid-img" />
           <div>
             <h5>SPEEDOMETER</h5>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">Another thing that the teachers said would be a great thing to know was if they were going too fast or too slow for the audience. Notice that again, the presenter activates the feature when he wants to. </p>
           </div> 
           <img src={demo4} alt="" className="grid-img" />
           <div>
             <h5>HEARING-O-METER</h5>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">Teachers and the attendees I interviewed, also wanted a feature that allowed the audience to let the presenter know that they could not hear properly. Especially in classes that were really big were people are even more afraid to speak up. </p>
           </div> 
           <img src={demo5} alt="" className="grid-img" />
           <div>
             <h5>POP QUIZZES</h5>
-            <p className="ds-subheading-text-style">I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">Presenters wanted the chance to interact with the audience and let them know collectively the results of a question. The Pop Quiz feature allows a presenter to store questions s/he would like to ask the audience in real time. The answers can be revealed to the audience once everyone has participated. This is a cool and fun feature if you really want to engage with the audience. </p>
           </div> 
           <img src={demo6} alt="" className="grid-img" />
         </DemoGrid>
@@ -305,7 +307,7 @@ It was hard to test for YOLKO because you need an audience, a presenter, and som
           <div>
           </div>
           <div>
-            <p className="ds-subheading-text-style">After building it in code, and testing it at Design Critiques at my job and some meetups, I realized that people were getting too distracted from the actual presentation and were more focused on interacting with YOLKO. I even went and presented YOLKO at the University of Miami but the faculty agreed that, although it was a useful tool cool, it could be too distracting for students. Based on that feedback, I added a few features that would allow the presenter to only activate YOLKO when needed as well as other useful features. The majority of the time, YOLKO would be “sleeping”.</p>
+            <p className="ds-subheading-text-style">The original idea was to let the presenter customize the defaulted questions in the app; Are you lost? Can you hear? and How do you like the speed?. I just did not have the time to implement the feature. </p>
           </div>
         </div>
 

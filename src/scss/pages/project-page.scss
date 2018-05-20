@@ -1,14 +1,16 @@
 .project-page {
   padding: 0 0 200px 0;
   position: relative;
+  overflow: hidden;
 
   .hero-container {
-    max-width: 1200px;
+    max-width: 1300px;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    position: relative;
       
     .hero-container__text-container {
       max-width: 546px;
@@ -34,8 +36,14 @@
     }
 
     .hero-container__img-container {
-      
 
+      .project-yolko-hero {
+        position: absolute;
+        right: -300px;
+        top: 100px;
+        z-index: -1;
+        max-width: 1200px;
+      }
       .project-img {
         filter: drop-shadow(0 8px 17px rgba(0,0,0,0.20));
         max-width: 500px;
@@ -75,7 +83,14 @@
     max-width: 1400px;
     margin: 100px auto;
     display: block;
-    box-shadow: ds-depth(100);
+    // box-shadow: ds-depth(100);
+  }
+
+  .project-showcase-img {
+    width: 100%;
+    max-width: 1800px;
+    margin: 200px auto 300px auto;
+    display: block;
   }
   
   .project-img-grid {

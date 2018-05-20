@@ -17,14 +17,7 @@ import DefineImg2 from "../../assets/images/viewn/info-architecture1.jpg";
 import DefineImg3 from "../../assets/images/viewn/navigation-concept.jpg";
 import InfoArchitectureImg from "../../assets/images/viewn/info-architecture2.jpg";
 import NavigationGif from "../../assets/images/viewn/viewn-navigation.gif";
-import FabDemoGif from "../../assets/images/viewn/fab-demo.gif";
-
-
-
-
-
-
-
+import demo1 from "../../assets/images/viewn/vn-demo1.gif";
 
 
 import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
@@ -162,7 +155,7 @@ class ClientProjectPage extends React.Component {
               We started with the very basics. Working very closely with the founders, we crafted a Brand Identity that would resonate with someone like Rafael. To do this, we used one of my favorite techniques - <i
               >
                 Humanizing the Product
-              </i>. I wrote a whole article about it so you can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">
+              </i>. I wrote a whole article about it. You can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">
                 here
               </a>. VIEWN is part of another company also owned by VIEWN's founders. This company is a Certified Google Partner so for them was very important that the User Interface was heavily influenced by Google's. We decided to follow Material's Design specs and documentation but we were careful not to dilute our brand.
             </p>
@@ -183,14 +176,13 @@ class ClientProjectPage extends React.Component {
           <div />
           <div>
             <p className="ds-subheading-text-style">
-              At the same time, we had a workshop in which we created
+              I also managed a workshop with the founders in which we created
               Rafael. Since human actions are driven by emotions, through
               the workshop I looked for cues that I could use through the
               design process so I could feel what Rafael feels, what drives
               or discourages him as a marketer, what are his pains and
               frustrations. If I am able to empathize with his feelings, I
-              should be able to create experiences that provide the most
-              value for him.
+              should be able to create experiences of value to him.
             </p>
           </div>
         </div>
@@ -204,10 +196,9 @@ class ClientProjectPage extends React.Component {
           <div>
           </div>
           <p className="ds-subheading-text-style">
-            We prioritized features based on research. We wanted to focus
+            We also prioritized features based on research. We wanted to focus
             on what Rafael would value the most first so we sent out
-            surveys to marketers that most closely resembled Rafael. That
-            way we could capture his most urgent pains and we even
+            surveys to marketers that most closely resembled Rafael. We even
             included some questions about the new brand identity.
           </p>
         </div>
@@ -236,9 +227,9 @@ class ClientProjectPage extends React.Component {
               would have to rely on other people to query the data. What if
               we could provide him with a product that felt intuitive,
               helpful, and human while it also had predictive analytics and
-              insightful KPI's. We wanted Rafael to feel 1)
-              *powerful/confident*, 2) in *control* or *organized* and 3)
-              *feel good at the end of his workday *after using VIEWN. We
+              insightful KPI's. We wanted Rafael to feel 1) 
+              <strong>powerful/confident</strong>, 2) in <strong>control</strong> or <strong>organized</strong> and 3)
+              <strong>feel good at the end of his workday </strong> after using VIEWN. We
               wanted him to focus on connecting customers to a brand, and
               less time digging through data and admin stuff... Who likes
               that anyway.
@@ -283,7 +274,7 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I had somewhat of a crazy idea. What if we could architect the apps as a story? The requirements themselves told a story for me; 1) Rafael imports data, 2) Rafael segments that data, 3) Rafael learns from the data, 4) Rafael engages the customers through marketing campaigns. Rafael would not always work in chronological order but I assumed was that the mental model would resonate with him.
+              I had somewhat of a crazy idea. What if we could architect the app as a story? The requirements themselves told a story for me; 1) Rafael imports data, 2) Rafael segments that data, 3) Rafael learns from the data, 4) Rafael engages the customers through marketing campaigns. Rafael would not always work in chronological order but I assumed the information architecture would resonate with him.
             </p>
           </div>
         </div>
@@ -291,13 +282,13 @@ class ClientProjectPage extends React.Component {
         <img src={InfoArchitectureImg} className="project-displayfb-img" />
         <img src={NavigationGif} className="project-displayfb-img" />
 
-        <div className="design-process__section-container">
+        {/* <div className="design-process__section-container">
           <div>
           </div>
           <p className="ds-subheading-text-style">
             We were confident that this organization would allow Rafael to move fast through the app and get what he needed. For each section in the app, there needed to be a way to build or add content. 
           </p>
-        </div>
+        </div> */}
 
         
 
@@ -310,12 +301,12 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I created a high-fy prototype that would allow me to test our approach to the solution and would also allow VIEWN's founders to start showing what we were working on to investors. Rafael was the main protagonist every time we showed the prototype. 
+              I created a hi-fi prototype that would allow me to test our approach to the solution and would also allow VIEWN's founders to start showing what we were working on to investors. Rafael was the main protagonist every time we showed the prototype. 
             </p>
           </div>
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+        <img src={demo1} className="project-displayfb-img" style={{width: '50%'}} />
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">

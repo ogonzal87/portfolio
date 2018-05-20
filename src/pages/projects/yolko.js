@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { DSButton } from "oskrhq-design-system";
-import yolkoAvatar from '../../assets/images/yolko-avatar.svg'
+import yolkoAvatar from '../../assets/images/yolko/yolko-hero.png'
 import empathizeImg1 from '../../assets/images/yolko/ga-people.jpg'
 import empathizeImg2 from '../../assets/images/yolko/ga-presentation.jpg'
 import empathizeImg3 from '../../assets/images/yolko/presentation.jpg'
@@ -31,7 +31,7 @@ import demo3 from '../../assets/images/yolko/yolko-demo3.gif'
 import demo4 from '../../assets/images/yolko/yolko-demo4.gif'
 import demo5 from '../../assets/images/yolko/yolko-demo5.gif'
 import demo6 from '../../assets/images/yolko/yolko-demo6.gif'
-import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
+import yolkoDisplayImg1 from '../../assets/images/yolko/yolko-showcase.jpg'
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
 import number2 from '../../assets/images/hand-brush/02.png'
@@ -75,7 +75,7 @@ class YolkoProjectPage extends React.Component {
             <a href="https://imyolko.com/#!/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">Go to The app</DSButton></a>
           </div>
           <div className="hero-container__img-container">
-            <img src={yolkoAvatar} className="project-img"/>
+            <img src={yolkoAvatar} className="project-yolko-hero"/>
           </div>
         </div>
         
@@ -120,7 +120,7 @@ class YolkoProjectPage extends React.Component {
           <iframe src="https://player.vimeo.com/video/207403309" width="1000" height="800" frameBorder="0" allowFullScreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
         </div>  
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+        <img src={yolkoDisplayImg1} className="project-showcase-img" />
 
         {/* <h3 className="project-section-title">the pixels' story</h3>   */}
 

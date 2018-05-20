@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { DSCircleButton, DSButton } from '../../../node_modules/oskrhq-design-system/build/index.js'
+import { DSButton } from "oskrhq-design-system";
 import dsLogo from '../../assets/images/ds-logo.svg'
 import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
 import PortfolioFooter from '../../components/footer'
@@ -13,6 +13,7 @@ import number4 from '../../assets/images/hand-brush/04.png'
 import number5 from '../../assets/images/hand-brush/05.png'
 import number6 from '../../assets/images/hand-brush/06.png'
 import TopNav from '../../components/top-nav'
+import stripPrefix from '../../../.cache/strip-prefix';
 
 const SectionHero = styled.div`
   display: flex;
@@ -41,7 +42,7 @@ class DSProjectPage extends React.Component {
             <span className="special-text-styling">Design Systems</span>
             <span className="special-text-styling">Development</span>
             <span className="special-text-styling">UX Research</span>
-            <a href="https://imyolko.com/#!/" className="project-btn__cta" target="_blank"><DSButton type="primary" label="View the Site" size="medium" /></a>
+            <a href="https://oskrhq-ds.surge.sh/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">View the Site</DSButton></a>
           </div>
           <div className="hero-container__img-container">
             <img src={dsLogo} className="ds-logo" />

@@ -1,4 +1,4 @@
-@import '../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+@import 'node_modules/oskrhq-design-system/styles/styles.scss';
 // Pages
 @import './pages/home-page.scss';
 @import './pages/about-page.scss';
@@ -19,7 +19,7 @@ html {
     font-size: ds-font-size(title);
     padding: ds-space(bit-loose);
     color: ds-color(primary, 400);
-
+    font-style: italic;
     
   }
 

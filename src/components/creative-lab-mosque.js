@@ -4,24 +4,24 @@ import calligraphyMov from '../assets/images/creative-lab/calligraphy.gif'
 import mustacheMov from '../assets/images/creative-lab/mustache.gif'
 import calligraphy1 from '../assets/images/creative-lab/calligraphy1.jpg'
 import calligraphy2 from '../assets/images/creative-lab/calligraphy2.jpg'
-import calligraphy3 from '../assets/images/creative-lab/calligraphy3.png'
-import calligraphy4 from '../assets/images/creative-lab/calligraphy4.png'
-import calligraphy5 from '../assets/images/creative-lab/calligraphy5.png'
-import calligraphy6 from '../assets/images/creative-lab/calligraphy6.png'
-import calligraphy7 from '../assets/images/creative-lab/calligraphy7.png'
-import calligraphy8 from '../assets/images/creative-lab/calligraphy8.png'
-import calligraphy9 from '../assets/images/creative-lab/calligraphy9.png'
-import calligraphy10 from '../assets/images/creative-lab/calligraphy10.png'
-import calligraphy11 from '../assets/images/creative-lab/calligraphy11.png'
-import calligraphy12 from '../assets/images/creative-lab/calligraphy12.png'
-import calligraphy13 from '../assets/images/creative-lab/calligraphy13.png'
+import calligraphy3 from '../assets/images/creative-lab/calligraphy3.jpg'
+import calligraphy4 from '../assets/images/creative-lab/calligraphy4.jpg'
+import calligraphy5 from '../assets/images/creative-lab/calligraphy5.jpg'
+import calligraphy6 from '../assets/images/creative-lab/calligraphy6.jpg'
+import calligraphy7 from '../assets/images/creative-lab/calligraphy7.jpg'
+import calligraphy8 from '../assets/images/creative-lab/calligraphy8.jpg'
+import calligraphy9 from '../assets/images/creative-lab/calligraphy9.jpg'
+import calligraphy10 from '../assets/images/creative-lab/calligraphy10.jpg'
+import calligraphy11 from '../assets/images/creative-lab/calligraphy11.jpg'
+import calligraphy12 from '../assets/images/creative-lab/calligraphy12.jpg'
+import calligraphy13 from '../assets/images/creative-lab/calligraphy13.jpg'
 import hiddenGem from '../assets/images/creative-lab/hidden-gem.jpg'
 import hakuna from '../assets/images/musgho/hakuna.jpg'
 import clouds from '../assets/images/musgho/clouds.jpg'
 import hustle from '../assets/images/musgho/hustle.jpg'
-import illustration1 from '../assets/images/creative-lab/illustration1.png'
-import illustration2 from '../assets/images/creative-lab/illustration2.png'
-import labImg from '../assets/images/hand-brush/lab.png'
+import illustration1 from '../assets/images/creative-lab/illustration1.jpg'
+import illustration2 from '../assets/images/creative-lab/illustration2.jpg'
+// import labImg from '../assets/images/hand-brush/lab.png'
 
 
 
@@ -61,9 +61,9 @@ const MosqueImg = styled.div`
 
 const CreativeLabMosque = ({ ...rest }) => (
   <div>
-    <div className="section-title-container">
+    {/* <div className="section-title-container">
       <img src={labImg} alt=""/>
-    </div>
+    </div> */}
     <MosqueGrid>
       <MosqueImg style={{ backgroundImage: `url(${calligraphyMov})`, gridArea: `a` }}></MosqueImg>
       <MosqueImg style={{ backgroundImage: `url(${calligraphy1})`, gridArea: `b` }}></MosqueImg>

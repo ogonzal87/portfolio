@@ -15,15 +15,15 @@ import number5 from '../assets/images/hand-brush/05.png'
 import number6 from '../assets/images/hand-brush/06.png'
 import processImg from '../assets/images/hand-brush/process.png'
 import thoughtsImg from '../assets/images/hand-brush/thoughts.png'
-import mediumPost1Img from '../assets/images/duotone1.png'
-import mediumPost2Img from '../assets/images/duotone2.png'
-import mediumPost3Img from '../assets/images/duotone3.png'
-import { DSCircleButton, DSButton } from '../../node_modules/oskrhq-design-system/build/index.js'
+import mediumPost1Img from '../assets/images/duotone1.jpg'
+import mediumPost2Img from '../assets/images/duotone2.jpg'
+import mediumPost3Img from '../assets/images/duotone3.jpg'
+import { DSButton } from "oskrhq-design-system";
 import PortfolioFooter from '../components/footer'
 import DesignProcessCard from '../components/design-process-card'
 import CreativeLabMosque from '../components/creative-lab-mosque'
-import viewnLogo from '../assets/images/viewn/viewn-logo.png'
-import yolkoThumbnail from '../assets/images/yolko/thumbnail-duotone.png'
+import viewnLogo from '../assets/images/viewn/viewn-logo.jpg'
+import yolkoThumbnail from '../assets/images/yolko/thumbnail-duotone.jpg'
 import designProcessPath1 from '../assets/images/design-process/path1.svg'
 import designProcessPath2 from '../assets/images/design-process/path2.svg'
 import designProcessPath3 from '../assets/images/design-process/path3.svg'
@@ -46,11 +46,6 @@ const SectionHero = styled.div`
       font-size: 14px;
     }
   }
-`
-
-const HeroScrollDownBtn = styled.div`
-  position: absolute;
-  bottom: 10px;
 `
 
 const SectionProject = styled.div`
@@ -149,8 +144,6 @@ const StrikethroughText = styled.span`
   text-decoration: line-through;
 `
 
-const strikeThroughvar = "judge a man".strike();
-
 
 class HomePage extends React.Component {
   render() {
@@ -167,9 +160,6 @@ class HomePage extends React.Component {
           <p className="ds-subheading-text-style">
             <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">oscar@oskrhq.com</a> / <a href="https://github.com/ogonzal87" target="_blank">Github</a> / <a href="https://codepen.io/ogonzal87/" target="_blank">Codepen</a> / <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">Medium</a> / <a href="https://dribbble.com/ogonzal87" target="_blank">Dribbble</a> / <a href="https://www.instagram.com/oskrhq/" target="_blank">Instagram</a></p>
 
-          <HeroScrollDownBtn>
-            <DSCircleButton icon="keyboard_arrow_down" type="ghost" />
-          </HeroScrollDownBtn>
         </SectionHero>
 
         <SectionProject className="ds-col-container">
@@ -186,9 +176,22 @@ class HomePage extends React.Component {
         </SectionProject>
 
         <SectionProject className="ds-col-container">
+          <Link to="/projects/client/" className="project-link">
+            <ProjectCard className="card-3">
+              <img className="number" src={number2} />
+              <div className="project-card-title-container">
+                <span className="special-text-styling ">Client Work</span>
+                <h5 className="ds-display2-text-style">VIEWN</h5>
+                <span className="special-text-styling project-card__footer-text">BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
+              </div>
+            </ProjectCard>
+          </Link>
+        </SectionProject>   
+
+        <SectionProject className="ds-col-container">
           <Link to="/projects/yolko/" className="project-link">
             <ProjectCard className="card-2">
-              <img className="number" src={number2} />
+              <img className="number" src={number3} />
               <div className="project-card-title-container">
                 <span className="special-text-styling">Personal Project</span>
                 <h5 className="ds-display2-text-style">YOLKO</h5>
@@ -196,20 +199,7 @@ class HomePage extends React.Component {
               </div>
             </ProjectCard>
           </Link>
-        </SectionProject>
-
-        <SectionProject className="ds-col-container">
-          <Link to="/projects/client/" className="project-link">
-            <ProjectCard className="card-3">
-              <img className="number" src={number3} />
-              <div className="project-card-title-container">
-                <span className="special-text-styling ">Client Work</span>
-                <h5 className="ds-display2-text-style">VIEWN</h5>
-                <span className="special-text-styling project-card__footer-text">BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
-              </div>  
-            </ProjectCard>
-          </Link>
-        </SectionProject>    
+        </SectionProject> 
         
 
         <DesignProcessCardGrid>

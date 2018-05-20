@@ -10,7 +10,7 @@
     width: 100%;
     max-width: 723px;
     margin-bottom: 100px;
-    filter: drop-shadow(0 50px 5px rgba(0,0,0,.06));
+    filter: drop-shadow(0 50px 5px rgba(0,0,0,.07));
   }
 
   .hero-button-text-style {
@@ -63,6 +63,7 @@
 
     .ds-display2-text-style {
       margin-top: ds-space(base);
+      color: ds-color(neutral, 000);
     }
 
     .project-card__footer-text {

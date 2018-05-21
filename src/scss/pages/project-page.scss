@@ -39,10 +39,10 @@
 
       .project-yolko-hero {
         position: absolute;
-        right: -300px;
-        top: 0px;
+        right: -200px;
+        top: 80px;
         z-index: -1;
-        max-width: 1200px;
+        max-width: 1000px;
       }
 
       .project-viewn-hero {
@@ -88,7 +88,7 @@
     display: grid;
     grid-column-gap: ds-space(super-loose);
     grid-template-columns: 2fr 1fr 1fr;
-    margin-top: ds-space(extra-loose);
+    margin-top: ds-space(extra-loose) * 3;
 
     .dossier__problem-container {
       grid-row: span 2;

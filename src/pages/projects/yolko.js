@@ -31,7 +31,7 @@ import demo3 from '../../assets/images/yolko/yolko-demo3.gif'
 import demo4 from '../../assets/images/yolko/yolko-demo4.gif'
 import demo5 from '../../assets/images/yolko/yolko-demo5.gif'
 import demo6 from '../../assets/images/yolko/yolko-demo6.gif'
-import yolkoDisplayImg1 from '../../assets/images/yolko/yolko-showcase.jpg'
+import yolkoShowcaseImg from '../../assets/images/yolko/yolko-showcase.jpg'
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
 import number2 from '../../assets/images/hand-brush/02.png'
@@ -120,7 +120,7 @@ class YolkoProjectPage extends React.Component {
           <iframe src="https://player.vimeo.com/video/207403309" width="1000" height="800" frameBorder="0" allowFullScreen></iframe><script src="https://player.vimeo.com/api/player.js"></script>
         </div>  
 
-        <img src={yolkoDisplayImg1} className="project-showcase-img" />
+        <img src={yolkoShowcaseImg} className="project-showcase-img" />
 
         {/* <h3 className="project-section-title">the pixels' story</h3>   */}
 

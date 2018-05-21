@@ -59,10 +59,9 @@ class ClientProjectPage extends React.Component {
               Marketing data playground for non-technical marketers based on
               the principles of Customer Data Platforms (CDP-s). The
               challenge was to create a platform where marketers could see,
-              manage, and track a unified profile of an individual customer
-              so they could not only measure their engagement with the brand
-              but also provide them with a tailored marketing experience in
-              hopes of creating a closer relationship between that customer
+              manage, and track a unified profile of a customer
+              so they could not only measure the customer's engagement with the brand
+              but also provide them with a tailored marketing experience in to create a closer relationship between that customer
               and the brand.
             </p>
             <span className="special-text-styling">UX Research</span>
@@ -276,13 +275,13 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I had somewhat of a crazy idea. What if we could architect the
-              app as a story? The requirements themselves told a story for
-              me; 1) Rafael imports data, 2) Rafael segments that data, 3)
-              Rafael learns from the data, 4) Rafael engages the customers
-              through marketing campaigns. Rafael would not always work in
-              chronological order but I assumed the information architecture
-              would resonate with him.
+              I had somewhat of an unconventional idea. What if we could architect the
+            app as a story? The requirements themselves told a story for
+            me; 1) Rafael imports data, 2) Rafael segments that data, 3)
+            Rafael learns from the data, 4) Rafael engages the customers
+            through marketing campaigns. Rafael would not always work in
+            chronological order but I assumed the information architecture
+            would resonate with him.
             </p>
           </div>
         </div>

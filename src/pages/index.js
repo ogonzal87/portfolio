@@ -119,6 +119,7 @@ const ProjectCard = styled.div`
 `
 
 const DesignProcessCardGrid = styled.div`
+  position: relative;
   display: grid;
   grid-template-areas: 
     "design-process-title design-process-title"
@@ -204,11 +205,11 @@ class HomePage extends React.Component {
 
         <DesignProcessCardGrid>
           <div className="section-title-container design-process-title">
-            <img src={processImg} alt=""/>
+            <img src={processImg} alt="" className="home-brush-lettering process"/>
           </div>
           <DesignProcessCard
             numberImg={number1}
-            title="Emphatize"
+            title="Empathize"
             gridAreaName="design-process-card1"
             badgeType="tertiary"
             badgeText="Understand">
@@ -271,7 +272,7 @@ class HomePage extends React.Component {
 
         <div>
           <div className="section-title-container">
-            <img src={thoughtsImg} alt=""/>
+            <img src={thoughtsImg} alt="" className="home-brush-lettering thoughts"/>
           </div>
           <div className="home-posts-container">
             <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">

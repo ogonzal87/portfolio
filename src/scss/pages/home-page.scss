@@ -4,6 +4,7 @@
   grid-template-columns: 100%; 
   position: relative;
   padding-bottom: 200px;
+  overflow: hidden;
 
 
   .portfolio-logo-img {
@@ -28,13 +29,6 @@
   .home-quote-statement {
     max-width: 600px;
     margin: 0 auto;
-  }
-
-  .work-lettering {
-    width: 100%;
-    display: block;
-    max-width: 350px;
-    margin: 0 auto; 
   }
 
   .number {
@@ -80,6 +74,7 @@
   .section-title-container {  
     max-width: 1400px;
     margin: 0 auto;
+    position: relative;
 
     &.design-process-title {
       grid-area: design-process-title;
@@ -91,6 +86,28 @@
       max-width: 450px;
       margin: 0 auto;
     }
+  }
+
+  .home-brush-lettering {
+    position: absolute;
+    min-width: 800px;
+    height: 200px;
+    opacity: .2;
+    z-index: -1;
+
+    &.process {
+      top: 150px;
+      right: 80px;
+      transform: rotate(-10deg);
+    }
+
+    &.thoughts {
+      top: -120px;
+      left: -200px;
+      transform: rotate(-10deg);
+    }
+
+    
   }
 
   .design-process-img2 {

@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { DSButton } from "oskrhq-design-system";
 import dsLogo from '../../assets/images/ds-logo.svg'
+import vnHeroImg from "../../assets/images/DS/ds-hero.png";
+import vnShowcaseImg from "../../assets/images/DS/ds-showcase.jpg";
 import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
@@ -45,11 +47,11 @@ class DSProjectPage extends React.Component {
             <a href="https://oskrhq-ds.surge.sh/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">View the Site</DSButton></a>
           </div>
           <div className="hero-container__img-container">
-            <img src={dsLogo} className="ds-logo" />
+            <img src={vnHeroImg} className="project-ds-hero" />
           </div>
         </div>
 
-        <h4 className="project-section-title">CASE STUDY DOSSIER</h4>
+  
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
@@ -89,9 +91,7 @@ class DSProjectPage extends React.Component {
           <iframe src="https://player.vimeo.com/video/265949113" width="1000" height="800" frameBorder="0" allowFullScreen></iframe>
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
-
-        <h4 className="project-section-title">How I got to the pixels</h4>
+        <img src={vnShowcaseImg} className="project-showcase-img" />
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">

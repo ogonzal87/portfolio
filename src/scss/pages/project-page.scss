@@ -40,10 +40,27 @@
       .project-yolko-hero {
         position: absolute;
         right: -300px;
+        top: 0px;
+        z-index: -1;
+        max-width: 1200px;
+      }
+
+      .project-viewn-hero {
+        position: absolute;
+        right: -340px;
+        top: 100px;
+        z-index: -1;
+        max-width: 1300px;
+      }
+
+      .project-ds-hero {
+        position: absolute;
+        right: -440px;
         top: 100px;
         z-index: -1;
         max-width: 1200px;
       }
+
       .project-img {
         filter: drop-shadow(0 8px 17px rgba(0,0,0,0.20));
         max-width: 500px;

@@ -36,9 +36,9 @@ class DSProjectPage extends React.Component {
         <TopNav />
         <div className="hero-container">
           <div className="hero-container__text-container">
-            <span className="special-text-styling">Personal Project</span>
+            <span className="special-text-styling">Company Work + Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">OSKRHQ.DS</h1>
-            <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs. <strong>In fact, this website, along with every Design material I produce, consumes the system.</strong> More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
+            <p className="ds-subheading-text-style">OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs and to showcase the process of creation and maintanance. <strong>In fact, this website, along with every Design material I produce, consumes the system.</strong> More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>.</p>
 
             <p className="special-text-styling">Creative Direction and Multidisciplinary Design </p>
             <span className="special-text-styling">Design Systems</span>
@@ -55,31 +55,31 @@ class DSProjectPage extends React.Component {
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">As a designer or developer, you are your own brand. The products and services you produce become an extension of that brand. However, as you create artifacts overtime, your identity tends to get diluted since you are typically building these artifacts in isolation, or end up building the artifacts from scratch. This creates fragmented experiences for your audience as they move from one artifact to the next.</p>
+            <p className="ds-subheading-text-style">As a designer or developer, you are your own brand. The products and services you produce become an extension of that brand. However, as you create artifacts overtime, your identity tends to get diluted since you are typically building these artifacts in isolation, or end up building the artifacts from scratch. This creates fragmented experiences for your audience as they move from one artifact to the next. This holds true for an individual or any company.</p>
           </div>
           <div className="dossier__users-container">
-            <p className="special-text-styling">Users</p>
-            <p className="ds-subheading-text-style">Attendees and presenters at social gatherings such as classes or talks. </p>
+            <p className="special-text-styling">Primary Users</p>
+            <p className="ds-subheading-text-style">Freelancers, Designers and Developers.</p>
           </div>
           <div className="dossier__duration-container">
             <p className="special-text-styling">Duration</p>
-            <p className="ds-subheading-text-style">Apr 2016 - Nov 2017</p>
+            <p className="ds-subheading-text-style">May 2017 - Present</p>
           </div>
           <div className="dossier__tools-container">
             <p className="special-text-styling">Tools</p>
-            <p className="ds-subheading-text-style">Pen, paper, AngularJS 1.5, Firebase, Sketch App, SASS, Gulp.JS, Node.js, Invision.  </p>
+            <p className="ds-subheading-text-style">Pen, paper, ReactJS, Sketch App, SASS.</p>
           </div>
           <div className="dossier__role-container">
             <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">Creative director, UX Researcher, and </p>
+            <p className="ds-subheading-text-style">Creative director, Designer and Developer</p>
           </div>
           <div className="dossier__hypothesis-container">
             <p className="special-text-styling">Hypothetical Solution</p>
-            <p className="ds-subheading-text-style"><strong><i>If</i></strong> inconsistent artifacts of design and code dilutes my personal brand and its extensions, <strong><i>then</i></strong> implementing a full Design System for it should create a harmonious identity felt by my audience.</p>
+            <p className="ds-subheading-text-style"><strong><i>If</i></strong> inconsistent artifacts of design and code dilutes a brand and its extensions, <strong><i>then</i></strong> implementing a full Design System should create a harmonious identity felt by a targeted  audience.</p>
           </div>
           <div className="dossier__constraints-container">
             <p className="special-text-styling">Constraints & Considerations</p>
-            <p className="ds-subheading-text-style">Avoid getting the audience distracted and provide anonymity for the participants.</p>
+            <p className="ds-subheading-text-style">Provide solutions for both Designers AND developers and make adoption easy for anyone.</p>
           </div>
           <div className="dossier__platforms-container">
             <p className="special-text-styling">Platforms</p>

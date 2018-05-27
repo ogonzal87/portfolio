@@ -86,7 +86,7 @@ class YolkoProjectPage extends React.Component {
             <p className="ds-subheading-text-style">As a presenter, you are running blind while in front of an audience since they are only able to provide feedback after the presentation. As an attendee, I found that 9 out of 10 people found themselves restraining themselves from asking a question out of fear of revealing themselves to their peers and the presenter. I see these as missed opportunities for learning and participation.</p>
           </div>
           <div className="dossier__users-container">
-            <p className="special-text-styling">Users</p>
+            <p className="special-text-styling">Primary Users</p>
             <p className="ds-subheading-text-style">Attendees and presenters at social gatherings such as classes or talks. </p>
           </div>
           <div className="dossier__duration-container">

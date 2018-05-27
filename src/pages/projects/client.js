@@ -59,10 +59,11 @@ class ClientProjectPage extends React.Component {
               Marketing data playground for non-technical marketers based on
               the principles of Customer Data Platforms (CDP-s). The
               challenge was to create a platform where marketers could see,
-              manage, and track a unified profile of a customer
-              so they could not only measure the customer's engagement with the brand
-              but also provide them with a tailored marketing experience in to create a closer relationship between that customer
-              and the brand.
+              manage, and track a unified profile of a customer so they
+              could not only measure the customer's engagement with the
+              brand but also provide them with a tailored marketing
+              experience in to create a closer relationship between that
+              customer and the brand.
             </p>
             <span className="special-text-styling">UX Research</span>
             <span className="special-text-styling">Brand Identity</span>
@@ -91,7 +92,7 @@ class ClientProjectPage extends React.Component {
             </p>
           </div>
           <div className="dossier__users-container">
-            <p className="special-text-styling">Users</p>
+            <p className="special-text-styling">Primary Users</p>
             <p className="ds-subheading-text-style">
               Non-technical marketers.
             </p>
@@ -275,13 +276,13 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I had somewhat of an unconventional idea. What if we could architect the
-            app as a story? The requirements themselves told a story for
-            me; 1) Rafael imports data, 2) Rafael segments that data, 3)
-            Rafael learns from the data, 4) Rafael engages the customers
-            through marketing campaigns. Rafael would not always work in
-            chronological order but I assumed the information architecture
-            would resonate with him.
+              I had somewhat of an unconventional idea. What if we could
+              architect the app as a story? The requirements themselves told
+              a story for me; 1) Rafael imports data, 2) Rafael segments
+              that data, 3) Rafael learns from the data, 4) Rafael engages
+              the customers through marketing campaigns. Rafael would not
+              always work in chronological order but I assumed the
+              information architecture would resonate with him.
             </p>
           </div>
         </div>
@@ -381,10 +382,13 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              We are still working through some tests before we start
-              building. but I look forward to implementing what we learn!
-              I'll update this page accordingly. Can't wait to impress
-              Rafael.
+              We are still working on testing but I look forward to
+              implementing what we are learning in code and I'll update this
+              page accordingly.
+            </p>
+
+            <p className="ds-subheading-text-style">
+              We can't wait to impress Rafael!
             </p>
           </div>
         </div>
@@ -399,11 +403,47 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              This project was a class on how to efficiently and lean. I
-              really loved working with Roberto and Ayreya, the founders of
-              VIEWN. I learned so much from them about managing projects
-              efficiently and keeping each other focused. I learned how to
-              read good documentation from Material Design
+              This project in particular was an amazing exercise in selling
+            Design as a practice and an essential part of Product
+            Development to key stakeholders. I have been part of projects
+            where design is perceived as an afterthought or the team and
+              business folks just have a <i>“make it look pretty”</i> mentality. I
+              found that I would clash repeatedly with the team members and
+              productivity was not the greatest. I can’t really blame them
+              though. Design Thinking is not something that Business People
+              are ever taught or even are aware of most of the time. They
+              are driven by numbers and market conditions but is important
+              for them to understand the needs of the user (not their
+              client), and the importance of Branding before taking out a
+              pen or paper.
+            </p>
+            <p className="ds-subheading-text-style">
+              As a designer, you are responsible for selling Design to your
+            client, team or organization so I have started to educate
+              clients <strong>*before*</strong> I work with them. I have become really strict
+              about this to the point that I will refuse work if they are
+              not willing to learn about Design and my process first. It
+              just the best thing I can do for them and for me.
+            </p>
+            <p className="ds-subheading-text-style">
+              This project also reminded me about the importance of Empathy
+              in design. The actress Nataly Portman once said “The actor’s
+              job is empathy”. That holds very true about designers. We most
+              times design experiences for people that we never meet. This
+              is why is so important to learn about your users early. See
+              what motivates them and what discourages them.
+            </p>
+            <p className="ds-subheading-text-style">
+              User Persona creation was extremely useful for me and for
+              VIEWN’s team, to the point of us always talking about
+              Rafael as if he was a real person. It was really cool to see
+              my clients embracing the persona and making him part of every
+              decision. For that I have to thank them for being so receptive
+              to my process, eager to learn from Design and so empathic.
+            </p>
+            <p className="ds-subheading-text-style">
+              Thank you, Roberto and Areeya! You guys taught me so much
+              about business and has been a blast working with you guys.
             </p>
           </div>
         </div>

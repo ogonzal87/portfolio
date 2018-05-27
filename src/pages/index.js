@@ -168,7 +168,7 @@ class HomePage extends React.Component {
             <ProjectCard className="card-1">
               <img className="number" src={number1} />
               <div className="project-card-title-container">
-                <span className="special-text-styling">Personal Project</span>
+                <span className="special-text-styling">Company work + Personal Project</span>
                 <h5 className="ds-display2-text-style">OSKRHQ Design System</h5>
                 <span className="special-text-styling project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
               </div>
@@ -213,7 +213,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card1"
             badgeType="tertiary"
             badgeText="Understand">
-            Begin by understanding what motivates and discourages the user. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text"><i>judge a man</i></span> [design for a user] until you've walked a mile in <span className="strikethrough-text"><i>his</i></span> [his/her] shoes."`
+            <strong>It's not me. It's you.</strong> Begin by understanding what motivates and discourages the user. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text"><i>judge a man</i></span> [design for a user] until you've walked a mile in <span className="strikethrough-text"><i>his</i></span> [his/her] shoes."`
           </DesignProcessCard>
           <img src={designProcessPath1} alt="" className="design-process-path1"/>
           <DesignProcessCard 
@@ -222,7 +222,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card2"
             badgeType="tertiary"
             badgeText="Understand" >
-            What's the problem? Combine all the research and observations from Step uno and begin to highlight opportunities for innovation.
+            <strong>What's the problem?</strong> Combine all the research and observations from Step uno and begin to highlight opportunities for innovation.
           </DesignProcessCard>
           <img src={designProcessPath2} alt="" className="design-process-path2" />
           <DesignProcessCard 
@@ -231,7 +231,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card3"
             badgeType="warning"
             badgeText="Explore"> 
-            What's the solution? Come up with as many crazy ideas as possible to solve the problem, choose a solution, and formulate a testable hypothesis then validate through rapid testing.
+            <strong>What's the solution?</strong> Come up with as many crazy ideas as possible to solve the problem, choose a solution, and formulate a testable hypothesis then validate through rapid testing.
           </DesignProcessCard>
           <img src={designProcessPath3} alt="" className="design-process-path3" />
           <DesignProcessCard 
@@ -240,7 +240,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card4"
             badgeType="warning"
             badgeText="Explore">
-            What does the solution feel like? The goal in this step is to create an experience for the solution that delivers the least Cognitive Dissonance and most positive feelings.
+            <strong>How does the solution feel like?</strong> The goal in this step is to create an experience for the solution that delivers the least Cognitive Dissonance and most positive feelings.
           </DesignProcessCard>
           <img src={designProcessPath4} alt="" className="design-process-path4" />
           <DesignProcessCard 
@@ -249,7 +249,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card5"
             badgeType="success"
             badgeText="Materialize">
-            What was learned?
+            <strong>What can be learned?</strong> This is not just usability testing, it is mostly about learning new things and validating assumptions and hypothesis created trough earlier steps.
           </DesignProcessCard>
           <img src={designProcessPath1} alt="" className="design-process-path5" />
           <DesignProcessCard 
@@ -258,7 +258,7 @@ class HomePage extends React.Component {
             gridAreaName="design-process-card6"
             badgeType="success"
             badgeText="Materialize">
-            Prepare for a next run of testing or implement the solution in case that the hypothesis was proven right
+            <strong>Next problem or go again?</strong> Depends of the results of your tests. Prepare for another run through earlier steps or if the hypothesis was proven right, implement the solution.
           </DesignProcessCard>
         </DesignProcessCardGrid>
 

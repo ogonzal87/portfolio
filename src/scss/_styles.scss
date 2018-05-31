@@ -18,13 +18,17 @@ html {
   .crafted-quote {
     font-size: ds-font-size(title);
     padding: ds-space(bit-loose);
-    color: ds-color(primary, 400);
+    color: ds-color(neutral, 600);
     font-style: italic;
     
   }
 
   .strikethrough-text {
     text-decoration: line-through;
+  }
+
+  blockquote {
+    
   }
 
   .special-text-styling {

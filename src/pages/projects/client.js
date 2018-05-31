@@ -20,9 +20,7 @@ import DefineImg3 from "../../assets/images/viewn/navigation-concept.jpg";
 import InfoArchitectureImg from "../../assets/images/viewn/info-architecture2.jpg";
 import NavigationGif from "../../assets/images/viewn/viewn-navigation.gif";
 import demo1 from "../../assets/images/viewn/vn-demo1.gif";
-
-
-import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
+import test1 from "../../assets/images/viewn/vn-testing-cat.jpg";
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
 import number2 from '../../assets/images/hand-brush/02.png'
@@ -371,7 +369,7 @@ class ClientProjectPage extends React.Component {
           </div>
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+      <img src={test1} className="project-displayfb-img" />
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
@@ -392,8 +390,6 @@ class ClientProjectPage extends React.Component {
             </p>
           </div>
         </div>
-
-        {/* <img src={yolkoDisplayImg1} className="project-displayfb-img" /> */}
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">

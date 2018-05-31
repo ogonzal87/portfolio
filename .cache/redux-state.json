@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7cf618c66aa2d93ccf6c0012475e64bd",
+        "contentDigest": "bfad4ea8e5d12300ecb604d14c71c052",
         "owner": "internal-data-bridge"
       }
     },
@@ -444,10 +444,6 @@
             "version": "^1.0.18"
           },
           {
-            "name": "nuka-carousel",
-            "version": "^4.1.0"
-          },
-          {
             "name": "oskrhq-design-system",
             "version": "^2.0.2"
           },
@@ -462,14 +458,6 @@
           {
             "name": "react-markdown",
             "version": "^3.2.2"
-          },
-          {
-            "name": "react-parallax-component",
-            "version": "^1.0.6"
-          },
-          {
-            "name": "react-plx",
-            "version": "^1.0.6"
           },
           {
             "name": "styled-components",
@@ -518,12 +506,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-05-26T18:14:19.280Z",
+      "buildTime": "2018-05-30T19:10:27.693Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1862fef227434124ba5cc87dd18ab55b",
+        "contentDigest": "d15dc20b42081c4a7af2eb93277b8653",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -544,7 +532,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5cdbe4cf4c2395e876604a7ab9e34f2",
+        "contentDigest": "d60bac75fef688ccada4555ad2a1d44b",
         "owner": "internal-data-bridge"
       }
     },
@@ -564,7 +552,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2853e5fa5b196a91f124d7956660159d",
+        "contentDigest": "089305f6c67a5d6a43377c8d11312efd",
         "owner": "internal-data-bridge"
       }
     },
@@ -584,7 +572,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a729b9115f1204a7a0558524ee1920e7",
+        "contentDigest": "71952893f67776a337d03fd193cb466a",
         "owner": "internal-data-bridge"
       }
     },
@@ -604,7 +592,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "59b35b31afdd69d77a829e541f594867",
+        "contentDigest": "c28f06c18ced8d22fdaf606042762548",
         "owner": "internal-data-bridge"
       }
     },
@@ -624,14 +612,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "63dbba43c67916a2b7ea7e30544d4528",
+        "contentDigest": "6a3dfcedfed43e4f3f4e132374666895",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "859c622c3fd40b964dec4ecb022a4bf2"
+    "PLUGINS_HASH": "77fc8031181d9ff1ba2fb5f4054d25c7"
   },
   "componentDataDependencies": {
     "nodes": {},

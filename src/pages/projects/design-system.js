@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { DSButton } from "oskrhq-design-system";
 import dsLogo from '../../assets/images/ds-logo.svg'
 import vnHeroImg from "../../assets/images/DS/ds-hero.png";
-import vnShowcaseImg from "../../assets/images/DS/ds-showcase.jpg";
+import ShowcaseImg from "../../assets/images/DS/ds-showcase.jpg";
 import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
@@ -17,6 +17,28 @@ import number6 from '../../assets/images/hand-brush/06.png'
 import TopNav from '../../components/top-nav'
 import stripPrefix from '../../../.cache/strip-prefix';
 
+import UltimateProposalImg from "../../assets/images/DS/ulti-uikit-demo.gif";
+import DSStyleSheet from "../../assets/images/DS/style-sheet.jpg";
+import DSUIElements from "../../assets/images/DS/ui-kit-elements.jpg";
+import DSBreakdown from "../../assets/images/DS/part-of-design-system.jpg";
+import DSButtonsDemo from "../../assets/images/DS/buttons-demo.gif";
+import DSButtonsCode from "../../assets/images/DS/buttons-code.jpg";
+import DSPackageJSON from "../../assets/images/DS/package-json.jpg";
+import DSDefineImg1 from "../../assets/images/DS/ds-explanation.jpg";
+import DSDefineImg2 from "../../assets/images/DS/ds-architecture1.jpg";
+import DSImplement2 from "../../assets/images/DS/dimsum-storybook.gif";
+import DSImplement3 from "../../assets/images/DS/em-uikit-show.gif";
+
+
+
+
+
+
+
+
+
+
+
 const SectionHero = styled.div`
   display: flex;
   align-items: center;
@@ -24,7 +46,7 @@ const SectionHero = styled.div`
   flex-direction: column;
   padding: 10% 0;
   height: 100vh;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   position: relative;
 `
 
@@ -47,7 +69,7 @@ class DSProjectPage extends React.Component {
             <a href="https://oskrhq-ds.surge.sh/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">View the Site</DSButton></a>
           </div>
           <div className="hero-container__img-container">
-            <img src={vnHeroImg} className="project-ds-hero" />
+            <img src={vnHeroImg} className="project-ds-hero" /> 
           </div>
         </div>
 
@@ -91,7 +113,18 @@ class DSProjectPage extends React.Component {
           <iframe src="https://player.vimeo.com/video/265949113" width="1000" height="800" frameBorder="0" allowFullScreen></iframe>
         </div>
 
-        <img src={vnShowcaseImg} className="project-showcase-img" />
+        <img src={ShowcaseImg} className="project-showcase-img" />
+
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="crafted-quote ">A story of how we built a Design System through collaboration between design and development without business, product or management support...</p>
+          </div>
+        </div>
+
+        
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
@@ -99,14 +132,12 @@ class DSProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">Empathize</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <p className="ds-subheading-text-style">Although I am ultimately a designer, I also code and have worked as a UI developer. This has allowed me to be right in between design and development and has given me a front row seat to each user’s pains and frustrations. It is actually funny to me how very much alike these problems are.</p>
 
-            <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+            <p className="ds-subheading-text-style">My obsession with systematizing design begins in Q2 2017 while working for Ultimate Software. I went to grab lunch with a coworker one day and we found ourselves sharing our frustration with not being able to stay in sync with the design team. A problem causing inconsistencies in our interfaces. At Ultimate, I also had the opportunity to work as a dev and I noticed devs too had the same problem. However, by then the industry had come up with clever ways of solving these as well as other problems like versioning and continuous deployment. I began to wonder if these solutions were only available for Development and how I could extend these to Design? 
+            </p>
           </div>
-
         </div>
-
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
@@ -114,68 +145,196 @@ class DSProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">Define</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">Defining the problem for YOLKO was easier than other projects. I knew something was broken with the way traditional communication in presentations is provided by my experience as a student at General Assembly coding academy. However, I did not know what specifically. I asked my peers and my instructor for general feedback about the class when it ended and one of my peers said something that resonated with me; "it seems that my undestanding depended on that 3% of the class that always asks questions because I was too scare to do so." I had found my problem. The in interaction and subsequent looping feedback is broken.</p>
+            <p className="ds-subheading-text-style">It does not matter if you are on a design team or development team, it all boils down to speed, being in sync, and visibility. A designer does not want to redesign a Button and a Developer does not want to re-code the button because doing so means adding time and frustration, and also impacts negatively the end user by creating fragmented experiences.</p>
+
+            <p className="ds-subheading-text-style">Front-end Development came up with the notion of building User Interfaces using Component Architecture. Although an overly simplified definition, a Component Architecture essentially means that you can code one button and the whole development team can use an instance of that button and not have to recode it from scratch. Furthermore, you can update that button and the whole team would get the updates. This holds true for more complex elements as well with deeply nested components. On top of that, Devs also use Git to stay in sync and account for how these elements change over time through versioning. So, I became really interested in taking these principles and applying them to Design.</p>
+
+            <p className="ds-subheading-text-style">At the time, Sketch App had just come up with Sketch Symbols which are essentially reusable pieces of Design just like components are in code. While at Ultimate, I created a UI Kit for my design team and used Brand.ai (a tool for syncing symbols) so we could all be in sync. I even constructed the Symbols so they would match 1-to-1 with the components in code - even matching the overrides of the Symbols with the API's of the components (Component Attributes). That way, there would not be any confusion or ambiguity when handing over the designs to devs.</p>
           </div>
 
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+
+        <img src={UltimateProposalImg} className="project-displayfb-img" />
+
+
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">I switched jobs in Q4 of 2018 and moved to the Bay Area to build a Design System for Ellie Mae. Unfortunately, the company did not consider building or maintaining a Design System a priority. Talking to developers and designers and seeing how fragmented our experiences were in our 20+ products, I felt very strongly that we desperately needed one, so the issue became a very high priority on my personal agenda.</p>
+
+            <p className="ds-subheading-text-style">I think the best way of selling an initiative is showing it so I decided to create a Design System for myself first and use it to show the benefits and the concept. A sort of Minimum Viable Product I could also use for my personal brand. My requirements became:</p>
+
+            <ol className="ds-subheading-text-style">
+              <li>
+                Benefit Development and Design equally.
+              </li>
+              <li>
+                Be based on my Anatomy of the UI Principles. I write about this here.
+              </li>
+              <li>
+                Flexible enough for Design to make changes with zero to no dev involvement.
+              </li>
+              <li>
+                Have a Component Library built in ReactJs.
+              </li>
+              <li>
+                Support all the design artifacts or products I make in the future including apps, websites, presentations, medium posts, etc.
+              </li>
+            </ol>
+          </div>
+
+        </div>
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number3} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">Ideate</h5>
+            <h5 className="design-process__section-title ds-headline-text-style">Ideate & Prototype</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">I began a Divergence Period where I came up with as many ideas as I could to solve the problem and then sketch/whiteboard some potential solutions. My approach to design is purely scientific — get a hypothesis that attempts to solve a problem, then validate through rapid testing. This was my testable hypothesis: "if the feedback and pulse of the class was available in real time, the interaction between presenter and attendee would improve resulting in a deeper understanding of what is being presented plus an engaged audience". YOLKO was born out of my desire to provide the attendee with a way to see the aggregate emotions of an audience to assess if it matched theirs. I also wanted to provide the presenter the ability to ask for feedback in realtime and for the audience to ask him/her questions among other cool features. With these wireframes/sketches, I began a Convergence Period and I start engineering the experiences. Fun fact - YOLKO was first called "Bubble Gum" and it was meant to show the tension of the audience by inflating and deflating.</p>
+            <p className="ds-subheading-text-style">The first thing I did was a Style Sheet for my system based on the personality I wanted to convey.  I write about this process on my series of Medium Posts. </p>
           </div>
-
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+        <img src={DSStyleSheet} className="project-displayfb-img" />
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">From that, I created a UI Kit in Sketch with smart Symbols for the system. This allowed me to fine tune my colors, typography, space, depth, and iconography in design before I started coding the components and the SASS architecture supporting them. </p>
+          </div>
+        </div>
+
+        <img src={DSUIElements} className="project-displayfb-img" />
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">After designing a couple of Symbols in Sketch, I focused on architecture. I created sass mixins and functions that allowed me to compose UI elements with the same sub-atomic parts. What are sub-atomic parts? You see, every UI element you interact with in digital interfaces is composed of something I call the anatomy of UI; Color, Typography, Space, Motion, Depth, and Iconography. If you architect a framework for these and connect them using CSS preprocessors like LESS or SASS, it is easy to make products that feel cohesive since every element is composed out of the same “DNA” or sub-atomic parts. You should read my Medium post series about this if this really interests you. 🤓</p>
+          </div>
+        </div>
+
+        <img src={DSBreakdown} className="project-displayfb-img" />
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">The point of a robust sass architecture is to hard-code CSS values the least possible. All the buttons you see below for example, where coded with the SASS architecture I put together. Below you can also see the code for the Primary button as an example. If you notice, each CSS declaration is connected to the system and nothing is hardcoded. Furthermore, each sub-atomic definition, follow predictable scales. If you want to know more about this, check out the System's website. I explain this in detail there.</p>
+          </div>
+        </div>
+
+        <img src={DSButtonsDemo} className="project-displayfb-img" />
+
+        <div className="design-process__section-container" style={{ marginTop: '0' }}>
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <img src={DSButtonsCode} className="project-displayfb-img"/>
+          </div>
+        </div>
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number4} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">Prototype</h5>
+            <h5 className="design-process__section-title ds-headline-text-style">Test</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">I am very creative but I am careful not to introduce features that are not absolutely necessary. I wanted to create a Minimum Viable Product that I would be simple to use, felt human, and was extensible (coding wise). I divided the product into two experiences: 1) Presenter's, and 2) Attendee's. The presenter would have a Dashboard, where s/he would be able to see all of the data coming in in real time. The Attendee would have a simple interface where they could provide feedback anytime they wanted. I was careful not to distract them from the presentation since I only wanted them to use YOLKO when they felt the need to  something to the presenter. I wired every frame for each experience using pen a paper and then translated those into Sketch App. Before designing, I usually define the characteristics of my UI (color, typography, spacing) and the use of established design patterns on the wild - a process I describe on this post. Below is a snapshot of what my UI elements were when designing the app. After that, I shared some of the early stages of YOLKO via Invision. Below you can also see the first iterations of the app UI and how it progressed with each cycle.</p>
+            <p className="ds-subheading-text-style">As soon as I had a few components constructed, I published the design system as a Node package. This way I could import it as a dependency for every project I create and also other people could consume it or fork it. The first “product” consuming the system was the website that explains the system itself. The second “product” consuming the system was my portfolio, which is this website. If I make any updates to Color, Typography, Space, Motion, Depth or Iconography in my system, the updates will be reflected on all the products consuming the system. Although most of the time I would want to update all of the products to the latest version of the system, the system follows semantic versioning so I don't have to update if don't want to. If you would like to install it and play with the code just run:</p>
+
+            <pre><code>npm i --save oskrhq-design-system</code></pre>
+
+            <img src={DSPackageJSON} className="" style={{marginTop: '200px', maxWidth: '624px'}}/>
+
           </div>
 
         </div>
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">After I felt confident I had a solid MVP, I showed it to a couple of developers, as well as our UI Architect and 2 designers. They joined me to build the same thing for the company. Soon thereafter we had a team of 8 people coding and designing on their own time since we still did not have support from management at that time. Below is the result of a whiteboard session where I explained what the system was and how it bridged the gap between Design and Code.</p>
+          </div>
+        </div>
+
+
+        <div className="project-img-grid">
+          <img src={DSDefineImg1} alt="" className="grid-img" />
+          <img src={DSDefineImg2} alt="" className="grid-img" />
+        </div>
+
+
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number5} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">Test</h5>
-          </div> 
-          <div>
-            <p className="ds-subheading-text-style">I usually do not start building something in code unless I have made as many design iterations as possible since is more efficient to change a design instead of code. For YOLKO however, I decided to code-prototype. Since this was a side project, I wanted to use it to enhance my coding skills and to be able to build something that was code-extensible in order to make rapid iterations - just like a real start up. Because of this, step 4 and 5 are intertwined. Although I did not conduct formal research studies, I did do A/B testing using Invision. Also used YOLKO for Design Critique sessions, and used it at one of General Assembly's gatherings. I also made a videos to share the idea and gather feedback.</p>
-          </div>
-
-        </div>
-
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
-
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number6} alt="" className="project-design-process-number" />
             <h5 className="design-process__section-title ds-headline-text-style">Implement</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">This is the last step in an iteration or cycle. Therefore, I perform these 5 steps cyclically. Each iteration is usually shorter than the last one and that is what is happening today with YOLKO. I decided to use AngularJS 1.5 with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with realtime features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github. As of April 2017 I am in my third iteration of changes in code working with the University of Miami. We are testing it in our of their classrooms soon. After testing this iteration in one of their classrooms, I will perform yet another iteration taking in consideration what was learned and weather or not I keep validating my original hypothesis.</p>
+            <p className="ds-subheading-text-style">We started building the system in May 2018. We used Storybook for our construction environment, ReactJS for our UI framework and a very robust SASS architecture with utility mixins, functions and classes. We took a User Centered design approach to this since the design system is meant to be used by both Designers and Developers so we focused heavily on documentation, testing, and adoption. We even have an Adoption plan for all of our products based on Nathan Curtis article about Design System's adoption. We took time to compose the core components and to use them so that we could get a feel for how was to use the system as a consumer and user. We tweaked it has we learned. </p>
           </div>
 
         </div>
+        
+        
+        <img src={DSImplement2} className="project-displayfb-img" />
+        
 
-        <img src={yolkoDisplayImg1} className="project-displayfb-img" />
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">The Design System also has a UI Kit I constructed and maintain for designers and we are currently playing with tools like <a href="https://github.com/brainly/html-sketchapp" target="_blank">html-sketchapp</a>, <a href="https://compositor.io/lab/" target="_blank">compositior.io</a>, and <a href="http://airbnb.io/react-sketchapp/" target="_blank">react-sketchapp</a> to see if we can get development and design even closer.</p>
+          </div>
+        </div>
 
-        <h4 className="project-section-title">things i learned</h4>
-        <div className="project-things-learned-container">
-          <p className="ds-subheading-text-style">I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations. I’m a Design Technologist and User Experience Designer based in San Fransisco. By day I design + <code /> digital products and also craft Design Systems. By night I enjoy hand lettering, making moss art and doing illustrations.</p>
+
+        <img src={DSImplement3} className="project-displayfb-img" />
+
+
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">We are even making Accessibility a priority by constructing and testing every component with that in mind. It is still very early for the system although 4 other products are beginning to consume it as-is. I am confident the system is well on its way to becoming the way we build our interfaces at Ellie Mae.  All of this, without being a mandate from management. </p>
+          </div>
+        </div>
+
+
+
+
+
+
+        
+
+        <div className="design-process__section-container">
+          <div className="project-design-process-title-container">
+            <h5 className="design-process__section-title ds-headline-text-style">
+              lessons learned
+            </h5>
+          </div>
+          <div>
+            <p className="ds-subheading-text-style">
+              The most notable thing is that this project was born and materialized from the needs of the users of the product (developers and designers), which I think is a beautiful thing. This was not mandated or prioritized by management. Sometimes a small POC like what OSKRHQ.DS was, is enough to start something bigger. It is just like David said in the Prometheus movie...
+            </p>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCdQkgSwNoU" frameBorder="0" allow="autoplay; encrypted-media" allowFullscreen style={{margin: '50px 0'}}></iframe>
+            
+            <p className="ds-subheading-text-style">
+              This project taught me that sometimes “going rogue” means delivering value to the whole business even when management wants you to focus on other things. It also taught me that collaboration and having a purpose are amazing motivators for people. Everyone wants to belong to something that delivers value. That is why we have so many open-sources projects out there in including my design system.   
+            </p>
+            <p className="ds-subheading-text-style">
+              Finally, the project taught me how similar the problems of Design and Development are. This actually excites me the most because there is a lot of room for innovation when it comes to bridging the gap between design and implementation.
+            </p>
+          </div>
         </div>
 
         <PortfolioFooter/>

@@ -29,16 +29,6 @@ import DSDefineImg2 from "../../assets/images/DS/ds-architecture1.jpg";
 import DSImplement2 from "../../assets/images/DS/dimsum-storybook.gif";
 import DSImplement3 from "../../assets/images/DS/em-uikit-show.gif";
 
-
-
-
-
-
-
-
-
-
-
 const SectionHero = styled.div`
   display: flex;
   align-items: center;
@@ -120,7 +110,7 @@ class DSProjectPage extends React.Component {
           <div className="project-design-process-title-container">
           </div>
           <div>
-            <p className="crafted-quote ">A story of how we built a Design System through collaboration between design and development without business, product or management support...</p>
+            <p className="crafted-quote ">A really cool story of how we built a Design System through collaboration between design and development without business, product or management support...</p>
           </div>
         </div>
 

@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bfad4ea8e5d12300ecb604d14c71c052",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -502,16 +493,14 @@
       "siteMetadata": {
         "title": "OSKR Design & Code"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-05-30T19:10:27.693Z",
+      "buildTime": "2018-05-31T14:05:42.228Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d15dc20b42081c4a7af2eb93277b8653",
+        "contentDigest": "cc614c3a0bca0a4604b27ceadf8fb507",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -532,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d60bac75fef688ccada4555ad2a1d44b",
+        "contentDigest": "36cbe910e73384f1a53ed4d68a81da4f",
         "owner": "internal-data-bridge"
       }
     },
@@ -552,7 +541,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "089305f6c67a5d6a43377c8d11312efd",
+        "contentDigest": "0786ce0d6dc2878d887e21b54a6f48a2",
         "owner": "internal-data-bridge"
       }
     },
@@ -572,7 +561,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71952893f67776a337d03fd193cb466a",
+        "contentDigest": "f0cd004d07fbcfb458b5e7f33bc9f978",
         "owner": "internal-data-bridge"
       }
     },
@@ -592,7 +581,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c28f06c18ced8d22fdaf606042762548",
+        "contentDigest": "80d11aa3edf148867b4fcafdadae84f2",
         "owner": "internal-data-bridge"
       }
     },
@@ -612,7 +601,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6a3dfcedfed43e4f3f4e132374666895",
+        "contentDigest": "337611590b8f2c7db8636bce849554a3",
         "owner": "internal-data-bridge"
       }
     }

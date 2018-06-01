@@ -89,7 +89,6 @@ const ProjectCard = styled.div`
   cursor: pointer;
 
   &:hover {
-    background: rgba(255, 0, 0, 0.25);
     box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
   }
 

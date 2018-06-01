@@ -167,7 +167,7 @@ class HomePage extends React.Component {
               <div className="project-card-title-container">
                 <span className="special-text-styling">Company work + Personal Project</span>
                 <h5 className="ds-display2-text-style">OSKRHQ Design System</h5>
-                <span className="special-text-styling project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
+                <span className="special-text-styling project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | RESEARCH | SALES</span>
               </div>
             </ProjectCard>
           </Link> 

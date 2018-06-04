@@ -6,7 +6,6 @@ import { DSButton } from "oskrhq-design-system";
 import dsLogo from '../../assets/images/ds-logo.svg'
 import vnHeroImg from "../../assets/images/DS/ds-hero.png";
 import ShowcaseImg from "../../assets/images/DS/ds-showcase.jpg";
-import yolkoDisplayImg1 from '../../assets/images/placeholder-display-img.png'
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
 import number2 from '../../assets/images/hand-brush/02.png'
@@ -44,7 +43,7 @@ class DSProjectPage extends React.Component {
   
     return (
       <div className="project-page design-system-page">
-        <TopNav />
+        <TopNav work about/>
         <div className="hero-container">
           <div className="hero-container__text-container">
             <span className="special-text-styling">Company Work + Personal Project</span>
@@ -184,7 +183,7 @@ class DSProjectPage extends React.Component {
             <h5 className="design-process__section-title ds-headline-text-style">Ideate & Prototype</h5>
           </div> 
           <div>
-            <p className="ds-subheading-text-style">The first thing I did was a Style Sheet for my system based on the personality I wanted to convey. I write about this process in this Medium post - <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" traget="_blank"><i>Humanizing interfaces. Cheesy but it works</i></a>.</p>
+            <p className="ds-subheading-text-style">The first thing I did was a Style Sheet for my system based on the personality I wanted to convey. I write about this process in this Medium post - <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank"><i>Humanizing interfaces. Cheesy but it works</i></a>.</p>
           </div>
         </div>
 
@@ -331,7 +330,7 @@ class DSProjectPage extends React.Component {
               The most notable thing is that this project was born and materialized from the needs of the users of the product (developers and designers), which I think is a beautiful thing. This was not mandated or prioritized by management. Sometimes a small POC like what OSKRHQ.DS was, is enough to start something bigger. It is just like David said in the Prometheus movie...
             </p>
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCdQkgSwNoU" frameBorder="0" allow="autoplay; encrypted-media" allowFullscreen style={{margin: '50px 0'}}></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DCdQkgSwNoU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen style={{margin: '50px 0'}}></iframe>
             
             <p className="ds-subheading-text-style">
               This project taught me that sometimes “going rogue” means delivering value to the whole business even when management wants you to focus on other things. It also taught me that collaboration and having a purpose are amazing motivators for people. Everyone wants to belong to something that delivers value. That is why we have so many open-sources projects out there in including my design system.   

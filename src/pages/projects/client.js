@@ -20,7 +20,13 @@ import DefineImg3 from "../../assets/images/viewn/navigation-concept.jpg";
 import InfoArchitectureImg from "../../assets/images/viewn/info-architecture2.jpg";
 import NavigationGif from "../../assets/images/viewn/viewn-navigation.gif";
 import demo1 from "../../assets/images/viewn/vn-demo1.gif";
-import test1 from "../../assets/images/viewn/vn-testing-cat.jpg";
+import test1 from "../../assets/images/viewn/test1.gif";
+import test2 from "../../assets/images/viewn/text2.jpg";
+import test3 from "../../assets/images/viewn/text3.jpg";
+import test4 from "../../assets/images/viewn/test4.jpg";
+import test5 from "../../assets/images/viewn/spreadsheet.jpg";
+import test6 from "../../assets/images/viewn/vn-testing-cat.jpg";
+import test7 from "../../assets/images/viewn/test7.jpg";
 import PortfolioFooter from '../../components/footer'
 import number1 from '../../assets/images/hand-brush/01.png'
 import number2 from '../../assets/images/hand-brush/02.png'
@@ -45,7 +51,7 @@ class ClientProjectPage extends React.Component {
   render() {
   
     return <div className="project-page">
-        <TopNav />
+        <TopNav work about />
 
         <div className="hero-container">
           <div className="hero-container__text-container">
@@ -324,28 +330,25 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I conducted usability tests guerrilla style with friends and
-              family as I soon as I would prototype a task such as [Rafael
-              need to import new profiles into VIEWN] or [Rafael needs to
-              create a new Campaign and export the list of profiles]. I
-              wanted to see how much I could learn from participants that
-              were not in marketing, however, the most valuable tests came
-              from people that resembled Rafael.
+              I conducted monitored usability tests with friends and family
+              as I soon as I would prototype a task such as [Rafael need to
+              import new profiles into VIEWN] or [Rafael needs to create a
+              new Campaign and export the list of profiles]. I wanted to see
+              how much I could learn from participants that were not in
+              marketing, however, the most valuable tests came from people
+              that resembled Rafael and from my friend's cat which was a
+              great participant.
             </p>
 
             <p className="ds-subheading-text-style">
-              Although that tests I did were heavy on usability, I was more
-              concerned about how the participant felt at the end of each
-              task. More specifically, those participants that matched
-              Rafael the most. I gauged the success of the test on that;
-              feelings and how much I learned, not whether a participant
-              would complete the task successfully. At the end of each task,
-              I would ask these questions:
+              Although the tests I did were heavy on usability, I was more concerned about how the participant <strong>
+                <i>felt</i>
+              </strong> at the end of each task. More specifically, those participants that matched Rafael the most. I gauged the success of the test on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
             </p>
 
             <ol>
               <li className="ds-subheading-text-style">
-                How does this make you feel?{" "}
+                How does this make you feel?
               </li>
               <li className="ds-subheading-text-style">
                 How would you like to feel in this scenario?
@@ -364,12 +367,20 @@ class ClientProjectPage extends React.Component {
             </ol>
 
             <p className="ds-subheading-text-style">
-              These were things we wanted Rafael to feel after using VIEWN.
+              These were things we wanted Rafael to feel when using VIEWN.
             </p>
           </div>
         </div>
 
-      <img src={test1} className="project-displayfb-img" />
+        <img src={test1} alt="" className="project-displayfb-img" />
+        <img src={test5} alt="" className="project-displayfb-img" />
+
+        <div className="project-img-grid">
+          <img src={test2} alt="" className="grid-img viewn-test-img " />
+          <img src={test3} alt="" className="grid-img viewn-test-img " />
+          <img src={test7} alt="" className="grid-img viewn-test-img " />
+          <img src={test6} alt="" className="grid-img viewn-test-img " />
+        </div>
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
@@ -399,27 +410,16 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              This project in particular was an amazing exercise in selling
-            Design as a practice and an essential part of Product
-            Development to key stakeholders. I have been part of projects
-            where design is perceived as an afterthought or the team and
-              business folks just have a <i>“make it look pretty”</i> mentality. I
-              found that I would clash repeatedly with the team members and
-              productivity was not the greatest. I can’t really blame them
-              though. Design Thinking is not something that Business People
-              are ever taught or even are aware of most of the time. They
-              are driven by numbers and market conditions but is important
-              for them to understand the needs of the user (not their
-              client), and the importance of Branding before taking out a
-              pen or paper.
+              This project in particular was an amazing exercise in selling Design as a practice and an essential part of Product Development to key stakeholders. I have been part of projects where design is perceived as an afterthought or the team and business folks just have a <i
+              >
+                “make it look pretty”
+              </i> mentality. I found that I would clash repeatedly with the team members and productivity was not the greatest. I can’t really blame them though. Design Thinking is not something that Business People are ever taught or even are aware of most of the time. They are driven by numbers and market conditions but is important for them to understand the needs of the user (not their client), and the importance of Branding before taking out a pen or paper.
             </p>
             <p className="ds-subheading-text-style">
-              As a designer, you are responsible for selling Design to your
-            client, team or organization so I have started to educate
-              clients <strong>*before*</strong> I work with them. I have become really strict
-              about this to the point that I will refuse work if they are
-              not willing to learn about Design and my process first. It
-              just the best thing I can do for them and for me.
+              As a designer, you are responsible for selling Design to your client, team or organization so I have started to educate clients <strong
+              >
+                *before*
+              </strong> I work with them. I have become really strict about this to the point that I will refuse work if they are not willing to learn about Design and my process first. It just the best thing I can do for them and for me.
             </p>
             <p className="ds-subheading-text-style">
               This project also reminded me about the importance of Empathy
@@ -431,9 +431,9 @@ class ClientProjectPage extends React.Component {
             </p>
             <p className="ds-subheading-text-style">
               User Persona creation was extremely useful for me and for
-              VIEWN’s team, to the point of us always talking about
-              Rafael as if he was a real person. It was really cool to see
-              my clients embracing the persona and making him part of every
+              VIEWN’s team, to the point of us always talking about Rafael
+              as if he was a real person. It was really cool to see my
+              clients embracing the persona and making him part of every
               decision. For that I have to thank them for being so receptive
               to my process, eager to learn from Design and so empathic.
             </p>

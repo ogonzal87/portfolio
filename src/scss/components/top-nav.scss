@@ -2,13 +2,18 @@
   position: fixed;
   top: 0;
   height: 80px;
-  width: 100%;
+  min-width: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  z-index: 999;
+  
+  @include respond-to(phone) {
+    display: none;
+  }
+  
   .logo {
     max-width: 50px;
     padding: 0 ds-space(extra-loose);
@@ -30,15 +35,15 @@
         transition: all ds-easing(base) ds-speed(slowest);
 
         &:hover {
-          font-weight: 600;
           color: ds-color(primary, 400);
           cursor: pointer;
         }
       }
 
       .top-nav-link-isActive {
-        color: ds-color(neutral, 700);
+        color: ds-color(primary, 400);
       }
     }
   }
 }
+

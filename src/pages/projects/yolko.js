@@ -61,7 +61,7 @@ class YolkoProjectPage extends React.Component {
     return (
       <div className="project-page">
 
-        <TopNav />
+        <TopNav work about/>
 
         <div className="hero-container">
           <div className="hero-container__text-container">

@@ -6,6 +6,18 @@
   padding-bottom: 200px;
   overflow: hidden;
 
+  @include respond-to(phone) {
+    p {
+      font-size: ds-font-size(body1);
+    }
+
+    padding-bottom: 100px;
+    grid-row-gap: 100px;
+    
+    .home-contact-links {
+      text-align: center;
+    }
+  }
 
   .portfolio-logo-img {
     width: 100%;
@@ -24,6 +36,11 @@
     max-width: 664px;
     color: ds-color(neutral, 500);
     text-align: center;
+
+    @include respond-to(phone) {
+      font-size: ds-font-size(subheading);
+      padding: 0 ds-space(base);
+    }
   }
 
   .home-quote-statement {
@@ -38,6 +55,12 @@
     top: -124px;
     left: -114px;
     z-index: -1;
+
+    @include respond-to(phone) {
+      max-width: 88px;
+      top: - ds-space(extra-loose);
+      left: 0;
+    }
   }
 
   .project-card-title-container {
@@ -53,15 +76,27 @@
       color: ds-color(neutral, 000);
       text-align: right;
       display: block;
+
+      @include respond-to(phone) {
+        display: none;
+      }
     }
 
     .ds-display2-text-style {
       margin-top: ds-space(base);
       color: ds-color(neutral, 000);
+
+      @include respond-to(phone) {
+        font-size: ds-font-size(headline);
+      }
     }
 
     .project-card__footer-text {
       color: ds-color(neutral,200);
+
+      @include respond-to(phone) {
+        display: none;
+      }
     }
   }
 
@@ -102,12 +137,11 @@
     }
 
     &.thoughts {
-      top: -120px;
-      left: -200px;
+      min-width: 800px;
+      top: 0;
+      left: 0;
       transform: rotate(-10deg);
     }
-
-    
   }
 
   .design-process-img2 {
@@ -119,26 +153,46 @@
   .design-process-path1 {
     grid-area: "design-process-path1";
     z-index: -2;
+    
+    @include respond-to(phone) {
+      max-width: 370px;
+    }
   }
 
   .design-process-path2 {
     grid-area: "design-process-path2";
     z-index: -2;
+
+    @include respond-to(phone) {
+      max-width: 370px;
+    }
   }
 
   .design-process-path3 {
     grid-area: "design-process-path3";
     z-index: -2;
+
+    @include respond-to(phone) {
+      max-width: 370px;
+    }
   }
 
   .design-process-path4 {
     grid-area: "design-process-path4";
     z-index: -2;
+
+    @include respond-to(phone) {
+      max-width: 370px;
+    }
   }
 
   .design-process-path5 {
     grid-area: "design-process-path5";
     z-index: -2;
+
+    @include respond-to(phone) {
+      max-width: 370px;
+    }
   }
 
 

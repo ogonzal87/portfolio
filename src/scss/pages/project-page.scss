@@ -18,7 +18,7 @@
       .hero-container__title {
         margin-top: ds-space(tight);
         margin-bottom: 40px;
-        color: ds-color(neutral, 600)
+        color: ds-color(neutral, 600);
       }
 
       .hero-container__description {
@@ -125,6 +125,10 @@
       width: 100%;
     }
 
+    .viewn-test-img {
+      object-fit: contain;
+    }
+
     p {
       padding: 0 ds-space(super-loose);
     }
@@ -153,9 +157,9 @@
 
       .project-design-process-number {
         position: absolute;
-        max-width: 160px;
-        top: -60px;
-        left: -100px;
+        max-width: 260px;
+        top: -100px;
+        left: -120px;
         opacity: .5;
       }
 

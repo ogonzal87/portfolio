@@ -32,7 +32,7 @@ const MosqueGrid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0;
   height: 100%;
-  grid-template-areas: 
+  grid-template-areas:
     "a   a   e"
     "a   a   g"
     "b   c   h"
@@ -47,7 +47,32 @@ const MosqueGrid = styled.div`
     "p   p   t"
     "s   s   r"
     "s   s   o";
-`
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f"
+      "g"
+      "h"
+      "i"
+      "j"
+      "k"
+      "l"
+      "m"
+      "n"
+      "o"
+      "p"
+      "q"
+      "r"
+      "s"
+      "t";
+  }
+`;
 
 const MosqueImg = styled.div`
   width: 100%;

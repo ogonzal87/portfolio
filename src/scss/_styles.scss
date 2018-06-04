@@ -1,3 +1,29 @@
+$breakpoints: (
+  phone:  767px,
+  tablet: 992px,
+  desktop:  1200px
+);
+
+/// Mixin to manage responsive breakpoints
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+ 
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+
 @import 'node_modules/oskrhq-design-system/styles/styles.scss';
 // Pages
 @import './pages/home-page.scss';
@@ -10,7 +36,6 @@
 @import './components/portfolio-footer.scss';
 @import './components/design-process-card.scss';
 @import './components/top-nav.scss';
-
 
 html {
   background: #f9fafc;
@@ -27,10 +52,6 @@ html {
     text-decoration: line-through;
   }
 
-  blockquote {
-    
-  }
-
   .special-text-styling {
     font-size: 14px;
     color: #828890;
@@ -44,4 +65,5 @@ html {
     text-transform: uppercase;
     font-weight: ds-font-weight(title, base);
   }
+
 }

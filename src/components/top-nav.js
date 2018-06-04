@@ -4,19 +4,27 @@ import { NavLink } from 'react-router-dom'
 import { withPrefix } from "gatsby-link"
 import logo2 from '../assets/logos/logo2.svg'
 
-const TopNav = () => {
-  return (
-    <div className="top-nav">
+
+
+const TopNav = ({ ...props }) => {
+  
+  const WorkLink = props.work ? <NavLink exact to="/#work" activeClassName="top-nav-link-isActive" className="special-text-styling">
+    Work
+    </NavLink> : '';
+  
+  const AboutLink = props.about ? <NavLink exact to="/about" activeClassName="top-nav-link-isActive" className="special-text-styling">
+      About
+    </NavLink> : '';
+
+  return <div className="top-nav">
       <NavLink exact to="/">
         <img src={logo2} className="logo" />
       </NavLink>
       <ul>
-        {/* <li><NavLink exact to="/" activeClassName="top-nav-link-isActive">Home</NavLink></li>
-        <li><NavLink exact to="/home" activeClassName="top-nav-link-isActive">Work</NavLink></li> */}
-        {/* <li><NavLink exact to="/about" activeClassName="top-nav-link-isActive">About</NavLink></li> */}
+        <li>{WorkLink}</li>
+        <li>{AboutLink}</li>
       </ul>
-    </div>
-  )
+    </div>;
 }
 
 export default TopNav

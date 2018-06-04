@@ -28,6 +28,7 @@ import designProcessPath3 from '../assets/images/design-process/path3.svg'
 import designProcessPath4 from '../assets/images/design-process/path4.svg'
 import designProcessPath5 from '../assets/images/design-process/path1.svg'
 import designProcessPath6 from '../assets/images/design-process/path2.svg'
+import TopNav from "../components/top-nav";
 
 const SectionHero = styled.div`
   display: flex;
@@ -38,12 +39,6 @@ const SectionHero = styled.div`
   height: 100vh;
   box-sizing: border-box;
   position: relative;
-
-  @media(max-width: 500px) {
-    .ds-headline-text-style {
-      font-size: 14px;
-    }
-  }
 `
 
 const SectionProject = styled.div`
@@ -56,23 +51,6 @@ const SectionProject = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   z-index: 1;
-
-  @media(max-width: 1000px) {
-    flex-direction: column;
-    & > .ds-col-5, .ds-col-7 {
-      width: 70%;;
-    }
-  }
-
-  @media(max-width: 500px) {
-    flex-direction: column;
-    & > .ds-col-5, .ds-col-7 {
-      width: 85%;
-    }
-    .ds-video-container {
-      box-shadow: none;
-    }
-  }
 `
 
 const ProjectCard = styled.div`
@@ -81,15 +59,21 @@ const ProjectCard = styled.div`
   width: 100%;
   border-radius: 10px;
   position: relative;
-  box-shadow: 0 1px 1px 1px rgba(10,16,34,.08);
+  box-shadow: 0 1px 1px 1px rgba(10, 16, 34, 0.08);
   transition: all 200ms ease-in-out;
   min-height: 500px;
   padding: 50px;
   box-sizing: border-box;
   cursor: pointer;
 
+  @media (max-width: 767px) {
+    padding: 16px;
+    min-height: 200px;
+    margin: 0 -20px;
+  }
+
   &:hover {
-    box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
+    box-shadow: 0 15px 45px -5px rgba(10, 16, 34, 0.3);
   }
 
   &.card-1 {
@@ -98,6 +82,11 @@ const ProjectCard = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+
+    @media (max-width: 767px) {
+      background-size: cover;
+      background-attachment: initial;
+    }
   }
   &.card-2 {
     background-image: url(${yolkoThumbnail});
@@ -105,6 +94,11 @@ const ProjectCard = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+
+    @media (max-width: 767px) {
+      background-size: cover;
+      background-attachment: initial;
+    }
   }
   &.card-3 {
     background-image: url(${viewnLogo});
@@ -112,13 +106,18 @@ const ProjectCard = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+
+    @media (max-width: 767px) {
+      background-size: cover;
+      background-attachment: initial;
+    }
   }
-`
+`;
 
 const DesignProcessCardGrid = styled.div`
   position: relative;
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "design-process-title design-process-title"
     "design-process-card1 design-process-path1"
     "design-process-path2 design-process-card2"
@@ -126,17 +125,35 @@ const DesignProcessCardGrid = styled.div`
     "design-process-path4 design-process-card4"
     "design-process-card5 design-process-path5"
     ". design-process-card6";
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    max-width: 1400px;
-    margin: 0 auto;
-    grid-column-gap: 3%;
-    grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  max-width: 1400px;
+  margin: 0 auto;
+  grid-column-gap: 3%;
+  grid-row-gap: 20px;
 
-    .design-process-title {
-      grid-area: design-process-title;
-    }
-`
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "design-process-title"
+      "design-process-card1"
+      "design-process-path1"
+      "design-process-card2"
+      "design-process-path2"
+      "design-process-card3"
+      "design-process-path3"
+      "design-process-card4"
+      "design-process-path4"
+      "design-process-card5"
+      "design-process-path5"
+      "design-process-card6";
+      margin-bottom: 200px;
+  }
+
+  .design-process-title {
+    grid-area: design-process-title;
+  }
+`;
 
 const StrikethroughText = styled.span`
   text-decoration: line-through;
@@ -148,6 +165,7 @@ class HomePage extends React.Component {
 
     return (
       <div className="home-wrapper">
+        <TopNav />
         <SectionHero>
           <h1 className="ds-button-text-style hero-button-text-style">Hola!  👋🏼 mi nombre es</h1>
 
@@ -155,12 +173,12 @@ class HomePage extends React.Component {
 
           <i><p className="ds-headline-text-style hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer. By day I design + {'<code />'} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</p></i>
 
-          <p className="ds-subheading-text-style">
+          <p className="ds-subheading-text-style home-contact-links">
             <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">oscar@oskrhq.com</a> / <a href="https://github.com/ogonzal87" target="_blank">Github</a> / <a href="https://codepen.io/ogonzal87/" target="_blank">Codepen</a> / <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">Medium</a> / <a href="https://dribbble.com/ogonzal87" target="_blank">Dribbble</a> / <a href="https://www.instagram.com/oskrhq/" target="_blank">Instagram</a></p>
 
         </SectionHero>
 
-        <SectionProject className="ds-col-container">
+        <SectionProject className="ds-col-container" id="work">
           <Link to="/projects/design-system/" className="project-link">
             <ProjectCard className="card-1">
               <img className="number" src={number1} />

@@ -420,7 +420,7 @@
           },
           {
             "name": "gatsby-cli",
-            "version": "^1.1.52"
+            "version": "^1.1.58"
           },
           {
             "name": "gatsby-link",
@@ -495,12 +495,12 @@
       },
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-06-04T04:30:54.186Z",
+      "buildTime": "2018-06-06T00:47:50.378Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8b99706dfef52cb7a4e2db0e58e577b6",
+        "contentDigest": "252ed65d3dce972df909a972e6e4a1bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -521,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3777a6a3bd015318421c911dee96b1cb",
+        "contentDigest": "de42a7ca58b188f33a385f2f7457a38e",
         "owner": "internal-data-bridge"
       }
     },
@@ -541,7 +541,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4a3f3a5bd0a23b45278772aa6086647c",
+        "contentDigest": "d26901dc27698323e56a1b4d55d2d1c3",
         "owner": "internal-data-bridge"
       }
     },
@@ -561,7 +561,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c3b4b75fab143c42385d727a39cf3364",
+        "contentDigest": "21e317bddf5ec02cc46182823ebf68f4",
         "owner": "internal-data-bridge"
       }
     },
@@ -581,7 +581,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d7d35786b7f88483402510fd845d971",
+        "contentDigest": "13d240bf25c214ffa133cd2012010df4",
         "owner": "internal-data-bridge"
       }
     },
@@ -601,14 +601,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "adddbc68b90ea20e3ce594851ccc9265",
+        "contentDigest": "beaae52c852463d9a1c3be6fe8c6b0c7",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "77fc8031181d9ff1ba2fb5f4054d25c7"
+    "PLUGINS_HASH": "2b5c39f2ca2b42b8fc3621781a471715"
   },
   "componentDataDependencies": {
     "nodes": {},

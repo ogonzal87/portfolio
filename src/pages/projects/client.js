@@ -51,7 +51,7 @@ class ClientProjectPage extends React.Component {
   render() {
   
     return <div className="project-page">
-        <TopNav work about />
+        <TopNav work about resume/>
 
         <div className="hero-container">
           <div className="hero-container__text-container">

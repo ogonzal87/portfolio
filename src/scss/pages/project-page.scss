@@ -3,6 +3,14 @@
   position: relative;
   overflow: hidden;
 
+  @include respond-to(phone) {
+    max-width: 375px;
+
+    p {
+      @include ds-body1-text-style();
+    }
+  }
+
   .hero-container {
     max-width: 1300px;
     height: 100vh;
@@ -11,9 +19,23 @@
     align-items: center;
     margin: 0 auto;
     position: relative;
+
+    @include respond-to(phone) {
+      padding-top: ds-space(super-loose) * 1.5;
+    }
       
     .hero-container__text-container {
       max-width: 546px;
+
+      @include respond-to(phone) {
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 0 ds-space();
+        
+        h1 {
+          font-size: ds-font-size(display2);
+        }
+      }
 
       .hero-container__title {
         margin-top: ds-space(tight);
@@ -31,11 +53,15 @@
 
       .project-btn__cta {
         display: block;
-        margin-top: 32px;
+        margin-top: ds-space(loose);
       }
     }
 
     .hero-container__img-container {
+
+      @include respond-to(phone) {
+        display: none;
+      }
 
       .project-yolko-hero {
         position: absolute;
@@ -73,6 +99,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include respond-to(phone) {
+      margin: 0px auto;
+    }
   }
 
   .project-section-title {
@@ -90,6 +120,15 @@
     grid-template-columns: 2fr 1fr 1fr;
     margin-top: ds-space(extra-loose) * 3;
 
+    @include respond-to(phone) {
+      max-width: 100%;
+      padding: 0 ds-space();
+      box-sizing: border-box;
+      grid-column-gap: ds-space(loose);
+      grid-template-columns: 1fr;
+      margin-top: ds-space(extra-loose) * 2;
+    }
+
     .dossier__problem-container {
       grid-row: span 2;
     }
@@ -100,14 +139,20 @@
     max-width: 1400px;
     margin: 100px auto;
     display: block;
-    // box-shadow: ds-depth(100);
+
+    @include respond-to(phone) {
+      margin: 50px auto;
+    }
   }
 
   .project-showcase-img {
     width: 100%;
     max-width: 1800px;
-    margin: 200px auto 300px auto;
     display: block;
+
+    @include respond-to(phone) {
+      margin: 0px auto 100px auto;
+    }
   }
   
   .project-img-grid {
@@ -115,6 +160,10 @@
     grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     max-width: 1400px;
     margin: 200px auto;
+
+    @include respond-to(phone) {
+      grid-template-columns: 1fr;
+    }
     
     .grid-img {
       min-height: 500px;
@@ -123,6 +172,11 @@
       background-repeat: no-repeat;
       background-position: center;
       width: 100%;
+      
+      @include respond-to(phone) {
+        min-height: 100%;
+        display: block;
+      }
     }
 
     .viewn-test-img {
@@ -147,6 +201,14 @@
     grid-column-gap: ds-space(super-loose);
     grid-template-columns: 1fr 2fr;
     margin-top: ds-space(super-loose)*7;
+
+    @include respond-to(phone) {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+      margin-top: ds-space(super-loose) * 4;
+      padding: 0 ds-space();
+      box-sizing: border-box;
+    }
 
     &.no-top-margin {
       margin-top: ds-space(super-loose)*2;

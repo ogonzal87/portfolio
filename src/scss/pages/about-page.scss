@@ -4,24 +4,53 @@
   justify-content: center;
   height: 100vh;
 
+  @include respond-to(phone) {
+     height: 100%;
+   }
+
  .taking-clients {
    position: absolute;
    bottom: - ds-space(super-loose);
    right: ds-space(super-loose);
    color: ds-color(neutral, 600);
    max-width: 35ch;
- }
+
+    @include respond-to(phone) {
+      bottom: - ds-space();
+      right: ds-space();
+
+      h6 {
+        @include ds-subheading-text-style();
+      }
+    }
+  }
 
   .profile-img {
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 10px;
     object-fit: cover;
     clip-path: polygon(53% 0, 100% 0, 100% 49%, 58% 100%, 0 100%, 0 49%);
+
+    @include respond-to(phone) {
+      display: block;
+      padding: ds-space(base);
+      margin-top: ds-space(super-loose) * 1.5;
+      width: 100%;
+    }
   }
 
   .text-container {
     padding: ds-space(extra-loose) ds-space(extra-loose)* 1.5  ;
     max-width: 60ch;
     position: relative;
+    
+    @include respond-to(phone) {
+      display: block;
+      padding: ds-space(extra-loose) ds-space(loose);
+
+      p {
+        @include ds-body1-text-style();
+      }
+    }
   }
 }

@@ -5,7 +5,7 @@
   "author": "Oscar Gonzalez oskrhq.com/",
   "dependencies": {
     "gatsby": "^1.9.223",
-    "gatsby-cli": "^1.1.52",
+    "gatsby-cli": "^1.1.58",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-sass": "^1.0.18",

@@ -53,7 +53,17 @@ const DemoGrid = styled.div`
     height: 800px;
   }
 
-`
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+`;
 
 class YolkoProjectPage extends React.Component {
   render() {
@@ -61,7 +71,7 @@ class YolkoProjectPage extends React.Component {
     return (
       <div className="project-page">
 
-        <TopNav work about/>
+        <TopNav work about resume/>
 
         <div className="hero-container">
           <div className="hero-container__text-container">
@@ -161,8 +171,10 @@ class YolkoProjectPage extends React.Component {
 
 
         <div className="project-img-grid">
-          <div><img src={defineImg1} alt="" className="grid-img" />
-            <img src={defineImg2} alt="" className="grid-img" /></div>
+          <div>
+            <img src={defineImg1} alt="" className="grid-img" />
+            <img src={defineImg2} alt="" className="grid-img" />
+          </div>
           
           <p className="ds-subheading-text-style">Now that I had data backing up my assumptions, my testable hypothesis then became: <strong><i>If</i></strong> people feel afraid of revealing themselves when asking questions, or expressing their opinions at social settings, <strong><i>then</i></strong> aggregating each participant's input while maintaining their privacy will improve their participation and subsequent understanding of the subject being presented, and the presenter could use this data to adjust to the needs of the audience.</p>
         </div>

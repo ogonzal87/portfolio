@@ -45,7 +45,11 @@ html {
     padding: ds-space(bit-loose);
     color: ds-color(neutral, 600);
     font-style: italic;
-    
+
+    @include respond-to(phone) {
+      font-size: ds-font-size(subheading);
+      padding: ds-space();
+    }
   }
 
   .strikethrough-text {
@@ -64,6 +68,12 @@ html {
     margin-top: 100px;
     text-transform: uppercase;
     font-weight: ds-font-weight(title, base);
+  }
+
+  li {
+    @include respond-to(phone) {
+      font-size: ds-font-size(body1);
+    }
   }
 
 }

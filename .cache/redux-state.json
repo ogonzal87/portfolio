@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "3d8dc3f47731630eaf98420bcfbf36aa",
         "owner": "internal-data-bridge"
       }
     },
@@ -493,14 +502,16 @@
       "siteMetadata": {
         "title": "OSKR Design & Code"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-06-06T00:47:50.378Z",
+      "buildTime": "2018-06-08T03:50:49.439Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "252ed65d3dce972df909a972e6e4a1bb",
+        "contentDigest": "cad65ad62fd9a896fa699695f389025d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -521,7 +532,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "de42a7ca58b188f33a385f2f7457a38e",
+        "contentDigest": "dc447298530ea0aa1ffb5cc469b8992f",
         "owner": "internal-data-bridge"
       }
     },
@@ -541,7 +552,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d26901dc27698323e56a1b4d55d2d1c3",
+        "contentDigest": "54e588fe797b3ac0117783673330d36c",
         "owner": "internal-data-bridge"
       }
     },
@@ -561,7 +572,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "21e317bddf5ec02cc46182823ebf68f4",
+        "contentDigest": "019c53fcf07e05596180aa4af8abefa7",
         "owner": "internal-data-bridge"
       }
     },
@@ -581,7 +592,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "13d240bf25c214ffa133cd2012010df4",
+        "contentDigest": "0cf4457f61e6e84f76ea3dbae12e271e",
         "owner": "internal-data-bridge"
       }
     },
@@ -601,7 +612,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "beaae52c852463d9a1c3be6fe8c6b0c7",
+        "contentDigest": "6a688c4a3509ea3f233dcb37e755059a",
         "owner": "internal-data-bridge"
       }
     }

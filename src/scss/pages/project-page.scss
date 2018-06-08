@@ -149,6 +149,7 @@
     width: 100%;
     max-width: 1800px;
     display: block;
+    margin: 200px auto 350px auto;
 
     @include respond-to(phone) {
       margin: 0px auto 100px auto;

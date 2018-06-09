@@ -167,11 +167,11 @@ class HomePage extends React.Component {
       <div className="home-wrapper">
         <TopNav />
         <SectionHero>
-          <h1 className="ds-button-text-style hero-button-text-style">Hola!  👋🏼 mi nombre es</h1>
+          <h1 className="ds-overline-text-style hero-button-text-style">Hola!  👋🏼 mi nombre es</h1>
 
           <img className="portfolio-logo-img" src={Logo1} />
 
-          <i><p className="ds-headline-text-style hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer. By day I design + {'<code />'} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</p></i>
+          <i><h5 className="hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer. By day I design + {'<code />'} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</h5></i>
 
           <p className="ds-subheading-text-style home-contact-links">
             <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">oscar@oskrhq.com</a> / <a href="https://github.com/ogonzal87" target="_blank">Github</a> / <a href="https://codepen.io/ogonzal87/" target="_blank">Codepen</a> / <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">Medium</a> / <a href="https://dribbble.com/ogonzal87" target="_blank">Dribbble</a> / <a href="https://www.instagram.com/oskrhq/" target="_blank">Instagram</a></p>
@@ -183,9 +183,9 @@ class HomePage extends React.Component {
             <ProjectCard className="card-1">
               <img className="number" src={number1} />
               <div className="project-card-title-container">
-                <span className="special-text-styling">Company work + Personal Project</span>
-                <h5 className="ds-display2-text-style">OSKRHQ Design System</h5>
-                <span className="special-text-styling project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | RESEARCH | SALES</span>
+                <span className="ds-overline-text-style">Company work + Personal Project</span>
+                <h3 className="project-title">OSKRHQ Design System</h3>
+                <span className="ds-overline-text-style project-card__footer-text">DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | RESEARCH | SALES</span>
               </div>
             </ProjectCard>
           </Link> 
@@ -196,9 +196,9 @@ class HomePage extends React.Component {
             <ProjectCard className="card-3">
               <img className="number" src={number2} />
               <div className="project-card-title-container">
-                <span className="special-text-styling ">Client Work</span>
-                <h5 className="ds-display2-text-style">VIEWN</h5>
-                <span className="special-text-styling project-card__footer-text">BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
+                <span className="ds-overline-text-style ">Client Work</span>
+                <h3 className="project-title">VIEWN</h3>
+                <span className="ds-overline-text-style project-card__footer-text">BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY DESIGN | UX RESEARCH</span>
               </div>
             </ProjectCard>
           </Link>
@@ -209,9 +209,9 @@ class HomePage extends React.Component {
             <ProjectCard className="card-2">
               <img className="number" src={number3} />
               <div className="project-card-title-container">
-                <span className="special-text-styling">Personal Project</span>
-                <h5 className="ds-display2-text-style">YOLKO</h5>
-                <span className="special-text-styling project-card__footer-text">PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT | UX RESEARCH</span>
+                <span className="ds-overline-text-style">Personal Project</span>
+                <h3 className="project-title">YOLKO</h3>
+                <span className="ds-overline-text-style project-card__footer-text">PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT | UX RESEARCH</span>
               </div>
             </ProjectCard>
           </Link>
@@ -293,22 +293,22 @@ class HomePage extends React.Component {
             <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
               <img src={mediumPost1Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
-                <p className="ds-subheading-text-style">The Anatomy of All Digital Interfaces</p>
-                <span className="ds-caption-text-style">MEDIUM, MIZ.LI</span>
+                <p>The Anatomy of All Digital Interfaces</p>
+                <span className="ds-overlay-text-style">MEDIUM, MIZ.LI</span>
               </div>
             </a>
             <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-card" target="_blank">
               <img src={mediumPost3Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
-                <p className="ds-subheading-text-style">Crafting a New Visual Language</p>
-                <span className="ds-caption-text-style">MEDIUM, MIZ.LI</span>
+                <p>Crafting a New Visual Language</p>
+                <span className="ds-overlay-text-style">MEDIUM, MIZ.LI</span>
               </div>
             </a>
             <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-card" target="_blank">
               <img src={mediumPost2Img} alt="" className="img-thumbnail" />
               <div className="post-text-container">
-                <p className="ds-subheading-text-style">A Dictionary for a Design Language</p>
-                <span className="ds-caption-text-style">MEDIUM, PROTOTYPR</span>
+                <p>A Dictionary for a Design Language</p>
+                <span className="ds-overlay-text-style">MEDIUM, PROTOTYPR</span>
               </div>
             </a>
           </div>

@@ -17,11 +17,7 @@
 
     @include respond-to(phone) {
       bottom: - ds-space();
-      right: ds-space();
-
-      h6 {
-        @include ds-subheading-text-style();
-      }
+      left: ds-space(extra-loose);
     }
   }
 
@@ -46,7 +42,7 @@
     
     @include respond-to(phone) {
       display: block;
-      padding: ds-space(extra-loose) ds-space(loose);
+      padding: ds-space(extra-loose) ds-space(loose) ds-space(super-loose) * 2 ds-space(loose);
 
       p {
         @include ds-body1-text-style();

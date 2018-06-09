@@ -45,13 +45,13 @@ class DSProjectPage extends React.Component {
         <TopNav work about resume />
         <div className="hero-container">
           <div className="hero-container__text-container">
-            <span className="special-text-styling">
+          <span className="ds-overline-text-style">
               Company Work + Personal Project
             </span>
-            <h1 className="ds-display3-text-style hero-container__title">
+            <h2 className="ds-display3-text-style hero-container__title">
               OSKRHQ.DS
-            </h1>
-            <p className="ds-subheading-text-style">
+            </h2>
+            <p>
               OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs and to showcase the process of creation and maintanance. <strong
               >
                 In fact, this website, along with every Design material I
@@ -65,13 +65,13 @@ class DSProjectPage extends React.Component {
               </a>. I also built as a POC to persuade a couple of people at my current employer to join me in building one for the company.
             </p>
 
-            <p className="special-text-styling">
+            <p className="ds-overline-text-style">
               Creative Direction and Multidisciplinary Design{" "}
             </p>
-            <span className="special-text-styling">Design Systems</span>
-            <span className="special-text-styling">Development</span>
-            <span className="special-text-styling">Sales</span>
-            <span className="special-text-styling">Research</span>
+            <span className="ds-overline-text-style">Design Systems</span>
+            <span className="ds-overline-text-style">Development</span>
+            <span className="ds-overline-text-style">Sales</span>
+            <span className="ds-overline-text-style">Research</span>
             <a href="https://oskrhq-ds.surge.sh/" className="project-btn__cta" target="_blank">
               <DSButton type="primary" size="medium">
                 View the Site
@@ -85,8 +85,8 @@ class DSProjectPage extends React.Component {
 
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
-            <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">
+            <p className="ds-overline-text-style">Problem</p>
+            <p>
               As a designer or developer, you are your own brand. The
               products and services you produce become an extension of that
               brand. However, as you create artifacts over time, your
@@ -98,30 +98,30 @@ class DSProjectPage extends React.Component {
             </p>
           </div>
           <div className="dossier__users-container">
-            <p className="special-text-styling">Primary Users</p>
-            <p className="ds-subheading-text-style">
+            <p className="ds-overline-text-style">Primary Users</p>
+            <p>
               Freelancers, Designers and Developers.
             </p>
           </div>
           <div className="dossier__duration-container">
-            <p className="special-text-styling">Duration</p>
-            <p className="ds-subheading-text-style">May 2017 - Present</p>
+            <p className="ds-overline-text-style">Duration</p>
+            <p>May 2017 - Present</p>
           </div>
           <div className="dossier__tools-container">
-            <p className="special-text-styling">Tools</p>
-            <p className="ds-subheading-text-style">
+            <p className="ds-overline-text-style">Tools</p>
+            <p>
               Whiteboard, ReactJS, Sketch App, SASS.
             </p>
           </div>
           <div className="dossier__role-container">
-            <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">
+            <p className="ds-overline-text-style">Role</p>
+            <p>
               Creative director, Designer, Developer and Salesman.
             </p>
           </div>
           <div className="dossier__hypothesis-container">
-            <p className="special-text-styling">Hypothetical Solution</p>
-            <p className="ds-subheading-text-style">
+            <p className="ds-overline-text-style">Hypothetical Solution</p>
+            <p>
               <strong>
                 <i>If</i>
               </strong> inconsistent artifacts of design and code dilute a brand and its extensions, <strong>
@@ -130,17 +130,17 @@ class DSProjectPage extends React.Component {
             </p>
           </div>
           <div className="dossier__constraints-container">
-            <p className="special-text-styling">
+            <p className="ds-overline-text-style">
               Constraints & Considerations
             </p>
-            <p className="ds-subheading-text-style">
+            <p>
               Provide solutions for designers and developers and support
               mobile and desktop displays.
             </p>
           </div>
           <div className="dossier__platforms-container">
-            <p className="special-text-styling">Platforms</p>
-            <p className="ds-subheading-text-style">Mobile and Desktop</p>
+            <p className="ds-overline-text-style">Platforms</p>
+            <p>Mobile and Desktop</p>
           </div>
         </div>
 
@@ -165,12 +165,12 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number1} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               Empathize
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               Although I am ultimately a designer, I also code and have
               worked as a UI developer in the past. This has allowed me to
               sit right between design and development and has given me a
@@ -179,7 +179,7 @@ class DSProjectPage extends React.Component {
               are.
             </p>
 
-            <p className="ds-subheading-text-style">
+            <p>
               My obsession with systematizing design begins in Q2 2017 while
               working for Ultimate Software. I went to grab lunch with a
               coworker one day and we found ourselves sharing our
@@ -199,12 +199,12 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number2} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               Define
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               It does not matter if you are in a design or development team,
               it all boils down to speed, synchronization, and visibility. A
               designer does not want to redesign a button and a developer
@@ -213,7 +213,7 @@ class DSProjectPage extends React.Component {
               by creating fragmented experiences.
             </p>
 
-            <p className="ds-subheading-text-style">
+            <p>
               Front-end Development came up with the notion of building User
               Interfaces using Component Architecture. Although an overly
               simplified definition, a Component Architecture essentially
@@ -228,7 +228,7 @@ class DSProjectPage extends React.Component {
               principles and applying them to Design.
             </p>
 
-            <p className="ds-subheading-text-style">
+            <p>
               At the time, Sketch App had just come up with Sketch Symbols
               which are essentially reusable pieces of Design just like
               components are in code. While at Ultimate, I created a UI Kit
@@ -251,7 +251,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               I switched jobs in Q4 of 2017 and moved to the Bay Area to
               build a new Design System for Ellie Mae. Unfortunately, the
               company did not consider building or maintaining a Design
@@ -261,7 +261,7 @@ class DSProjectPage extends React.Component {
               priority and became so on my personal agenda.
             </p>
 
-            <p className="ds-subheading-text-style">
+            <p>
               I think the best way of selling an initiative is showing it so
               I decided to create a Design System for myself first and use
               it to show the benefits and the concept. A sort of Minimum
@@ -269,7 +269,7 @@ class DSProjectPage extends React.Component {
               requirements became:
             </p>
 
-            <ol className="ds-subheading-text-style">
+            <ol>
               <li>Benefit Development and Design equally.</li>
               <li>
                 Be based on my <i>
@@ -295,12 +295,12 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number3} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               Ideate & Prototype
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               The first thing I did was a Style Sheet for my system based on the personality I wanted to convey. I write about this process in this Medium post - <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">
                 <i>Humanizing interfaces. Cheesy but it works</i>
               </a>.
@@ -313,7 +313,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               From that, I created a UI Kit in Sketch with smart Symbols for the system. This allowed me to fine tune my colors, typography, space, depth, and iconography in design before I started coding the components and the SASS architecture supporting them. You can play with it if you like by downloading the sketch file <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">
                 here
               </a>.
@@ -326,7 +326,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               After designing a couple of Symbols in Sketch, I focused on architecture. I created sass mixins and functions that allowed me to compose UI elements with the same sub-atomic parts. What are sub-atomic parts? You see, every UI element you interact with in digital interfaces is composed of something I call <i
               >
                 The Anatomy of UI
@@ -342,7 +342,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               A robust sass architecture should not allow you to hard-code CSS values. If you must, you should consciously be doing so and be able to elaborate why. All the buttons you see below for example, where coded with the SASS architecture I put together. Below you can also see the code for the Primary button as an example. If you notice, each CSS declaration is connected to the system and nothing is hard-coded. Furthermore, each sub-atomic definition, follow predictable scales. If you want to know more about this, check out the <a href="https://oskrhq-ds.surge.sh/" target="_blank">
                 System's website
               </a>. I explain this in detail there.
@@ -362,12 +362,12 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number4} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               Test
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               As soon as I had a few components constructed, I published the design system as a Node package. This way I could import it as a dependency for every project I create in the future and also other people could consume it or fork it. The first “product” consuming the system was the <a href="https://oskrhq-ds.surge.sh/" target="_blank">
                 website
               </a> that explains the system itself. The second “product” consuming the system was my portfolio, which is this website. If I make any updates to Color, Typography, Space, Motion, Depth or Iconography in my system, the updates will be reflected on all the products consuming the system. Although most of the time I would want to update all of them to the latest version of the system, the system follows semantic versioning so I don't have to update if don't want to. If you would like to install it and play with the code just run:
@@ -384,7 +384,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               After I felt confident I had a solid MVP, I showed it to a
               couple of developers, as well as our UI Architect and 2
               designers. Without hesitation they wanted to build the same
@@ -406,12 +406,12 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
             <img src={number5} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               Implement
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               We started building the system in May 2018. We used Storybook for our construction environment, ReactJS for our UI framework and the SASS architecture I used on OSKRHQ.DS with some minor improvements. We took a User Centered design approach to this since the design system is meant to be used by both Designers and Developers. We focused heavily on documentation, testing, and adoption. We even have an adoption plan for all of our products based on Nathan Curtis' article - <a href="https://medium.com/eightshapes-llc/adopting-design-systems-71e599ff660a" target="_blank">
                 <i>Adopting Design Systems</i>
               </a>. We took time to compose the core components and also consumed them so that we could get a feel for how it would be to use the system as a consumer and user. We tweaked it has we learned.{" "}
@@ -424,7 +424,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               The Design System also has a UI Kit I constructed and maintain for all desingers and we are currently exploring tools like <a href="https://github.com/brainly/html-sketchapp" target="_blank">
                 html-sketchapp
               </a>, <a href="https://compositor.io/lab/" target="_blank">
@@ -441,7 +441,7 @@ class DSProjectPage extends React.Component {
         <div className="design-process__section-container">
           <div className="project-design-process-title-container" />
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               We are also making Accessibility a priority by constructing and testing every component with it in mind as well as teaching developers and designers to communicate in a new language. We no longer communicate in HEX values or pixels. We communicate intention. Instead of referring to red as #E34256, we now say <i
               >
                 "danger - scale: 900"
@@ -451,7 +451,7 @@ class DSProjectPage extends React.Component {
               </i> etc. Again, check out OSKRHQ.DS website as I explain this in detail there.
             </p>
 
-            <p className="ds-subheading-text-style">
+            <p>
               It is still very early for the system although the system has already proven valuable for the company. As of the end of May 2018 - 3 weeks after starting it, 4 Ellie Mae products are beginning to consume it as-is. I am confident the system is well on its way to becoming the way we build interfaces at Ellie Mae in the future. All of this, without being a mandate from management. That is something I am really proud of. Not because I built a POC, but because we were able to have Development and Design worked <strong
               >
                 *together*
@@ -465,7 +465,7 @@ class DSProjectPage extends React.Component {
             <h5>What's next?</h5>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               If you notice from the OSKRHQ.DS source code, styles are completely decoupled from the UI Framework. In the case of my design system, I am using ReactJS to create the components but I wanted anyone to benefit from the CSS architecture regardless of technology. That was my approach until I learned about CSS in JS. I really want to migrate my SASS Architecture to live purely in JS as the flexibility and modularity offered yb things like <a href="https://www.styled-components.com/" target="_blank">
                 Styled Components
               </a> or <a href="https://glamorous.rocks/" target="_blank">
@@ -477,12 +477,12 @@ class DSProjectPage extends React.Component {
 
         <div className="design-process__section-container">
           <div className="project-design-process-title-container">
-            <h5 className="design-process__section-title ds-headline-text-style">
+            <h4 className="design-process__section-title">
               lessons learned
-            </h5>
+            </h4>
           </div>
           <div>
-            <p className="ds-subheading-text-style">
+            <p>
               The most notable thing is that this project was born and
               materialized from the needs of the users of the product
               (developers and designers), which I think is a beautiful
@@ -494,7 +494,7 @@ class DSProjectPage extends React.Component {
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/DCdQkgSwNoU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen style={{ margin: "50px 0" }} />
 
-            <p className="ds-subheading-text-style">
+            <p>
               This project taught me that sometimes “going rogue” means
               delivering value to the whole business even when management
               wants you to focus on other things. It also taught me that
@@ -503,7 +503,7 @@ class DSProjectPage extends React.Component {
               value. That is why we have so many open-sources projects out
               there in including my design system.
             </p>
-            <p className="ds-subheading-text-style">
+            <p>
               Finally, the project taught me how similar the problems of
               Design and Development are. This actually excites me the most
               because there is a lot of room for innovation when it comes to

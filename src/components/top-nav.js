@@ -9,15 +9,15 @@ import ResumePDF from '../assets/images/oscar-gonzalez-resume.pdf'
 
 const TopNav = ({ work, about, resume, ...props }) => {
   
-  const WorkLink = work ? <NavLink exact to="/#work" activeClassName="top-nav-link-isActive" className="special-text-styling">
+  const WorkLink = work ? <NavLink exact to="/#work" activeClassName="top-nav-link-isActive" className="ds-overline-text-style">
     Work
     </NavLink> : '';
   
-  const AboutLink = about ? <NavLink exact to="/about" activeClassName="top-nav-link-isActive" className="special-text-styling">
+  const AboutLink = about ? <NavLink exact to="/about" activeClassName="top-nav-link-isActive" className="ds-overline-text-style">
       About
-    </NavLink> : '';
+    </NavLink> : "";
   
-  const ResumeLink = resume ? <a href={ResumePDF} target="_blank" className="special-text-styling">
+  const ResumeLink = resume ? <a href={ResumePDF} target="_blank" className="ds-overline-text-style">
       Resume
     </a> : "";
 

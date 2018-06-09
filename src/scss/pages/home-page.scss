@@ -8,7 +8,7 @@
 
   @include respond-to(phone) {
     p {
-      font-size: ds-font-size(body1);
+      font-size: ds-font-size(body2);
     }
 
     padding-bottom: 100px;
@@ -24,6 +24,11 @@
     max-width: 723px;
     margin-bottom: 100px;
     filter: drop-shadow(0 50px 5px rgba(0,0,0,.07));
+
+    @include respond-to(phone) {
+      width: 80%;
+      margin: 0 auto 40px auto;
+    }
   }
 
   .hero-button-text-style {
@@ -34,12 +39,13 @@
 
   .hero-subheading-text {
     max-width: 664px;
-    color: ds-color(neutral, 500);
+    color: ds-color(neutral, 600);
+    font-weight: ds-font-weight(light);
     text-align: center;
 
     @include respond-to(phone) {
-      font-size: ds-font-size(subheading);
-      padding: 0 ds-space(base);
+      font-size: ds-font-size(body1);
+      padding: ds-space(base);
     }
   }
 
@@ -72,7 +78,7 @@
     display: block;
     text-align: right;
 
-    .special-text-styling {
+    .ds-overline-text-style {
       color: ds-color(neutral, 000);
       text-align: right;
       display: block;
@@ -82,12 +88,15 @@
       }
     }
 
-    .ds-display2-text-style {
+    .project-title {
       margin-top: ds-space(base);
+      margin-bottom: ds-space(base);
       color: ds-color(neutral, 000);
 
       @include respond-to(phone) {
-        font-size: ds-font-size(headline);
+        font-size: ds-font-size(H4);
+        margin-top: ds-space(extra-tight);
+        margin-bottom: ds-space(extra-tight);
       }
     }
 
@@ -228,7 +237,7 @@
         border-radius:0 0 10px 10px;
       }
       
-      .ds-subheading-text-style {
+      p {
         margin: 0;
       }
 

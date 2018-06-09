@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3d8dc3f47731630eaf98420bcfbf36aa",
+        "contentDigest": "cb7e9dcd9f516d9996703e062ac7e5d1",
         "owner": "internal-data-bridge"
       }
     },
@@ -445,7 +445,7 @@
           },
           {
             "name": "oskrhq-design-system",
-            "version": "^2.0.2"
+            "version": "^3.0.2"
           },
           {
             "name": "react-helmet",
@@ -506,12 +506,12 @@
       "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-06-08T03:50:49.439Z",
+      "buildTime": "2018-06-09T05:26:46.788Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cad65ad62fd9a896fa699695f389025d",
+        "contentDigest": "ed0d2063e0c3331949486c45f10d43b0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -532,7 +532,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dc447298530ea0aa1ffb5cc469b8992f",
+        "contentDigest": "82835f7d3849abd280ab4830eba2e527",
         "owner": "internal-data-bridge"
       }
     },
@@ -552,7 +552,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "54e588fe797b3ac0117783673330d36c",
+        "contentDigest": "412ab5499eb330d2bf1aae07123464e2",
         "owner": "internal-data-bridge"
       }
     },
@@ -572,7 +572,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "019c53fcf07e05596180aa4af8abefa7",
+        "contentDigest": "449081f4ddd364c0bbe5bd8c78574028",
         "owner": "internal-data-bridge"
       }
     },
@@ -592,7 +592,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0cf4457f61e6e84f76ea3dbae12e271e",
+        "contentDigest": "0fbfacf255db7f9b21081b58666d36fc",
         "owner": "internal-data-bridge"
       }
     },
@@ -612,14 +612,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6a688c4a3509ea3f233dcb37e755059a",
+        "contentDigest": "9bda39d0aefb6a28c83dc2a9a9221a7b",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2b5c39f2ca2b42b8fc3621781a471715"
+    "PLUGINS_HASH": "5c99be3e3163895c77d1812876f82f00"
   },
   "componentDataDependencies": {
     "nodes": {},

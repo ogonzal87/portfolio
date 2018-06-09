@@ -38,10 +38,10 @@ $breakpoints: (
 @import './components/top-nav.scss';
 
 html {
-  background: #f9fafc;
+  background: #f9fafc; 
 
   .crafted-quote {
-    font-size: ds-font-size(title);
+    font-size: ds-font-size(H6);
     padding: ds-space(bit-loose);
     color: ds-color(neutral, 600);
     font-style: italic;
@@ -67,12 +67,12 @@ html {
     text-align: center;
     margin-top: 100px;
     text-transform: uppercase;
-    font-weight: ds-font-weight(title, base);
+    font-weight: ds-font-weight(normal);
   }
 
   li {
     @include respond-to(phone) {
-      font-size: ds-font-size(body1);
+      font-size: ds-font-size(body2);
     }
   }
 

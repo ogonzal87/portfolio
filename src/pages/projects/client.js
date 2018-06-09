@@ -55,10 +55,10 @@ class ClientProjectPage extends React.Component {
 
         <div className="hero-container">
           <div className="hero-container__text-container">
-            <span className="special-text-styling">Client Work</span>
-            <h1 className="ds-display3-text-style hero-container__title">
+            <span className="ds-overline-text-style">Client Work</span>
+            <h2 className="ds-display3-text-style hero-container__title">
               VIEWN
-            </h1>
+            </h2>
             <p className="ds-subheading-text-style hero-container__description">
               Marketing data playground for non-technical marketers based on
               the principles of Customer Data Platforms (CDP-s). The

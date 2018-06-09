@@ -7,7 +7,11 @@
     max-width: 375px;
 
     p {
-      @include ds-body1-text-style();
+      @include ds-body2-text-style();
+    }
+
+    h4 {
+      @include ds-H4-text-style(semibold);
     }
   }
 
@@ -109,7 +113,7 @@
     text-align: center;
     margin-top: 300px;
     text-transform: uppercase;
-    font-weight: ds-font-weight(title, base);
+    font-weight: ds-font-weight(normal);
   }
 
   .case-study-dossier-container {
@@ -149,7 +153,7 @@
     width: 100%;
     max-width: 1800px;
     display: block;
-    margin: 200px auto 350px auto;
+    margin: 200px auto 350px;
 
     @include respond-to(phone) {
       margin: 0px auto 100px auto;
@@ -229,7 +233,7 @@
       .design-process__section-title {
         color: ds-color(primary, 600);
         text-transform: uppercase;
-        font-weight: ds-font-weight(title, bold);
+        font-weight: ds-font-weight(normal);
       }
     }
 

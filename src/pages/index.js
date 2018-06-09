@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import Logo1 from '../assets/logos/logo1.png'
+import NameLogo from '../assets/logos/name.svg'
 import dsImgBrowser from '../assets/images/ds-img-browser.png'
 import yolkoImgProject2 from '../assets/images/yolko-project-img2.png'
 import number1 from '../assets/images/hand-brush/01.png'
@@ -169,7 +169,7 @@ class HomePage extends React.Component {
         <SectionHero>
           <h1 className="ds-overline-text-style hero-button-text-style">Hola!  👋🏼 mi nombre es</h1>
 
-          <img className="portfolio-logo-img" src={Logo1} />
+          <img className="portfolio-logo-img" src={NameLogo} />
 
           <i><h5 className="hero-subheading-text">I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">Design Technologist</a> and User Experience Designer. By day I design + {'<code />'} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">Design Systems</a>. By night I enjoy hand lettering, making moss art and doing illustrations.</h5></i>
 

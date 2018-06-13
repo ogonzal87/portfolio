@@ -173,25 +173,11 @@ class DSProjectPage extends React.Component {
             <p>
               Although I am ultimately a designer, I also code and have
               worked as a UI developer in the past. This has allowed me to
-              sit right between design and development and has given me a
-              front row seat to see each user’s pains and frustrations. It
-              is actually funny to me how very much alike these problems
-              are.
+              be part of both worlds, Design and Development, and allowed me to feel pains and frustrations shared by designers and developers. It is actually funny to me how very much alike these are.
             </p>
 
             <p>
-              My obsession with systematizing design begins in Q2 2017 while
-              working for Ultimate Software. I went to grab lunch with a
-              coworker one day and we found ourselves sharing our
-              frustration with not being able to stay in sync with the
-              design team. A problem causing inconsistencies in our
-              interfaces. While at Ultimate, I also had the opportunity to
-              work as a front-end developer and I noticed devs too had the
-              same problem. However, by then the industry had come up with
-              clever ways of solving these as well as many other problems
-              such as versioning and continuous deployment. I began to
-              wonder if these solutions were only available for Development.
-              Could extend these to Design?
+              My obsession with systematizing design begins in Q2 2017 while working at Ultimate Software. I remember vividly one time I went to grab lunch with a coworker and found ourselves sharing our frustration with not being able to stay in sync amongst the designers. A problem causing inconsistencies in our interfaces. While at Ultimate, I also had the opportunity to work as a UI developer and I noticed devs too had the same problem. However, by then the dev community had come up with clever ways of solving this as well as many other problems such as versioning and continuous deployment. I began to wonder if these solutions were only available for Development. Maybe extend these to my design team in some way...
             </p>
           </div>
         </div>
@@ -208,13 +194,13 @@ class DSProjectPage extends React.Component {
               It does not matter if you are in a design or development team,
               it all boils down to speed, synchronization, and visibility. A
               designer does not want to redesign a button and a developer
-              does not want to re-code the button. Doing so means adding
-              time and frustration, and also impacts negatively the end user
+              does not want to re-code that button. Doing so means adding
+              time, expenses, and also impacts negatively the end user
               by creating fragmented experiences.
             </p>
 
             <p>
-              Front-end Development came up with the notion of building User
+              Front-end Development community came up with the notion of building User
               Interfaces using Component Architecture. Although an overly
               simplified definition, a Component Architecture essentially
               means that you can code one button and the whole development
@@ -231,17 +217,9 @@ class DSProjectPage extends React.Component {
             <p>
               At the time, Sketch App had just come up with Sketch Symbols
               which are essentially reusable pieces of Design just like
-              components are in code. While at Ultimate, I created a UI Kit
-              for my design team and used Brand.ai (a tool for syncing
-              symbols) so we could all be in sync. I even constructed the
-              Symbols so they would match 1-to-1 with the components in code
-              - even matching the overrides of the Symbols with the API's of
-              the components (Component Attributes). That way, there would
-              not be any confusion or ambiguity when handing over the
-              designs to devs. Just having this UI Kit being part of the
-              design process, helped us tremendously in building out very
-              own Design System called Ignite while making it part of the
-              culture at Ultimate Software.
+              components are in code. This was pre-ui kits. No one really new what those were back then nor they had a name. I first called the thing a UI Toolbox. The name did not stick... 😒</p>
+              
+            <p>So, with weekend time, coffee, and lots of trial and error, I created a UI Kit for my design team and ended up using Brand.ai (a tool for syncing symbols) so we could all be in sync. I even constructed the Symbols so they would match 1-to-1 with the components in code - even matching the overrides of the Symbols with the API's of the components (Component Attributes). That way, there would not be any confusion or ambiguity when handing over the designs to devs. Just having this UI Kit being part of the design process, helped us tremendously in building out very own Design System called Ignite while making it part of the culture at Ultimate Software. Below you can see a video of the proposal I presented to my boss. 
             </p>
           </div>
         </div>
@@ -257,26 +235,25 @@ class DSProjectPage extends React.Component {
               company did not consider building or maintaining a Design
               System a priority. Talking to developers and designers and
               seeing how fragmented our experiences were in our 20+
-              products, I felt very strongly that this was our number one
-              priority and became so on my personal agenda.
+              products, I felt very strongly the need to make this initiative a very high priority, at least on my agenda. I love side projects where I can learn and add value, so I made this one of them.
             </p>
 
             <p>
               I think the best way of selling an initiative is showing it so
               I decided to create a Design System for myself first and use
               it to show the benefits and the concept. A sort of Minimum
-              Viable Product I could use for my personal brand also. My
+              Viable Product I could use for my personal brand also. Kill two birds with one code repo. My
               requirements became:
             </p>
 
             <ol>
               <li>Benefit Development and Design equally.</li>
               <li>
-                Be based on my <i>
+                Has to be based on my <i>
                   <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">
                     Anatomy of the UI Principles
                   </a>
-                </i>. I write about this here.
+                </i>. I wrote about this on Medium.
               </li>
               <li>
                 Flexible enough for Design to make changes with zero to no

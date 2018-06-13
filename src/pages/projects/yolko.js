@@ -77,12 +77,12 @@ class YolkoProjectPage extends React.Component {
           <div className="hero-container__text-container">
             <span className="special-text-styling">Personal Project</span>
             <h1 className="ds-display3-text-style hero-container__title">YOLKO</h1>
-            <p className="ds-subheading-text-style hero-container__description">Real time feedback application for presentations. It quantifies the mood of the audience and displays it with emotions through an avatar called YOLKO. The challenge was to quntify the feelings of an audience and increase their participation and engagement</p>
+            <p className="ds-subheading-text-style hero-container__description">Real-time feedback application for presentations. It quantifies the mood of the audience and displays it with facial gestures through an Emoji called YOLKO. It also allows the presenter to survey the audience in real-time and the audience can ask and up-vote anonymous questions. The app uses AngularJS for the front-end, and Firebase for the back-end.</p>
             <p className="special-text-styling">Product, Interaction and Experience Design</p>
             <span className="special-text-styling">UX Research</span>
             <span className="special-text-styling">Development</span>
             <span className="special-text-styling">Creative Direction</span>
-            <a href="https://imyolko.com/#!/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">Go to The app</DSButton></a>
+            <a href="https://imyolko.com/#!/" className="project-btn__cta" target="_blank"><DSButton type="primary" size="medium">Go meet yolko</DSButton></a>
           </div>
           <div className="hero-container__img-container">
             <img src={yolkoAvatar} className="project-yolko-hero"/>
@@ -93,7 +93,7 @@ class YolkoProjectPage extends React.Component {
         <div className="case-study-dossier-container">
           <div className="dossier__problem-container">
             <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">As a presenter, you are running blind while in front of an audience since they are only able to provide feedback after the presentation. As an attendee, I found that 9 out of 10 people found themselves restraining themselves from asking a question out of fear of revealing themselves to their peers and the presenter. I see these as missed opportunities for learning and participation.</p>
+            <p className="ds-subheading-text-style">As a presenter, you are running blind while in front of an audience since they are only able to provide feedback after the presentation or you rely on a few folks to speak for the whole audience. As an attendee, my research showed that 9 out of 10 people found themselves not wanting to participate out of fear of revealing themselves to other attendees and the presenter. I saw these as missed opportunities for learning and participation.</p>
           </div>
           <div className="dossier__users-container">
             <p className="special-text-styling">Primary Users</p>
@@ -109,7 +109,7 @@ class YolkoProjectPage extends React.Component {
           </div>
           <div className="dossier__role-container">
             <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">I created, designed, tested and developed YOLKO.</p>
+            <p className="ds-subheading-text-style">Creator, designer, researcher and developer.</p>
           </div>
           <div className="dossier__hypothesis-container">
             <p className="special-text-styling">Hypothetical Solution</p>
@@ -122,7 +122,7 @@ class YolkoProjectPage extends React.Component {
           </div>
           <div className="dossier__platforms-container">
             <p className="special-text-styling">Platforms</p>
-            <p className="ds-subheading-text-style">Mobile and Desktop</p>
+            <p className="ds-subheading-text-style">Mobile web and Desktop</p>
           </div>
         </div>
 

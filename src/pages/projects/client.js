@@ -98,7 +98,7 @@ class ClientProjectPage extends React.Component {
           <div className="dossier__users-container">
             <p className="special-text-styling">Primary Users</p>
             <p className="ds-subheading-text-style">
-              Non-technical marketers.
+              Non-technical marketers wanting to create stronger and meaningful relationships with their customers.
             </p>
           </div>
           <div className="dossier__duration-container">
@@ -115,7 +115,7 @@ class ClientProjectPage extends React.Component {
           <div className="dossier__role-container">
             <p className="special-text-styling">Role</p>
             <p className="ds-subheading-text-style">
-              Product Designer, Creative Director, and UX Researcher.
+              Product designer, creative director, and researcher.
             </p>
           </div>
           <div className="dossier__hypothesis-container">
@@ -136,7 +136,7 @@ class ClientProjectPage extends React.Component {
             </p>
             <p className="ds-subheading-text-style">
               VIEWN is a Certified Google Partner so the founders wanted
-              their UI to e inspired by Google's.
+              their UI to be inspired by Google's.
             </p>
           </div>
           <div className="dossier__platforms-container">
@@ -336,38 +336,37 @@ class ClientProjectPage extends React.Component {
               new Campaign and export the list of profiles]. I wanted to see
               how much I could learn from participants that were not in
               marketing, however, the most valuable tests came from people
-              that resembled Rafael and from my friend's cat which was a
-              great participant.
+              that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">Maze</a>. Still a beta and has some bugs but I like the fact that I can record the journeys the participant takes as well as their clicks on each individual test. 
             </p>
 
             <p className="ds-subheading-text-style">
               Although the tests I did were heavy on usability, I was more concerned about how the participant <strong>
                 <i>felt</i>
-              </strong> at the end of each task. More specifically, those participants that matched Rafael the most. I gauged the success of the test on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
+              </strong> at the end of each task. Most significantly, those participants that matched Rafael's profile. I gauged the success of the test on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
             </p>
 
             <ol>
               <li className="ds-subheading-text-style">
-                How does this make you feel?
+                <i>How does this make you feel?</i>
               </li>
               <li className="ds-subheading-text-style">
-                How would you like to feel in this scenario?
+                <i>How would you like to feel in this scenario?</i>
               </li>
               <li className="ds-subheading-text-style">
-                To what extent [1-5] does this make you feel
-                [powerful/empowered/confident]?
+                <i>To what extent [1-5] does this make you feel
+                [powerful/empowered/confident]?</i>
               </li>
               <li className="ds-subheading-text-style">
-                To what extent [1-5] does this make you feel [organized]?
+                <i>To what extent [1-5] does this make you feel [organized]?</i>
               </li>
               <li className="ds-subheading-text-style">
-                To what extent [1-5] does this make you feel [like you did a
-                good job at the end of the day]?
+                <i>To what extent [1-5] does this make you feel [like you did a
+                good job at the end of the day]?</i>
               </li>
             </ol>
 
             <p className="ds-subheading-text-style">
-              These were things we wanted Rafael to feel when using VIEWN.
+              These were things we wanted Rafael to feel when using VIEWN. Oh and I even had my brother's cat as a partcicipant. He did not pass any of the tests though 😑.
             </p>
           </div>
         </div>
@@ -397,7 +396,7 @@ class ClientProjectPage extends React.Component {
             </p>
 
             <p className="ds-subheading-text-style">
-              We can't wait to impress Rafael!
+              We can't wait to have real life Rafael-a's using the product!
             </p>
           </div>
         </div>

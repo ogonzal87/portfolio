@@ -87,14 +87,14 @@ class DSProjectPage extends React.Component {
           <div className="dossier__problem-container">
             <p className="ds-overline-text-style">Problem</p>
             <p>
-              As a designer or developer, you are your own brand. The
+              As a designer or developer, you are a walking and talking brand. The
               products and services you produce become an extension of that
               brand. However, as you create artifacts over time, your
               identity tends to get diluted since you are typically building
               these artifacts in isolation, or end up building the artifacts
               from scratch. This creates fragmented experiences for your
               audience as they move from one artifact to the next. This
-              holds true for an individual or any company.
+              holds true for an individual or a company.
             </p>
           </div>
           <div className="dossier__users-container">
@@ -116,7 +116,7 @@ class DSProjectPage extends React.Component {
           <div className="dossier__role-container">
             <p className="ds-overline-text-style">Role</p>
             <p>
-              Creative director, Designer, Developer and Salesman.
+              Creative director, designer, developer, salesman and instigator.
             </p>
           </div>
           <div className="dossier__hypothesis-container">
@@ -134,13 +134,13 @@ class DSProjectPage extends React.Component {
               Constraints & Considerations
             </p>
             <p>
-              Provide solutions for designers and developers and support
-              mobile and desktop displays.
+              Provide solutions for both designers and developers, create a common language abstracted from absolute values, and support
+              mobile web and desktop displays.
             </p>
           </div>
           <div className="dossier__platforms-container">
             <p className="ds-overline-text-style">Platforms</p>
-            <p>Mobile and Desktop</p>
+            <p>Mobile web and Desktop</p>
           </div>
         </div>
 

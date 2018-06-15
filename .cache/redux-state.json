@@ -391,11 +391,83 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-120916210-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db6e47054c29b8bff11d0f0821fd8463",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3b527ae0d6e60aabb891b49336a82eb4",
+      "version": "1a7ac342bb5e97592c09bb8d6987f107",
       "pluginOptions": {
         "plugins": []
       },
@@ -425,6 +497,10 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.37"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -484,7 +560,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "37ec1044392bca3ed25bdf5106d78d9d",
+        "contentDigest": "e1c56b793922fe75c2ecb91498406a5e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -495,12 +571,12 @@
       },
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-06-13T05:23:08.460Z",
+      "buildTime": "2018-06-15T01:12:07.387Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "00e9079afb4d892ca36a9cbc25dbb849",
+        "contentDigest": "5df38f6f332b9b55ba5a7503789e787f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -521,7 +597,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "280384661f70e19ea024267bd5dc25fe",
+        "contentDigest": "46516eb454f0fc4e298875d9c6e74cb4",
         "owner": "internal-data-bridge"
       }
     },
@@ -541,7 +617,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fc2fcca09c17ece744bd37bd981eb4b1",
+        "contentDigest": "1bb87e3d034b2b6188c53139627a7ca1",
         "owner": "internal-data-bridge"
       }
     },
@@ -561,7 +637,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73c3253065e0d5df4e2ea507ce20b057",
+        "contentDigest": "bb8b7a3eac5be4b8bb1ff5ba9a33cd61",
         "owner": "internal-data-bridge"
       }
     },
@@ -581,7 +657,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "802fb9cb1cb8f18fb07515ad89980a31",
+        "contentDigest": "f2305f969144c628b694aad8ac78c47a",
         "owner": "internal-data-bridge"
       }
     },
@@ -601,14 +677,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e8e3b0a053a7cd36700b3821ab638196",
+        "contentDigest": "a6134751d092c3b890853520032eb8f0",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5c99be3e3163895c77d1812876f82f00"
+    "PLUGINS_HASH": "a429239aeb55ed55b71ec5d70432dda4"
   },
   "componentDataDependencies": {
     "nodes": {},

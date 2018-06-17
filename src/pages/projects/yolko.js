@@ -267,9 +267,9 @@ It was hard to test for YOLKO because you need an audience, a presenter, and som
             <h5 className="design-process__section-title ds-headline-text-style">Implement</h5>
           </div>
           <div>
-            <p className="ds-subheading-text-style">I decided to use AngularJS with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my backend since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
+            <p className="ds-subheading-text-style">I decided to use AngularJS with a Component Architecture for my front-end coupled with Bootstrap, and Firebase for my back-end since I needed something that was scalable and that provided me with real-time features. I also wrote my own build-task setup using Gulp.js - the source code is available on Github.</p>
 
-            <p className="ds-subheading-text-style">I worked on YOLKO's implementation as I was learning how to code right after General Assembly. My goal with the project was to really understand how design is transferred into code and how to work with data served from a Database in realtime. YOLKO still has a few interaction problems and inconsistencies in design. Learning to code was my main and number one priority with the project so I neglected to spend time on great aesthetics and interaction for the sake of functionality and learning.</p>
+            <p className="ds-subheading-text-style">I worked on YOLKO's implementation as I was learning how to code right after General Assembly. My goal with the project was to really understand how design is transferred into code and how to work with data served from a Database in real-time. YOLKO still has a few interaction problems and inconsistencies in design. Learning to code was my main and number one priority with the project so I neglected to spend time on great aesthetics and interaction for the sake of functionality and learning.</p>
           </div>
 
         </div>

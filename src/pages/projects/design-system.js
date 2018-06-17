@@ -52,7 +52,7 @@ class DSProjectPage extends React.Component {
               OSKRHQ.DS
             </h2>
             <p>
-              OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs and to showcase the process of creation and maintanance. <strong
+              OSKRHQ.DS a Design System I created for my personal brand to achieve a harmonious identity throughout various media outputs and to showcase the process of creation and maintenance. <strong
               >
                 In fact, this website, along with every Design material I
                 produce, consumes the system.

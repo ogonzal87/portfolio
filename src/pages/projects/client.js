@@ -51,7 +51,7 @@ class ClientProjectPage extends React.Component {
   render() {
   
     return <div className="project-page">
-        <TopNav work about resume/>
+        <TopNav work about resume />
 
         <div className="hero-container">
           <div className="hero-container__text-container">
@@ -98,7 +98,8 @@ class ClientProjectPage extends React.Component {
           <div className="dossier__users-container">
             <p className="special-text-styling">Primary Users</p>
             <p className="ds-subheading-text-style">
-              Non-technical marketers wanting to create stronger and meaningful relationships with their customers.
+              Non-technical marketers wanting to create stronger and
+              meaningful relationships with their customers.
             </p>
           </div>
           <div className="dossier__duration-container">
@@ -330,13 +331,9 @@ class ClientProjectPage extends React.Component {
           </div>
           <div>
             <p className="ds-subheading-text-style">
-              I conducted monitored usability tests with friends and family
-              as I soon as I would prototype a task such as [Rafael need to
-              import new profiles into VIEWN] or [Rafael needs to create a
-              new Campaign and export the list of profiles]. I wanted to see
-              how much I could learn from participants that were not in
-              marketing, however, the most valuable tests came from people
-              that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">Maze</a>. Still a beta and has some bugs but I like the fact that I can record the journeys the participant takes as well as their clicks on each individual test. 
+              I conducted monitored usability tests with friends and family as I soon as I would prototype a task such as [Rafael need to import new profiles into VIEWN] or [Rafael needs to create a new Campaign and export the list of profiles]. I wanted to see how much I could learn from participants that were not in marketing, however, the most valuable tests came from people that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">
+                Maze
+              </a>. Still a beta and has some bugs but I like the fact that I can record the journeys the participant takes as well as their clicks on each individual test.
             </p>
 
             <p className="ds-subheading-text-style">
@@ -353,20 +350,28 @@ class ClientProjectPage extends React.Component {
                 <i>How would you like to feel in this scenario?</i>
               </li>
               <li className="ds-subheading-text-style">
-                <i>To what extent [1-5] does this make you feel
-                [powerful/empowered/confident]?</i>
+                <i>
+                  To what extent [1-5] does this make you feel
+                  [powerful/empowered/confident]?
+                </i>
               </li>
               <li className="ds-subheading-text-style">
-                <i>To what extent [1-5] does this make you feel [organized]?</i>
+                <i>
+                  To what extent [1-5] does this make you feel [organized]?
+                </i>
               </li>
               <li className="ds-subheading-text-style">
-                <i>To what extent [1-5] does this make you feel [like you did a
-                good job at the end of the day]?</i>
+                <i>
+                  To what extent [1-5] does this make you feel [like you did
+                  a good job at the end of the day]?
+                </i>
               </li>
             </ol>
 
             <p className="ds-subheading-text-style">
-              These were things we wanted Rafael to feel when using VIEWN. Oh and I even had my brother's cat as a partcicipant. He did not pass any of the tests though 😑.
+              These were things we wanted Rafael to feel when using VIEWN.
+              Oh and I even had my brother's cat as a partcicipant. He did
+              not pass any of the tests though 😑.
             </p>
           </div>
         </div>
@@ -422,7 +427,7 @@ class ClientProjectPage extends React.Component {
             </p>
             <p className="ds-subheading-text-style">
               This project also reminded me about the importance of Empathy
-              in design. The actress Nataly Portman once said “The actor’s
+              in design. The actress Natalie Portman once said “The actor’s
               job is empathy”. That holds very true about designers. We most
               times design experiences for people that we never meet. This
               is why is so important to learn about your users early. See

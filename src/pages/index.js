@@ -296,8 +296,7 @@ class HomePage extends React.Component {
             </span>
             <h3 className="project-title">Should Designers Code?</h3>
             <span className="ds-overline-text-style project-card__footer-text">
-              PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT |
-              UX RESEARCH
+              A HUMBLE ATTEMPT TO BUILD EMPATHY BETWEEN DESIGNERS AND DEVELOPERS
             </span>
           </div>
         </ClassCard>

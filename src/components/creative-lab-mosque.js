@@ -21,9 +21,6 @@ import clouds from '../assets/images/musgho/clouds.jpg'
 import hustle from '../assets/images/musgho/hustle.jpg'
 import illustration1 from '../assets/images/creative-lab/illustration1.jpg'
 import illustration2 from '../assets/images/creative-lab/illustration2.jpg'
-// import labImg from '../assets/images/hand-brush/lab.png'
-
-
 
 const MosqueGrid = styled.div`
   display: grid;
@@ -31,7 +28,7 @@ const MosqueGrid = styled.div`
   max-width: 1800px;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0;
-  height: 100%;
+  height: 100%; 
   grid-template-areas:
     "a   a   e"
     "a   a   g"
@@ -44,7 +41,7 @@ const MosqueGrid = styled.div`
     "m   l   l"
     "m   n   q"
     "p   p   q"
-    "p   p   t"
+    "u   u   t"
     "s   s   r"
     "s   s   o";
 
@@ -70,7 +67,8 @@ const MosqueGrid = styled.div`
       "q"
       "r"
       "s"
-      "t";
+      "t"
+      "u";
   }
 `;
 
@@ -110,6 +108,7 @@ const CreativeLabMosque = ({ ...rest }) => (
       <MosqueImg style={{ backgroundImage: `url(${calligraphy13})`, gridArea: `r` }}></MosqueImg>
       <MosqueImg style={{ backgroundImage: `url(${illustration1})`, gridArea: `s` }}></MosqueImg>
       <MosqueImg style={{ backgroundImage: `url(${illustration2})`, gridArea: `t` }}></MosqueImg>
+      <MosqueImg style={{ backgroundImage: `url(${hustle})`, gridArea: `u` }}></MosqueImg>
     </MosqueGrid>
   </div>
 );

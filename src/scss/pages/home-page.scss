@@ -109,16 +109,34 @@
     }
   }
 
-  .project-link {
-    min-width: 90%;
+  .project-link, .class-link {
+    min-width: 80%;
     display: block;
     margin: 0 auto;
+
+    @include respond-to(phone) {
+      margin: 0;  
+    }
+  }
+
+  .class-link {
+    position: relative;
+    margin-top: 400px;
+
+
+    @include respond-to(phone) {
+      margin-top: 200px;
+    }
   }
 
   .section-title-container {  
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
+
+    @include respond-to(phone) {
+      margin: 0;  
+    }
 
     &.design-process-title {
       grid-area: design-process-title;
@@ -141,15 +159,41 @@
 
     &.process {
       top: 150px;
-      right: 80px;
+      right: -100px;
       transform: rotate(-10deg);
+
+      @include respond-to(phone) {
+        right: 0px;
+        min-width: 400px;
+        height: 100px;
+      }
+    }
+
+    &.class {
+      top: -150px;
+      left: -100px;
+      transform: rotate(-10deg);
+
+      @include respond-to(phone) {
+        top: -100px;
+        left: 0;
+        min-width: 400px;
+        height: 100px;
+      }
     }
 
     &.thoughts {
       min-width: 800px;
       top: -120px;
-      left: -200px;
+      left: -100px;
       transform: rotate(-10deg);
+
+      @include respond-to(phone) {
+        top: -100px;
+        right: -160px;
+        min-width: 400px;
+        height: 100px;
+      }
     }
   }
 

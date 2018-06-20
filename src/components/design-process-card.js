@@ -1,7 +1,6 @@
-import React from 'react'
-import Badge from './badge'
+import React from 'react';
 
-const DesignProcessCard = ({ numberImg, text, title, gridAreaName, badgeText, badgeType, children, ...rest}) => (
+const DesignProcessCard = ({ numberImg, text, title, gridAreaName, badgeText, badgeType, children, ...rest }) => (
   <div className="design-process-card__container" style={{ gridArea: gridAreaName }}>
     <div className="design-process-card__wrapper">
       <img src={numberImg} alt="" className="design-process__number" />
@@ -12,7 +11,7 @@ const DesignProcessCard = ({ numberImg, text, title, gridAreaName, badgeText, ba
         </div>
         <p className="ds-subheading-text-style">{children}</p>
       </div>
-    </div>   
+    </div>
   </div>
 )
 

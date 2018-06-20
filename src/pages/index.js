@@ -1,10 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import NameLogo from '../assets/logos/name.svg'
-import dsImgBrowser from '../assets/images/ds-img-browser.png'
-import yolkoImgProject2 from '../assets/images/yolko-project-img2.png'
 import number1 from '../assets/images/hand-brush/01.png'
 import number2 from '../assets/images/hand-brush/02.png'
 import number3 from '../assets/images/hand-brush/03.png'
@@ -16,18 +13,17 @@ import thoughtsImg from '../assets/images/hand-brush/thoughts.png'
 import mediumPost1Img from '../assets/images/duotone1.jpg'
 import mediumPost2Img from '../assets/images/duotone2.jpg'
 import mediumPost3Img from '../assets/images/duotone3.jpg'
-import { DSButton } from "oskrhq-design-system";
 import PortfolioFooter from '../components/footer'
 import DesignProcessCard from '../components/design-process-card'
 import CreativeLabMosque from '../components/creative-lab-mosque'
 import viewnLogo from '../assets/images/viewn/viewn-logo.jpg'
+import SkillshareClassImg from '../assets/images/skillshare-class1.jpg'
+import classHandLetteringImg from '../assets/images/hand-brush/classes.png'
 import yolkoThumbnail from '../assets/images/yolko/thumbnail-duotone.jpg'
 import designProcessPath1 from '../assets/images/design-process/path1.svg'
 import designProcessPath2 from '../assets/images/design-process/path2.svg'
 import designProcessPath3 from '../assets/images/design-process/path3.svg'
 import designProcessPath4 from '../assets/images/design-process/path4.svg'
-import designProcessPath5 from '../assets/images/design-process/path1.svg'
-import designProcessPath6 from '../assets/images/design-process/path2.svg'
 import TopNav from "../components/top-nav";
 
 const SectionHero = styled.div`
@@ -67,7 +63,7 @@ const ProjectCard = styled.div`
   cursor: pointer;
 
   @media (max-width: 767px) {
-    padding: 16px;
+    padding: 8px;
     min-height: 200px;
     margin: 0 -20px;
   }
@@ -159,174 +155,230 @@ const StrikethroughText = styled.span`
   text-decoration: line-through;
 `
 
+const ClassCard = styled.div`
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 1px 1px 1px rgba(10, 16, 34, 0.08);
+  transition: all 200ms ease-in-out;
+  min-height: 500px;
+  padding: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  @media (max-width: 767px) {
+    padding: 8px;
+    min-height: 200px;
+  }
+
+  &:hover {
+    box-shadow: 0 15px 45px -5px rgba(10, 16, 34, 0.3);
+  }
+
+  &.class-card {
+    background-image: url(${SkillshareClassImg});
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+    @media (max-width: 767px) {
+      background-size: cover;
+      background-attachment: initial;
+    }
+  }
+`
+
 
 class HomePage extends React.Component {
   render() {
 
     return <div className="home-wrapper">
-        <TopNav />
-        <SectionHero>
-          <h1 className="ds-overline-text-style hero-button-text-style">
-            Hola! 👋🏼 mi nombre es
+      <TopNav />
+      <SectionHero>
+        <h1 className="ds-overline-text-style hero-button-text-style">
+          Hola! 👋🏼 mi nombre es
           </h1>
 
-          <img className="portfolio-logo-img" src={NameLogo} />
+        <img className="portfolio-logo-img" src={NameLogo} />
 
-          <i>
-            <h5 className="hero-subheading-text">
-              I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">
-                Design Technologist
+        <i>
+          <h5 className="hero-subheading-text">
+            I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">
+              Design Technologist
               </a> and User Experience Designer. By day I design + {"<code />"} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">
-                Design Systems
+              Design Systems
               </a>. By night I enjoy hand lettering, making moss art and doing illustrations.
             </h5>
-          </i>
+        </i>
 
-          <p className="ds-subheading-text-style home-contact-links">
-            <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
-              oscar@oskrhq.com
+        <p className="ds-subheading-text-style home-contact-links">
+          <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+            oscar@oskrhq.com
             </a> / <a href="https://github.com/ogonzal87" target="_blank">
-              Github
+            Github
             </a> / <a href="https://codepen.io/ogonzal87/" target="_blank">
-              Codepen
+            Codepen
             </a> / <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">
-              Medium
+            Medium
             </a> / <a href="https://dribbble.com/ogonzal87" target="_blank">
-              Dribbble
+            Dribbble
             </a> / <a href="https://www.instagram.com/oskrhq/" target="_blank">
-              Instagram
+            Instagram
             </a>
-          </p>
-        </SectionHero>
+        </p>
+      </SectionHero>
 
-        <SectionProject className="ds-col-container" id="work">
-          <Link to="/projects/design-system/" className="project-link">
-            <ProjectCard className="card-1">
-              <img className="number" src={number1} />
-              <div className="project-card-title-container">
-                <span className="ds-overline-text-style">
-                  Company work + Personal Project
+      <SectionProject className="ds-col-container" id="work">
+        <Link to="/projects/design-system/" className="project-link">
+          <ProjectCard className="card-1">
+            <img className="number" src={number1} />
+            <div className="project-card-title-container">
+              <span className="ds-overline-text-style">
+                Company work + Personal Project
                 </span>
-                <h3 className="project-title">OSKRHQ Design System</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
-                  DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND
-                  MULTIDISCIPLINARY DESIGN | RESEARCH | SALES
+              <h3 className="project-title">OSKRHQ Design System</h3>
+              <span className="ds-overline-text-style project-card__footer-text">
+                DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND
+                MULTIDISCIPLINARY DESIGN | RESEARCH | SALES
                 </span>
-              </div>
-            </ProjectCard>
-          </Link>
-        </SectionProject>
+            </div>
+          </ProjectCard>
+        </Link>
+      </SectionProject>
 
-        <SectionProject className="ds-col-container">
-          <Link to="/projects/client/" className="project-link">
-            <ProjectCard className="card-3">
-              <img className="number" src={number2} />
-              <div className="project-card-title-container">
-                <span className="ds-overline-text-style ">Client Work</span>
-                <h3 className="project-title">VIEWN</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
-                  BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY
-                  DESIGN | UX RESEARCH
+      <SectionProject className="ds-col-container">
+        <Link to="/projects/client/" className="project-link">
+          <ProjectCard className="card-3">
+            <img className="number" src={number2} />
+            <div className="project-card-title-container">
+              <span className="ds-overline-text-style ">Client Work</span>
+              <h3 className="project-title">VIEWN</h3>
+              <span className="ds-overline-text-style project-card__footer-text">
+                BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY
+                DESIGN | UX RESEARCH
                 </span>
-              </div>
-            </ProjectCard>
-          </Link>
-        </SectionProject>
+            </div>
+          </ProjectCard>
+        </Link>
+      </SectionProject>
 
-        <SectionProject className="ds-col-container">
-          <Link to="/projects/yolko/" className="project-link">
-            <ProjectCard className="card-2">
-              <img className="number" src={number3} />
-              <div className="project-card-title-container">
-                <span className="ds-overline-text-style">
-                  Personal Project
-                </span>
-                <h3 className="project-title">YOLKO</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
-                  PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT |
-                  UX RESEARCH
-                </span>
-              </div>
-            </ProjectCard>
-          </Link>
-        </SectionProject>
+      <SectionProject className="ds-col-container">
+        <Link to="/projects/yolko/" className="project-link">
+          <ProjectCard className="card-2">
+            <img className="number" src={number3} />
+            <div className="project-card-title-container">
+              <span className="ds-overline-text-style">
+                Personal Project
+              </span>
+              <h3 className="project-title">YOLKO</h3>
+              <span className="ds-overline-text-style project-card__footer-text">
+                PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT |
+                UX RESEARCH
+              </span>
+            </div>
+          </ProjectCard>
+        </Link>
+      </SectionProject>
 
-        <DesignProcessCardGrid>
-          <div className="section-title-container design-process-title">
-            <img src={processImg} alt="" className="home-brush-lettering process" />
+
+
+      <a href="https://skl.sh/2yhdemt" target="_blank" className="class-link">
+        <div className="section-title-container ">
+          <img src={classHandLetteringImg} alt="" className="home-brush-lettering class" />
+        </div>
+        <ClassCard className="class-card">
+          <div className="project-card-title-container">
+            <span className="ds-overline-text-style">
+              SkillShare class
+            </span>
+            <h3 className="project-title">Should Designers Code?</h3>
+            <span className="ds-overline-text-style project-card__footer-text">
+              PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT |
+              UX RESEARCH
+            </span>
           </div>
-          <DesignProcessCard numberImg={number1} title="Empathize" gridAreaName="design-process-card1" badgeType="tertiary" badgeText="Understand">
-            <strong>It's not me. It's you.</strong> Begin by understanding what motivates and discourages the user and the business. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text">
-              <i>judge a man</i>
-            </span> [design for a user] until you've walked a mile in <span className="strikethrough-text">
-              <i>his</i>
-            </span> [his/her] shoes."`
+        </ClassCard>
+      </a>
+
+      <DesignProcessCardGrid>
+        <div className="section-title-container design-process-title">
+          <img src={processImg} alt="" className="home-brush-lettering process" />
+        </div>
+        <DesignProcessCard numberImg={number1} title="Empathize" gridAreaName="design-process-card1" badgeType="tertiary" badgeText="Understand">
+          <strong>It's not me. It's you.</strong> Begin by understanding what motivates and discourages the user and the business. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text">
+            <i>judge a man</i>
+          </span> [design for a user] until you've walked a mile in <span className="strikethrough-text">
+            <i>his</i>
+          </span> [his/her] shoes."`
           </DesignProcessCard>
-          <img src={designProcessPath1} alt="" className="design-process-path1" />
-          <DesignProcessCard numberImg={number2} title="Define" gridAreaName="design-process-card2" badgeType="tertiary" badgeText="Understand">
-            <strong>What's the problem?</strong> Combine the research and observations from Step Uno, begin highlighting opportunities for innovation, and define the problem clearly. Helps to step back and look at the picture from 10,000 feet and ask yourself; <i
-            >
-              "Why is there is this a problem in first place?"
+        <img src={designProcessPath1} alt="" className="design-process-path1" />
+        <DesignProcessCard numberImg={number2} title="Define" gridAreaName="design-process-card2" badgeType="tertiary" badgeText="Understand">
+          <strong>What's the problem?</strong> Combine the research and observations from Step Uno, begin highlighting opportunities for innovation, and define the problem clearly. Helps to step back and look at the picture from 10,000 feet and ask yourself; <i
+          >
+            "Why is there is this a problem in first place?"
             </i>
+        </DesignProcessCard>
+        <img src={designProcessPath2} alt="" className="design-process-path2" />
+        <DesignProcessCard numberImg={number3} title="Ideate" gridAreaName="design-process-card3" badgeType="warning" badgeText="Explore">
+          <strong>What's the solution?</strong> Come up with as many crazy ideas as possible to solve the problem, choose one solution, and formulate a testable hypothesis with it. A Scientific Method always helps. See? I learned something in science class... Oh, and don't forget to collaborate on this one! You don't know everything.
           </DesignProcessCard>
-          <img src={designProcessPath2} alt="" className="design-process-path2" />
-          <DesignProcessCard numberImg={number3} title="Ideate" gridAreaName="design-process-card3" badgeType="warning" badgeText="Explore">
-            <strong>What's the solution?</strong> Come up with as many crazy ideas as possible to solve the problem, choose one solution, and formulate a testable hypothesis with it. A Scientific Method always helps. See? I learned something in science class... Oh, and don't forget to collaborate on this one! You don't know everything. 
+        <img src={designProcessPath3} alt="" className="design-process-path3" />
+        <DesignProcessCard numberImg={number4} title="Prototype" gridAreaName="design-process-card4" badgeType="warning" badgeText="Explore">
+          <strong>How does the solution feel like?</strong> Create an experience for the solution you chose that delivers the least Cognitive Dissonance and most positive feelings. Resist the temptation of going Hifi too fast. Remember, Pixel Paranoia is expensive. Chill, and go old school first. Start with a pen, pencil, a big eraser and gallons of coffee. Show concepts fast guerrilla style if necessary. Oh and before you test, do yourself a favor and show the prototypes to the PM.
           </DesignProcessCard>
-          <img src={designProcessPath3} alt="" className="design-process-path3" />
-          <DesignProcessCard numberImg={number4} title="Prototype" gridAreaName="design-process-card4" badgeType="warning" badgeText="Explore">
-            <strong>How does the solution feel like?</strong> Create an experience for the solution you chose that delivers the least Cognitive Dissonance and most positive feelings. Resist the temptation of going Hifi too fast. Remember, Pixel Paranoia is expensive. Chill, and go old school first. Start with a pen, pencil, a big eraser and gallons of coffee. Show concepts fast guerrilla style if necessary. Oh and before you test, do yourself a favor and show the prototypes to the PM.
+        <img src={designProcessPath4} alt="" className="design-process-path4" />
+        <DesignProcessCard numberImg={number5} title="Test" gridAreaName="design-process-card5" badgeType="success" badgeText="Materialize">
+          <strong>Learn. Learn. Learn.</strong> The primary goal is to learn. The secondary goal is to validate assumptions and your hypothesis. Remember, there is no failing nor passing. There is only learning. Every iteration and test you perform gets you closer to the optimal solution.
           </DesignProcessCard>
-          <img src={designProcessPath4} alt="" className="design-process-path4" />
-          <DesignProcessCard numberImg={number5} title="Test" gridAreaName="design-process-card5" badgeType="success" badgeText="Materialize">
-            <strong>Learn. Learn. Learn.</strong> The primary goal is to learn. The secondary goal is to validate assumptions and your hypothesis. Remember, there is no failing nor passing. There is only learning. Every iteration and test you perform gets you closer to the optimal solution.
-          </DesignProcessCard>
-          <img src={designProcessPath1} alt="" className="design-process-path5" />
-          <DesignProcessCard numberImg={number6} title="Implement" gridAreaName="design-process-card6" badgeType="success" badgeText="Materialize">
+        <img src={designProcessPath1} alt="" className="design-process-path5" />
+        <DesignProcessCard numberImg={number6} title="Implement" gridAreaName="design-process-card6" badgeType="success" badgeText="Materialize">
           <strong>Move on or go again?</strong> Depends on the results of your tests. Prepare for another run through the process, or if the hypothesis was validated, implement the solution and go get drinks with the team. <br />
           <strong>☝🏽 Important:</strong> Remember to invite the boss.
           </DesignProcessCard>
-        </DesignProcessCardGrid>
+      </DesignProcessCardGrid>
 
-        <div>
-          <div className="section-title-container">
-            <img src={thoughtsImg} alt="" className="home-brush-lettering thoughts" />
-          </div>
-          <div className="home-posts-container">
-            <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
-              <img src={mediumPost1Img} alt="" className="img-thumbnail" />
-              <div className="post-text-container">
-                <p>The Anatomy of All Digital Interfaces</p>
-                <span className="ds-overlay-text-style">
-                  MEDIUM, MUZ.LI
-                </span>
-              </div>
-            </a>
-            <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-card" target="_blank">
-              <img src={mediumPost3Img} alt="" className="img-thumbnail" />
-              <div className="post-text-container">
-                <p>Crafting a New Visual Language</p>
-                <span className="ds-overlay-text-style">
-                  MEDIUM, MUZ.LI
-                </span>
-              </div>
-            </a>
-            <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-card" target="_blank">
-              <img src={mediumPost2Img} alt="" className="img-thumbnail" />
-              <div className="post-text-container">
-                <p>A Dictionary for a Design Language</p>
-                <span className="ds-overlay-text-style">
-                  MEDIUM, PROTOTYPR
-                </span>
-              </div>
-            </a>
-          </div>
+      <div>
+        <div className="section-title-container">
+          <img src={thoughtsImg} alt="" className="home-brush-lettering thoughts" />
         </div>
+        <div className="home-posts-container">
+          <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
+            <img src={mediumPost1Img} alt="" className="img-thumbnail" />
+            <div className="post-text-container">
+              <p>The Anatomy of All Digital Interfaces</p>
+              <span className="ds-overlay-text-style">
+                MEDIUM, MUZ.LI
+                </span>
+            </div>
+          </a>
+          <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-card" target="_blank">
+            <img src={mediumPost3Img} alt="" className="img-thumbnail" />
+            <div className="post-text-container">
+              <p>Crafting a New Visual Language</p>
+              <span className="ds-overlay-text-style">
+                MEDIUM, MUZ.LI
+                </span>
+            </div>
+          </a>
+          <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-card" target="_blank">
+            <img src={mediumPost2Img} alt="" className="img-thumbnail" />
+            <div className="post-text-container">
+              <p>A Dictionary for a Design Language</p>
+              <span className="ds-overlay-text-style">
+                MEDIUM, PROTOTYPR
+                </span>
+            </div>
+          </a>
+        </div>
+      </div>
 
-        <CreativeLabMosque />
+      <CreativeLabMosque />
 
-        <PortfolioFooter />
-      </div>;
+      <PortfolioFooter />
+    </div>;
   }
 }
 export default HomePage

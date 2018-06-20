@@ -1,9 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import React from 'react';
 import styled from 'styled-components'
-import { DSButton } from "oskrhq-design-system";
-import viewnLogo from '../../assets/images/viewn/viewn-logo.jpg'
 import viewnHeroImg from "../../assets/images/viewn/vn-hero.png";
 import viewnShowcaseImg from "../../assets/images/viewn/vn-showcase.jpg";
 import LogoOld from "../../assets/images/viewn/logo-old.jpg";
@@ -23,7 +19,6 @@ import demo1 from "../../assets/images/viewn/vn-demo1.gif";
 import test1 from "../../assets/images/viewn/test1.gif";
 import test2 from "../../assets/images/viewn/text2.jpg";
 import test3 from "../../assets/images/viewn/text3.jpg";
-import test4 from "../../assets/images/viewn/test4.jpg";
 import test5 from "../../assets/images/viewn/spreadsheet.jpg";
 import test6 from "../../assets/images/viewn/vn-testing-cat.jpg";
 import test7 from "../../assets/images/viewn/test7.jpg";
@@ -44,258 +39,258 @@ const SectionHero = styled.div`
   padding: 10% 0;
   height: 100vh;
   box-sizing: border-box;
-  position: relative;
+  position: relative; 
 `
 
 class ClientProjectPage extends React.Component {
   render() {
-  
+
     return <div className="project-page">
-        <TopNav work about resume />
+      <TopNav work about resume />
 
-        <div className="hero-container">
-          <div className="hero-container__text-container">
-            <span className="ds-overline-text-style">Client Work</span>
-            <h2 className="ds-display3-text-style hero-container__title">
-              VIEWN
+      <div className="hero-container">
+        <div className="hero-container__text-container">
+          <span className="ds-overline-text-style">Client Work</span>
+          <h2 className="ds-display3-text-style hero-container__title">
+            VIEWN
             </h2>
-            <p className="ds-subheading-text-style hero-container__description">
-              Marketing data playground for non-technical marketers based on
-              the principles of Customer Data Platforms (CDP-s). The
-              challenge was to create a platform where marketers could see,
-              manage, and track a unified profile of a customer so they
-              could not only measure the customer's engagement with the
-              brand but also provide them with a tailored marketing
-              experience in to create a closer relationship between that
-              customer and the brand.
+          <p className="ds-subheading-text-style hero-container__description">
+            Marketing data playground for non-technical marketers based on
+            the principles of Customer Data Platforms (CDP-s). The
+            challenge was to create a platform where marketers could see,
+            manage, and track a unified profile of a customer so they
+            could not only measure the customer's engagement with the
+            brand but also provide them with a tailored marketing
+            experience in to create a closer relationship between that
+            customer and the brand.
             </p>
-            <span className="special-text-styling">UX Research</span>
-            <span className="special-text-styling">Brand Identity</span>
-            <p className="special-text-styling">
-              Product, Interaction and Experience Design
+          <span className="special-text-styling">UX Research</span>
+          <span className="special-text-styling">Brand Identity</span>
+          <p className="special-text-styling">
+            Product, Interaction and Experience Design
             </p>
-          </div>
-          <div className="hero-container__img-container">
-            <img src={viewnHeroImg} className="project-viewn-hero" />
-          </div>
         </div>
-
-        {/* <h3 className="project-section-title">DOSSIER</h3> */}
-        <div className="case-study-dossier-container">
-          <div className="dossier__problem-container">
-            <p className="special-text-styling">Problem</p>
-            <p className="ds-subheading-text-style">
-              I was hired to create a product that would help non-technical
-              marketers like Rafael, our user persona, and also craft a
-              Brand Identity that would resonate with him. Today, Rafael has
-              through dig through lots of data to create meaningful and
-              effective marketing campaigns for the customers of the brands
-              he manages. Many of the efforts are done manually and many
-              times he relies on the help of other people like Data Analysts
-              who query that data for Rafael.
-            </p>
-          </div>
-          <div className="dossier__users-container">
-            <p className="special-text-styling">Primary Users</p>
-            <p className="ds-subheading-text-style">
-              Non-technical marketers wanting to create stronger and
-              meaningful relationships with their customers.
-            </p>
-          </div>
-          <div className="dossier__duration-container">
-            <p className="special-text-styling">Duration</p>
-            <p className="ds-subheading-text-style">July 2017 - Present</p>
-          </div>
-          <div className="dossier__tools-container">
-            <p className="special-text-styling">Tools</p>
-            <p className="ds-subheading-text-style">
-              Pen, paper, Invision, Maze, Sketch App, Illustrator, and tons
-              of sticky notes.
-            </p>
-          </div>
-          <div className="dossier__role-container">
-            <p className="special-text-styling">Role</p>
-            <p className="ds-subheading-text-style">
-              Product designer, creative director, and researcher.
-            </p>
-          </div>
-          <div className="dossier__hypothesis-container">
-            <p className="special-text-styling">Solution</p>
-            <p className="ds-subheading-text-style">
-              A platform that would allow Rafael to aggregate the data
-              housed in many sources about a specific customer and create a
-              unified customer profile. With this unified customer profile,
-              Rafael could measure and track the customer's engagement with
-              the brand and provide them with a tailored marketing
-              experience. All this to create a closer relationship between
-              that customer and the brand.
-            </p>
-          </div>
-          <div className="dossier__constraints-container">
-            <p className="special-text-styling">
-              Constraints & Considerations
-            </p>
-            <p className="ds-subheading-text-style">
-              VIEWN is a Certified Google Partner so the founders wanted
-              their UI to be inspired by Google's.
-            </p>
-          </div>
-          <div className="dossier__platforms-container">
-            <p className="special-text-styling">Platforms</p>
-            <p className="ds-subheading-text-style">Desktop</p>
-          </div>
+        <div className="hero-container__img-container">
+          <img src={viewnHeroImg} className="project-viewn-hero" />
         </div>
+      </div>
 
-        <img src={viewnShowcaseImg} className="project-showcase-img" />
-
-        {/* <h3 className="project-section-title">the pixels' story</h3> */}
-
-        <div className="design-process__section-container no-top-margin">
-          <div className="project-design-process-title-container">
-            <img src={number1} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              EMPATHIZE
-            </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              We started with the very basics. Working very closely with the founders, we crafted a Brand Identity that would resonate with someone like Rafael. To do this, we used one of my favorite techniques - <i
-              >
-                Humanizing the Product
-              </i>. I wrote a whole article about it. You can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">
-                here
-              </a>. VIEWN is part of another company also owned by VIEWN's founders. This company is a Certified Google Partner so for them was very important that the User Interface was heavily influenced by Google's. We decided to follow Material's Design specs and documentation but we were careful not to dilute our brand.
-            </p>
-          </div>
-        </div>
-
-        <div className="project-img-grid">
-          <h4>Old Brand Identity</h4>
-          <h4>New Brand Identity</h4>
-          <img src={LogoOld} alt="" className="grid-img" />
-          <img src={LogoNew} alt="" className="grid-img" />
-        </div>
-
-        <img src={LogoSpec} className="project-displayfb-img" style={{ width: "40%" }} />
-        <img src={StyleSheetImg} className="project-displayfb-img" style={{ width: "60%" }} />
-
-        <div className="design-process__section-container">
-          <div />
-          <div>
-            <p className="ds-subheading-text-style">
-              I also managed a workshop with the founders in which we
-              created Rafael. Since human actions are driven by emotions,
-              through the workshop I looked for cues that I could use
-              through the design process so I could feel what Rafael feels,
-              what drives or discourages him as a marketer, what are his
-              pains and frustrations. If I am able to empathize with his
-              feelings, I should be able to create experiences of value to
-              him.
-            </p>
-          </div>
-        </div>
-
-        <div className="project-img-grid">
-          <img src={PersonaImg2} alt="" className="grid-img" />
-          <img src={PersonaImg1} alt="" className="grid-img" />
-        </div>
-
-        <div className="design-process__section-container">
-          <div />
+      {/* <h3 className="project-section-title">DOSSIER</h3> */}
+      <div className="case-study-dossier-container">
+        <div className="dossier__problem-container">
+          <p className="special-text-styling">Problem</p>
           <p className="ds-subheading-text-style">
-            We also prioritized features based on research. We wanted to
-            focus on what Rafael would value the most first so we sent out
-            surveys to marketers that most closely resembled Rafael. We even
-            included some questions about the new brand identity.
+            I was hired to create a product that would help non-technical
+            marketers like Rafael, our user persona, and also craft a
+            Brand Identity that would resonate with him. Today, Rafael has
+            through dig through lots of data to create meaningful and
+            effective marketing campaigns for the customers of the brands
+            he manages. Many of the efforts are done manually and many
+            times he relies on the help of other people like Data Analysts
+            who query that data for Rafael.
           </p>
         </div>
-
-        <div className="project-img-grid">
-          <img src={MarketResearchImg1} alt="" className="" />
-          <img src={MarketResearchImg2} alt="" className="" />
+        <div className="dossier__users-container">
+          <p className="special-text-styling">Primary Users</p>
+          <p className="ds-subheading-text-style">
+            Non-technical marketers wanting to create stronger and
+            meaningful relationships with their customers.
+          </p>
         </div>
+        <div className="dossier__duration-container">
+          <p className="special-text-styling">Duration</p>
+          <p className="ds-subheading-text-style">July 2017 - Present</p>
+        </div>
+        <div className="dossier__tools-container">
+          <p className="special-text-styling">Tools</p>
+          <p className="ds-subheading-text-style">
+            Pen, paper, Invision, Maze, Sketch App, Illustrator, and tons
+            of sticky notes.
+            </p>
+        </div>
+        <div className="dossier__role-container">
+          <p className="special-text-styling">Role</p>
+          <p className="ds-subheading-text-style">
+            Product designer, creative director, and researcher.
+            </p>
+        </div>
+        <div className="dossier__hypothesis-container">
+          <p className="special-text-styling">Solution</p>
+          <p className="ds-subheading-text-style">
+            A platform that would allow Rafael to aggregate the data
+            housed in many sources about a specific customer and create a
+            unified customer profile. With this unified customer profile,
+            Rafael could measure and track the customer's engagement with
+            the brand and provide them with a tailored marketing
+            experience. All this to create a closer relationship between
+            that customer and the brand.
+            </p>
+        </div>
+        <div className="dossier__constraints-container">
+          <p className="special-text-styling">
+            Constraints & Considerations
+            </p>
+          <p className="ds-subheading-text-style">
+            VIEWN is a Certified Google Partner so the founders wanted
+            their UI to be inspired by Google's.
+            </p>
+        </div>
+        <div className="dossier__platforms-container">
+          <p className="special-text-styling">Platforms</p>
+          <p className="ds-subheading-text-style">Desktop</p>
+        </div>
+      </div>
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number2} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              Define
+      <img src={viewnShowcaseImg} className="project-showcase-img" />
+
+      {/* <h3 className="project-section-title">the pixels' story</h3> */}
+
+      <div className="design-process__section-container no-top-margin">
+        <div className="project-design-process-title-container">
+          <img src={number1} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            EMPATHIZE
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              We combined our research and began highlighting opportunities for innovation. Rafael values looking at and tracking profiles the most to gauge how engaged that customer is with a brand. Insights and automation were huge as well. Remember, Rafael has to dig through lots of data to find meaningful patterns he could use to target his customers effectively. Furthermore, Rafael thinks he is tech savvy but he is really not, so he would have to rely on other people to query the data. What if we could provide him with a product that felt intuitive, helpful, and human while it also had predictive analytics and insightful KPI's. We wanted Rafael to feel 1)
+        </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            We started with the very basics. Working very closely with the founders, we crafted a Brand Identity that would resonate with someone like Rafael. To do this, we used one of my favorite techniques - <i
+            >
+              Humanizing the Product
+              </i>. I wrote a whole article about it. You can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">
+              here
+              </a>. VIEWN is part of another company also owned by VIEWN's founders. This company is a Certified Google Partner so for them was very important that the User Interface was heavily influenced by Google's. We decided to follow Material's Design specs and documentation but we were careful not to dilute our brand.
+            </p>
+        </div>
+      </div>
+
+      <div className="project-img-grid">
+        <h4>Old Brand Identity</h4>
+        <h4>New Brand Identity</h4>
+        <img src={LogoOld} alt="" className="grid-img" />
+        <img src={LogoNew} alt="" className="grid-img" />
+      </div>
+
+      <img src={LogoSpec} className="project-displayfb-img" style={{ width: "40%" }} />
+      <img src={StyleSheetImg} className="project-displayfb-img" style={{ width: "60%" }} />
+
+      <div className="design-process__section-container">
+        <div />
+        <div>
+          <p className="ds-subheading-text-style">
+            I also managed a workshop with the founders in which we
+            created Rafael. Since human actions are driven by emotions,
+            through the workshop I looked for cues that I could use
+            through the design process so I could feel what Rafael feels,
+            what drives or discourages him as a marketer, what are his
+            pains and frustrations. If I am able to empathize with his
+            feelings, I should be able to create experiences of value to
+            him.
+            </p>
+        </div>
+      </div>
+
+      <div className="project-img-grid">
+        <img src={PersonaImg2} alt="" className="grid-img" />
+        <img src={PersonaImg1} alt="" className="grid-img" />
+      </div>
+
+      <div className="design-process__section-container">
+        <div />
+        <p className="ds-subheading-text-style">
+          We also prioritized features based on research. We wanted to
+          focus on what Rafael would value the most first so we sent out
+          surveys to marketers that most closely resembled Rafael. We even
+          included some questions about the new brand identity.
+          </p>
+      </div>
+
+      <div className="project-img-grid">
+        <img src={MarketResearchImg1} alt="" className="" />
+        <img src={MarketResearchImg2} alt="" className="" />
+      </div>
+
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <img src={number2} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            Define
+            </h5>
+        </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            We combined our research and began highlighting opportunities for innovation. Rafael values looking at and tracking profiles the most to gauge how engaged that customer is with a brand. Insights and automation were huge as well. Remember, Rafael has to dig through lots of data to find meaningful patterns he could use to target his customers effectively. Furthermore, Rafael thinks he is tech savvy but he is really not, so he would have to rely on other people to query the data. What if we could provide him with a product that felt intuitive, helpful, and human while it also had predictive analytics and insightful KPI's. We wanted Rafael to feel 1)
               <strong>powerful/confident</strong>, 2) in <strong>
-                control
+              control
               </strong> or <strong>organized</strong> and 3)
               <strong>
-                feel good at the end of his workday{" "}
-              </strong> after using VIEWN. We wanted him to focus on connecting customers to a brand, and less time digging through data and admin stuff... Who likes that anyway.
+              feel good at the end of his workday{" "}
+            </strong> after using VIEWN. We wanted him to focus on connecting customers to a brand, and less time digging through data and admin stuff... Who likes that anyway.
             </p>
-            <p className="ds-subheading-text-style">
-              So the requirements became:
+          <p className="ds-subheading-text-style">
+            So the requirements became:
             </p>
-            <ol className="ds-subheading-text-style">
-              <li>
-                Rafael will import data from different sources including
-                MailChimp, Marketo, Google Analytics, etc.
+          <ol className="ds-subheading-text-style">
+            <li>
+              Rafael will import data from different sources including
+              MailChimp, Marketo, Google Analytics, etc.
               </li>
-              <li>
-                Rafael will be able to see a unified customer profile with
-                very detailed information about them sourced from the apps
-                above.
+            <li>
+              Rafael will be able to see a unified customer profile with
+              very detailed information about them sourced from the apps
+              above.
               </li>
-              <li>
-                Rafael will create segments. These are groups of profiles
-                that matched a certain criteria. e.i, Millennials in Miami.
+            <li>
+              Rafael will create segments. These are groups of profiles
+              that matched a certain criteria. e.i, Millennials in Miami.
               </li>
-              <li>
-                Rafael will be able to see metrics on the segments and/or
-                individual profiles with predictive analytics to help him
-                create meaningful marketing campaigns and tailored
-                messaging.
+            <li>
+              Rafael will be able to see metrics on the segments and/or
+              individual profiles with predictive analytics to help him
+              create meaningful marketing campaigns and tailored
+              messaging.
               </li>
-              <li>
-                Rafael will create and track marketing campaigns through
-                VIEWN.
+            <li>
+              Rafael will create and track marketing campaigns through
+              VIEWN.
               </li>
-              <li>
-                VIEWN will not get in the way of Rafael's productivity.
+            <li>
+              VIEWN will not get in the way of Rafael's productivity.
               </li>
-            </ol>
-          </div>
+          </ol>
         </div>
+      </div>
 
-        <div className="project-img-grid">
-          <img src={DefineImg1} alt="" className="grid-img" />
-          <img src={DefineImg2} alt="" className="grid-img" />
-          <img src={DefineImg3} alt="" className="grid-img" />
-        </div>
+      <div className="project-img-grid">
+        <img src={DefineImg1} alt="" className="grid-img" />
+        <img src={DefineImg2} alt="" className="grid-img" />
+        <img src={DefineImg3} alt="" className="grid-img" />
+      </div>
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number3} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              Ideate
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <img src={number3} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            Ideate
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              I had somewhat of an unconventional idea. What if we could
-              architect the app as a story? The requirements themselves told
-              a story for me; 1) Rafael imports data, 2) Rafael segments
-              that data, 3) Rafael learns from the data, 4) Rafael engages
-              the customers through marketing campaigns. Rafael would not
-              always work in chronological order but I assumed the
-              information architecture would resonate with him.
-            </p>
-          </div>
         </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            I had somewhat of an unconventional idea. What if we could
+            architect the app as a story? The requirements themselves told
+            a story for me; 1) Rafael imports data, 2) Rafael segments
+            that data, 3) Rafael learns from the data, 4) Rafael engages
+            the customers through marketing campaigns. Rafael would not
+            always work in chronological order but I assumed the
+            information architecture would resonate with him.
+            </p>
+        </div>
+      </div>
 
-        <img src={InfoArchitectureImg} className="project-displayfb-img" />
-        <img src={NavigationGif} className="project-displayfb-img" />
+      <img src={InfoArchitectureImg} className="project-displayfb-img" />
+      <img src={NavigationGif} className="project-displayfb-img" />
 
-        {/* <div className="design-process__section-container">
+      {/* <div className="design-process__section-container">
           <div>
           </div>
           <p className="ds-subheading-text-style">
@@ -303,153 +298,153 @@ class ClientProjectPage extends React.Component {
           </p>
         </div> */}
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number4} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              Prototype
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <img src={number4} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            Prototype
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              I created a hi-fi prototype that would allow me to test our
-              approach to the solution and would also allow VIEWN's founders
-              to start showing what we were working on to investors. Rafael
-              was the main protagonist every time we showed the prototype.
-            </p>
-          </div>
         </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            I created a hi-fi prototype that would allow me to test our
+            approach to the solution and would also allow VIEWN's founders
+            to start showing what we were working on to investors. Rafael
+            was the main protagonist every time we showed the prototype.
+            </p>
+        </div>
+      </div>
 
-        <img src={demo1} className="project-displayfb-img" style={{ width: "50%" }} />
+      <img src={demo1} className="project-displayfb-img" style={{ width: "50%" }} />
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number5} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              test
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <img src={number5} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            test
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              I conducted monitored usability tests with friends and family as I soon as I would prototype a task such as [Rafael need to import new profiles into VIEWN] or [Rafael needs to create a new Campaign and export the list of profiles]. I wanted to see how much I could learn from participants that were not in marketing, however, the most valuable tests came from people that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">
-                Maze
+        </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            I conducted monitored usability tests with friends and family as I soon as I would prototype a task such as [Rafael need to import new profiles into VIEWN] or [Rafael needs to create a new Campaign and export the list of profiles]. I wanted to see how much I could learn from participants that were not in marketing, however, the most valuable tests came from people that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">
+              Maze
               </a>. Still a beta and has some bugs but I like the fact that I can record the journeys the participant takes as well as their clicks on each individual test.
             </p>
 
-            <p className="ds-subheading-text-style">
-              Although the tests I did were heavy on usability, I was more concerned about how the participant <strong>
-                <i>felt</i>
-              </strong> at the end of each task. Most significantly, those participants that matched Rafael's profile. I gauged the success of the test on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
+          <p className="ds-subheading-text-style">
+            Although the tests I did were heavy on usability, I was more concerned about how the participant <strong>
+              <i>felt</i>
+            </strong> at the end of each task. Most significantly, those participants that matched Rafael's profile. I gauged the success of the test on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
             </p>
 
-            <ol>
-              <li className="ds-subheading-text-style">
-                <i>How does this make you feel?</i>
-              </li>
-              <li className="ds-subheading-text-style">
-                <i>How would you like to feel in this scenario?</i>
-              </li>
-              <li className="ds-subheading-text-style">
-                <i>
-                  To what extent [1-5] does this make you feel
-                  [powerful/empowered/confident]?
+          <ol>
+            <li className="ds-subheading-text-style">
+              <i>How does this make you feel?</i>
+            </li>
+            <li className="ds-subheading-text-style">
+              <i>How would you like to feel in this scenario?</i>
+            </li>
+            <li className="ds-subheading-text-style">
+              <i>
+                To what extent [1-5] does this make you feel
+                [powerful/empowered/confident]?
                 </i>
-              </li>
-              <li className="ds-subheading-text-style">
-                <i>
-                  To what extent [1-5] does this make you feel [organized]?
+            </li>
+            <li className="ds-subheading-text-style">
+              <i>
+                To what extent [1-5] does this make you feel [organized]?
                 </i>
-              </li>
-              <li className="ds-subheading-text-style">
-                <i>
-                  To what extent [1-5] does this make you feel [like you did
-                  a good job at the end of the day]?
+            </li>
+            <li className="ds-subheading-text-style">
+              <i>
+                To what extent [1-5] does this make you feel [like you did
+                a good job at the end of the day]?
                 </i>
-              </li>
-            </ol>
+            </li>
+          </ol>
 
-            <p className="ds-subheading-text-style">
-              These were things we wanted Rafael to feel when using VIEWN.
-              Oh and I even had my brother's cat as a partcicipant. He did
-              not pass any of the tests though 😑.
+          <p className="ds-subheading-text-style">
+            These were things we wanted Rafael to feel when using VIEWN.
+            Oh and I even had my brother's cat as a partcicipant. He did
+            not pass any of the tests though 😑.
             </p>
-          </div>
         </div>
+      </div>
 
-        <img src={test1} alt="" className="project-displayfb-img" />
-        <img src={test5} alt="" className="project-displayfb-img" />
+      <img src={test1} alt="" className="project-displayfb-img" />
+      <img src={test5} alt="" className="project-displayfb-img" />
 
-        <div className="project-img-grid">
-          <img src={test2} alt="" className="grid-img viewn-test-img " />
-          <img src={test3} alt="" className="grid-img viewn-test-img " />
-          <img src={test7} alt="" className="grid-img viewn-test-img " />
-          <img src={test6} alt="" className="grid-img viewn-test-img " />
-        </div>
+      <div className="project-img-grid">
+        <img src={test2} alt="" className="grid-img viewn-test-img " />
+        <img src={test3} alt="" className="grid-img viewn-test-img " />
+        <img src={test7} alt="" className="grid-img viewn-test-img " />
+        <img src={test6} alt="" className="grid-img viewn-test-img " />
+      </div>
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <img src={number6} alt="" className="project-design-process-number" />
-            <h5 className="design-process__section-title ds-headline-text-style">
-              Implement
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <img src={number6} alt="" className="project-design-process-number" />
+          <h5 className="design-process__section-title ds-headline-text-style">
+            Implement
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              We are still working on testing but I look forward to
-              implementing what we are learning in code and I'll update this
-              page accordingly.
-            </p>
-
-            <p className="ds-subheading-text-style">
-              We can't wait to have real life Rafael-a's using the product!
-            </p>
-          </div>
         </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            We are still working on testing but I look forward to
+            implementing what we are learning in code and I'll update this
+            page accordingly.
+            </p>
 
-        <div className="design-process__section-container">
-          <div className="project-design-process-title-container">
-            <h5 className="design-process__section-title ds-headline-text-style">
-              lessons learned
+          <p className="ds-subheading-text-style">
+            We can't wait to have real life Rafael-a's using the product!
+            </p>
+        </div>
+      </div>
+
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <h5 className="design-process__section-title ds-headline-text-style">
+            lessons learned
             </h5>
-          </div>
-          <div>
-            <p className="ds-subheading-text-style">
-              This project in particular was an amazing exercise in selling Design as a practice and an essential part of Product Development to key stakeholders. I have been part of projects where design is perceived as an afterthought or the team and business folks just have a <i
-              >
-                “make it look pretty”
+        </div>
+        <div>
+          <p className="ds-subheading-text-style">
+            This project in particular was an amazing exercise in selling Design as a practice and an essential part of Product Development to key stakeholders. I have been part of projects where design is perceived as an afterthought or the team and business folks just have a <i
+            >
+              “make it look pretty”
               </i> mentality. I found that I would clash repeatedly with the team members and productivity was not the greatest. I can’t really blame them though. Design Thinking is not something that Business People are ever taught or even are aware of most of the time. They are driven by numbers and market conditions but is important for them to understand the needs of the user (not their client), and the importance of Branding before taking out a pen or paper.
             </p>
-            <p className="ds-subheading-text-style">
-              As a designer, you are responsible for selling Design to your client, team or organization so I have started to educate clients <strong
-              >
-                *before*
+          <p className="ds-subheading-text-style">
+            As a designer, you are responsible for selling Design to your client, team or organization so I have started to educate clients <strong
+            >
+              *before*
               </strong> I work with them. I have become really strict about this to the point that I will refuse work if they are not willing to learn about Design and my process first. It just the best thing I can do for them and for me.
             </p>
-            <p className="ds-subheading-text-style">
-              This project also reminded me about the importance of Empathy
-              in design. The actress Natalie Portman once said “The actor’s
-              job is empathy”. That holds very true about designers. We most
-              times design experiences for people that we never meet. This
-              is why is so important to learn about your users early. See
-              what motivates them and what discourages them.
+          <p className="ds-subheading-text-style">
+            This project also reminded me about the importance of Empathy
+            in design. The actress Natalie Portman once said “The actor’s
+            job is empathy”. That holds very true about designers. We most
+            times design experiences for people that we never meet. This
+            is why is so important to learn about your users early. See
+            what motivates them and what discourages them.
             </p>
-            <p className="ds-subheading-text-style">
-              User Persona creation was extremely useful for me and for
-              VIEWN’s team, to the point of us always talking about Rafael
-              as if he was a real person. It was really cool to see my
-              clients embracing the persona and making him part of every
-              decision. For that I have to thank them for being so receptive
-              to my process, eager to learn from Design and so empathic.
+          <p className="ds-subheading-text-style">
+            User Persona creation was extremely useful for me and for
+            VIEWN’s team, to the point of us always talking about Rafael
+            as if he was a real person. It was really cool to see my
+            clients embracing the persona and making him part of every
+            decision. For that I have to thank them for being so receptive
+            to my process, eager to learn from Design and so empathic.
             </p>
-            <p className="ds-subheading-text-style">
-              Thank you, Roberto and Areeya! You guys taught me so much
-              about business and has been a blast working with you guys.
+          <p className="ds-subheading-text-style">
+            Thank you, Roberto and Areeya! You guys taught me so much
+            about business and has been a blast working with you guys.
             </p>
-          </div>
         </div>
+      </div>
 
-        <PortfolioFooter />
-      </div>;
+      <PortfolioFooter />
+    </div>;
   }
 }
- export default ClientProjectPage
+export default ClientProjectPage

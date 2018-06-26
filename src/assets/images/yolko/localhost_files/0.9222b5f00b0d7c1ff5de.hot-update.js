@@ -222,7 +222,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style hero-container__description', __source: {
+	            { className: '  hero-container__description', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 64
 	              }
@@ -322,7 +322,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 80
 	              }
@@ -348,7 +348,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 84
 	              }
@@ -374,7 +374,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 88
 	              }
@@ -400,7 +400,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 92
 	              }
@@ -426,7 +426,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 96
 	              }
@@ -452,7 +452,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 100
 	              }
@@ -517,7 +517,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 105
 	              }
@@ -543,7 +543,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 109
 	              }
@@ -614,7 +614,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 127
 	              }
@@ -623,7 +623,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 129
 	              }
@@ -699,7 +699,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 148
 	              }
@@ -708,7 +708,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 150
 	              }
@@ -717,7 +717,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 152
 	              }
@@ -764,7 +764,7 @@ webpackHotUpdate(0,{
 	        ),
 	        _react2.default.createElement(
 	          'p',
-	          { className: 'ds-subheading-text-style', __source: {
+	          { className: ' ', __source: {
 	              fileName: _jsxFileName,
 	              lineNumber: 161
 	            }
@@ -851,7 +851,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 172
 	              }
@@ -868,7 +868,7 @@ webpackHotUpdate(0,{
 	            },
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'ds-subheading-text-style', __source: {
+	              { className: ' ', __source: {
 	                  fileName: _jsxFileName,
 	                  lineNumber: 174
 	                }
@@ -877,7 +877,7 @@ webpackHotUpdate(0,{
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'ds-subheading-text-style', __source: {
+	              { className: ' ', __source: {
 	                  fileName: _jsxFileName,
 	                  lineNumber: 175
 	                }
@@ -886,7 +886,7 @@ webpackHotUpdate(0,{
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'ds-subheading-text-style', __source: {
+	              { className: ' ', __source: {
 	                  fileName: _jsxFileName,
 	                  lineNumber: 176
 	                }
@@ -895,7 +895,7 @@ webpackHotUpdate(0,{
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'ds-subheading-text-style', __source: {
+	              { className: ' ', __source: {
 	                  fileName: _jsxFileName,
 	                  lineNumber: 177
 	                }
@@ -905,7 +905,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 180
 	              }
@@ -914,7 +914,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 182
 	              }
@@ -974,7 +974,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 199
 	              }
@@ -1027,7 +1027,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 213
 	              }
@@ -1103,7 +1103,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 231
 	              }
@@ -1123,7 +1123,7 @@ webpackHotUpdate(0,{
 	          ),
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 234
 	              }
@@ -1189,7 +1189,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 252
 	              }
@@ -1328,7 +1328,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 286
 	              }
@@ -1371,7 +1371,7 @@ webpackHotUpdate(0,{
 	          },
 	          _react2.default.createElement(
 	            'p',
-	            { className: 'ds-subheading-text-style', __source: {
+	            { className: ' ', __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 296
 	              }

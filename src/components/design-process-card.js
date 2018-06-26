@@ -9,7 +9,7 @@ const DesignProcessCard = ({ numberImg, text, title, gridAreaName, badgeText, ba
         <div className={`design-process-badge ${badgeType}`}>
           {badgeText}
         </div>
-        <p className="ds-subheading-text-style">{children}</p>
+        <p className=" ">{children}</p>
       </div>
     </div>
   </div>

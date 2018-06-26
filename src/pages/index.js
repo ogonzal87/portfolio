@@ -214,7 +214,7 @@ class HomePage extends React.Component {
             </h5>
         </i>
 
-        <p className="ds-subheading-text-style home-contact-links">
+        <p className="  home-contact-links">
           <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
             oscar@oskrhq.com
             </a> / <a href="https://github.com/ogonzal87" target="_blank">

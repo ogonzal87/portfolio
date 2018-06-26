@@ -90,7 +90,7 @@ class DSProjectPage extends React.Component {
         <div className="dossier__role-container">
           <p className="ds-overline-text-style">Role</p>
           <p>
-            Creative director, designer, developer, salesman and instigator.
+            Creative Director, Designer, Developer, Salesman and instigator.
             </p>
         </div>
         <div className="dossier__hypothesis-container">

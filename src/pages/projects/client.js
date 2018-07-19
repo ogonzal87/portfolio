@@ -30,6 +30,8 @@ import number4 from '../../assets/images/hand-brush/04.png'
 import number5 from '../../assets/images/hand-brush/05.png'
 import number6 from '../../assets/images/hand-brush/06.png'
 import TopNav from '../../components/top-nav'
+import robertoImg from '../../assets/images/viewn/roberto.jpg'
+import areeyaImg from '../../assets/images/viewn/areeya.jpg'
 
 const SectionHero = styled.div`
   display: flex;
@@ -72,37 +74,37 @@ class ClientProjectPage extends React.Component {
       <div className="case-study-dossier-container">
         <div className="dossier__problem-container">
           <p className="special-text-styling">Problem</p>
-          <p className=" ">
+          <p>
             I was hired to create a product that would help non-technical marketers like Rafael, our user persona, create meaningful relationships between brands and its customers. I also was hired to craft a Brand Identity that would resonate with him. Today, Rafael has to dig through lots of data to create effective marketing campaigns for the customers of the brands he manages. Many of the efforts are done manually and many times he relies on the help of other people like Data Analysts who query the data for him.
           </p>
         </div>
         <div className="dossier__users-container">
           <p className="special-text-styling">Primary Users</p>
-          <p className=" ">
+          <p>
             Non-technical marketers wanting to create stronger and
             meaningful relationships with a brand's customers.
           </p>
         </div>
         <div className="dossier__duration-container">
           <p className="special-text-styling">Duration</p>
-          <p className=" ">July 2017 - Present</p>
+          <p>July 2017 - Present</p>
         </div>
         <div className="dossier__tools-container">
           <p className="special-text-styling">Tools</p>
-          <p className=" ">
+          <p>
             Pen, paper, Invision, Maze, Sketch App, Illustrator, and lots
             of sticky notes.
             </p>
         </div>
         <div className="dossier__role-container">
           <p className="special-text-styling">Role</p>
-          <p className=" ">
+          <p>
             Product Designer, Creative Director, and Researcher.
           </p>
         </div>
         <div className="dossier__hypothesis-container">
           <p className="special-text-styling">Solution</p>
-          <p className=" ">
+          <p>
             A platform that would allow Rafael to aggregate the data about a specific customer housed in many data bases and create a unified customer profile. With this profile, Rafael could measure and track the customer's engagement with the brand and provide him/her with a tailored marketing experience, creating a closer relationship between the customer and the brand.
           </p>
         </div>
@@ -110,14 +112,14 @@ class ClientProjectPage extends React.Component {
           <p className="special-text-styling">
             Constraints & Considerations
             </p>
-          <p className=" ">
+          <p>
             VIEWN is a Certified Google Partner so the founders wanted
             their UI to be inspired by Google's.
             </p>
         </div>
         <div className="dossier__platforms-container">
           <p className="special-text-styling">Platforms</p>
-          <p className=" ">Desktop</p>
+          <p>Desktop</p>
         </div>
       </div>
 
@@ -133,7 +135,7 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             Working very closely with the founders we crafted a Brand Identity that would resonate with someone like Rafael. To do this, we used one of my favorite techniques - <i>Humanizing the Product</i>. I wrote an entire article on this subject. You can read it <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" target="_blank">here</a>. VIEWN is part of another company also owned by VIEWN's founders. This company is a Certified Google Partner so for them it was very important that the User Interface was heavily influenced by Google's Interfaces. We decided to follow Material's Design but we were careful not to dilute our brand.
           </p>
         </div>
@@ -152,7 +154,7 @@ class ClientProjectPage extends React.Component {
       <div className="design-process__section-container">
         <div />
         <div>
-          <p className=" ">
+          <p>
             I conducted a workshop with the founders in which we created Rafael. Since human actions are driven by emotion, throughout the workshop I looked for cues that I could use through the design process to feel what Rafael feels, to know what drives or discourages him as a marketer, and what are his pains and frustrations. If I can empathize with his feelings, I should be able to create experiences of value to him.
           </p>
         </div>
@@ -165,7 +167,7 @@ class ClientProjectPage extends React.Component {
 
       <div className="design-process__section-container">
         <div></div>
-        <p className=" ">
+        <p>
           We also prioritized features based on research. We wanted to focus on what Rafael would value the most first so we sent out surveys to marketers that most closely resembled Rafael. We even included some questions about the new brand identity we had created.
         </p>
       </div>
@@ -183,13 +185,13 @@ class ClientProjectPage extends React.Component {
           </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             We combined our research and began highlighting opportunities for innovation. We found that Rafael values looking at and tracking profiles the most to gauge how engaged that customer is with a brand. Insights and automation were huge as well. Remember, Rafael must dig through lots of data to find meaningful patterns he could use to target his customers effectively. Furthermore, we found that Rafael thinks he is tech savvy but is really not, so he relies on other people to query data. What if we could provide him with a product that felt intuitive, helpful, and human while it also had predictive analytics and insightful KPI's. We wanted Rafael to feel <strong> 1)  powerful/confident, 2) in control or organized and 3) feel good at the end of his workday after using VIEWN </strong>. We wanted him to focus on connecting customers to a brand, and less time digging through data and admin stuff... Who likes that anyway?
           </p>
-          <p className=" ">
+          <p>
             So the requirements became:
             </p>
-          <ol className=" ">
+          <ol>
             <li>
               Rafael will import data from different sources including MailChimp, Marketo, Google Analytics, etc.
             </li>
@@ -223,7 +225,7 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             What if we could architect the app as a story? The requirements themselves told a story for me; 1) Rafael imports data 2) Rafael segments that data 3) Rafael learns from the data 4) Rafael engages the customer through marketing campaigns. Rafael would not always work in chronological order but I assumed the information architecture would resonate with him.
           </p>
         </div>
@@ -240,7 +242,7 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             We went through a few lo-fi iterations to confirm that the Information Architecture made sense to Rafael and the founders. After confirmation, I created a hi-fi prototype that would allow us to get more meaningful test results and would also allow VIEWN's founders to start showing what we were working on to investors.
           </p>
         </div>
@@ -256,35 +258,35 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             We conducted monitored usability tests with friends and family. I wanted to see how much I could learn from participants that were not marketers, however, the most valuable tests came from people that resembled Rafael. I used a really cool app called <a src="https://maze.design/" target="_blank">Maze</a>. Still a beta and has some bugs but I like the fact that I can record the journeys the participant takes as well as their clicks on each individual test.
           </p>
 
-          <p className=" ">
+          <p>
             Although the tests I did were heavy on usability, I was more concerned about how the participant <strong>
               <i>felt</i>
             </strong> at the end of each task. I gauged the success of the tests on that; feelings and how much I learned, not whether a participant would complete the task successfully. At the end of each task, I would ask these questions and record the results on a spreadsheet:
             </p>
 
           <ol>
-            <li className=" ">
+            <li>
               <i>How does this make you feel?</i>
             </li>
-            <li className=" ">
+            <li>
               <i>How would you like to feel in this scenario?</i>
             </li>
-            <li className=" ">
+            <li>
               <i>
                 To what extent [1-5] does this make you feel
                 [powerful/empowered/confident]?
                 </i>
             </li>
-            <li className=" ">
+            <li>
               <i>
                 To what extent [1-5] does this make you feel [organized]?
                 </i>
             </li>
-            <li className=" ">
+            <li>
               <i>
                 To what extent [1-5] does this make you feel [like you did
                 a good job at the end of the day]?
@@ -292,7 +294,7 @@ class ClientProjectPage extends React.Component {
             </li>
           </ol>
 
-          <p className=" ">
+          <p>
             These were things we wanted Rafael to feel when using VIEWN. Oh, and I even had my brother's cat as a participant. He did not pass any of the tests though 😑.
             </p>
         </div>
@@ -316,16 +318,50 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             We are still working on testing but I look forward to
             implementing what we are learning in code and I'll update this
             page accordingly.
           </p>
 
-          <p className=" ">
+          <p>
             We can't wait to have real life Rafael(a)'s using the product!
             </p>
         </div>
+      </div>
+
+      <div className="design-process__section-container">
+        <div className="project-design-process-title-container">
+          <h5 className="design-process__section-title ds-headline-text-style">
+            From the client
+            </h5>
+        </div>
+        <div>
+          <i>
+            <p>
+              "Oscar is an excellent designer, technologist and a superv human being. Working with him from a founder’s point of view is like working with a co-founder. He understand the business value, purpose and vision. His design reflect the right value, with the end customer/user in mind."
+            </p>
+            <p>
+              "Oscar is very real and down to earth type of guy. His highly professional style of working is not hindered with his personality touch. Oscar is an artist, with a technology background. Oscar simplified our navigation and improved our intuitive business model. We loved the process on defining user personas, interactive prototypes and every artifact develop during the engagement."
+            </p>
+            <p>
+              "Oscar help us from the beginning on a information architecture based on a proven design process. This helped myself and the leadership team understand the steps and stages of UX/UI design, from a corporate image and branding to the actual product design to technical specs for UI developers. Colors and style matter, and Oscar taught us the right use of color and style to reflect our high level of sophistication, and quality of our product plus services."
+            </p>
+            <p>
+              "Oscar is an integral part of the company and an amazing asset for competitive advantage and strategic vision, incredible marketing knowledge."
+            </p>
+
+            <div className="clients-container">
+              <div className="client-container">
+                <img src={robertoImg} alt="" className="client-avatar" /><span>Roberto Landrau</span>
+              </div>
+              <div className="client-container">
+                <img src={areeyaImg} alt="" className="client-avatar" /><span>Areeya Lila</span>
+              </div>
+            </div>
+          </i>
+        </div>
+
       </div>
 
       <div className="design-process__section-container">
@@ -335,19 +371,19 @@ class ClientProjectPage extends React.Component {
             </h5>
         </div>
         <div>
-          <p className=" ">
+          <p>
             This project was an amazing exercise in selling Design as a practice and an essential part of Product Development to key stakeholders. I have been part of projects where design is perceived as an afterthought or the team and business folks just have a <i>“make it look pretty”</i> mentality. Design Thinking is not something that Business people are taught or even aware of most of the time. They are driven by numbers and market conditions, but it is still important for them to understand the needs of the user (not their client), and the importance of Branding before diving into design or code.
           </p>
-          <p className=" ">
+          <p>
             As a designer, you are responsible for selling Design to your client, team or organization so I have started to educate clients <strong>*before*</strong> I work with them. I have become very strict about this to the point of refusing work if they are not willing to learn about Design and my process first.
           </p>
-          <p className=" ">
+          <p>
             This project also reminded me about the importance of Empathy in design. Actress Natalie Portman once said, “The actor’s job is empathy”. That holds very true about designers as well. Most of the time, we design experiences for people we never meet. This is why it is so important to learn about your users early. See what motivates them and what discourages them.
           </p>
-          <p className=" ">
+          <p>
             User Persona creation was extremely useful for me and for VIEWN’s team, to the point of us always talking about Rafael as if he were a real person. It was very rewarding to see my clients embracing the persona and making him part of every decision. For that, I have to thank them for being so receptive to my process, eager to learn from Design and so empathic.
           </p>
-          <p className=" ">
+          <p>
             Thank you Roberto and Areeya! You both taught me so much about business and it has been a blast working with you.
           </p>
         </div>

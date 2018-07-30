@@ -119,7 +119,7 @@ class DSProjectPage extends React.Component {
       </div>
 
       <div className="project__video-container">
-        <iframe src="https://player.vimeo.com/video/265949113" width="1000" height="800" frameBorder="0" allowFullScreen />
+        <iframe src="https://player.vimeo.com/video/282266378" width="1000" height="800" frameBorder="0" mozAllowFullScreen allowFullScreen></iframe>
       </div>
 
       <img src={ShowcaseImg} className="project-showcase-img" />
@@ -351,7 +351,7 @@ class DSProjectPage extends React.Component {
         </div>
         <div>
           <p>
-            On my side, OSKRHQ.DS supports theming. I wanted anyone to be able to fork the code repo in Github, change a couple of values in one place and be able to have a Design System that felt like their own with their unique personality and brand identity. Below you can see it in action shifting from one theme to another.   
+            On my side, OSKRHQ.DS supports theming. I wanted anyone to be able to fork the code repo in Github, change a couple of values in one place and be able to have a Design System that felt like their own with their unique personality and brand identity. Below you can see it in action shifting from one theme to another.
           </p>
         </div>
       </div>

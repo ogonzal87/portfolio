@@ -3,6 +3,7 @@ import TopNav from '../components/top-nav'
 import PortfolioFooter from '../components/footer'
 import styled from 'styled-components'
 import ProfileImg from '../assets/images/profile-pic.jpg'
+import TakingClientsTag from '../assets/images/clients.png'
 
 const SectionHero = styled.div`
   display: flex;
@@ -15,16 +16,21 @@ const SectionHero = styled.div`
   }
 `;
 
+const styles = {
+  position: 'fixed',
+  bottom: '0',
+  width: '400px',
+  right: '0',
+  zIndex: '-1'
+}
+
 const AboutPage = () => {
-  return <div>
+  return <div style={{ position: 'relative' }}>
     <TopNav work about resume />
     <div className="about-page">
       <SectionHero>
 
         <div className="img-container">
-          <h6 className="taking-clients">
-            <i>Currently I am <strong>not</strong> taking on any new projects or clients, but willing to meet for a cup of coffee.</i>
-          </h6>
           <img src={ProfileImg} alt="profile picture" className="profile-img" />
         </div>
 
@@ -48,6 +54,8 @@ const AboutPage = () => {
       </SectionHero>
     </div>
     <PortfolioFooter />
+
+    <img src={TakingClientsTag} style={styles} alt="taking clients tag" />
   </div>;
 }
 

@@ -391,93 +391,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-favicon": {
-      "resolve": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-favicon",
-      "id": "Plugin gatsby-plugin-favicon",
-      "name": "gatsby-plugin-favicon",
-      "version": "2.1.1",
-      "pluginOptions": {
-        "plugins": [],
-        "logo": "./src/favicon.png",
-        "injectHTML": true,
-        "icons": {
-          "android": true,
-          "appleIcon": true,
-          "appleStartup": true,
-          "coast": false,
-          "favicons": true,
-          "firefox": true,
-          "twitter": false,
-          "yandex": false,
-          "windows": false
-        }
-      },
-      "nodeAPIs": [
-        "modifyWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-favicon",
-      "packageJson": {
-        "name": "gatsby-plugin-favicon",
-        "description": "Gatsby plugin to add favicon for all configurations",
-        "version": "2.1.1",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "favicon"
-        ],
-        "author": {
-          "name": "Julien Blatecky",
-          "email": "julien.blatecky@creatiwity.net"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "favicons-webpack-plugin",
-            "version": "0.0.7"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "babel-plugin-transform-object-rest-spread",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "babel-preset-env",
-            "version": "^1.6.1"
-          },
-          {
-            "name": "babel-preset-react",
-            "version": "^6.24.1"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.1"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "47a5d3604bc98832e4ac6faa24a3b2a2",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-google-analytics": {
       "resolve": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
@@ -554,7 +467,7 @@
       "resolve": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "50f3de2056da7319e94ac71cf504069a",
+      "version": "1a7ac342bb5e97592c09bb8d6987f107",
       "pluginOptions": {
         "plugins": []
       },
@@ -651,7 +564,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4acb400792cae15e50ac5f0b8e990656",
+        "contentDigest": "e1c56b793922fe75c2ecb91498406a5e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -662,12 +575,12 @@
       },
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-07-19T07:39:02.035Z",
+      "buildTime": "2018-08-02T05:14:28.545Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "64eba96eecb325c1cb372f902c2e7b72",
+        "contentDigest": "89f143e60d777977a340d2f949964bef",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -688,7 +601,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d018ef9ed575c5a77bb3f02f8651e3c",
+        "contentDigest": "ab09e491f950732baec5294b6f579e00",
         "owner": "internal-data-bridge"
       }
     },
@@ -708,7 +621,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dcd51555eee8ea9d17570624371eef20",
+        "contentDigest": "35c6568ffe26413ee13a83bff7a70490",
         "owner": "internal-data-bridge"
       }
     },
@@ -728,7 +641,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "98d7d55d20c53c419c224c0ae31ae8a5",
+        "contentDigest": "5412e0f0cf2d51ea575fb2057c8370e3",
         "owner": "internal-data-bridge"
       }
     },
@@ -748,7 +661,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e4bdec434df140b77098c9a9cfc211c",
+        "contentDigest": "af38280e4ee9730b5971665906f4db40",
         "owner": "internal-data-bridge"
       }
     },
@@ -768,14 +681,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "68aca939d019a0c6aaec0a0bfc0c9be9",
+        "contentDigest": "71c140f986ecfa0a5d460b521e31a494",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "25e1e293dc90c1022ef2c2aadb91439c"
+    "PLUGINS_HASH": "8ff09cb6fddfc90f7c6679cb00b9e655"
   },
   "componentDataDependencies": {
     "nodes": {},

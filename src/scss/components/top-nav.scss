@@ -1,3 +1,5 @@
+$background-nav: #f9fafc;
+
 .top-nav {
   position: fixed;
   top: 0;
@@ -9,6 +11,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 999;
+  // background: $background-nav;
   
   .logo {
     max-width: 50px;

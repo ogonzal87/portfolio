@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components'
 import viewnHeroImg from "../../assets/images/viewn/vn-hero.png";
 import viewnShowcaseImg from "../../assets/images/viewn/vn-showcase.jpg";
 import LogoOld from "../../assets/images/viewn/logo-old.jpg";
@@ -32,17 +31,6 @@ import number6 from '../../assets/images/hand-brush/06.png'
 import TopNav from '../../components/top-nav'
 import robertoImg from '../../assets/images/viewn/roberto.jpg'
 import areeyaImg from '../../assets/images/viewn/areeya.jpg'
-
-const SectionHero = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10% 0;
-  height: 100vh;
-  box-sizing: border-box;
-  position: relative; 
-`
 
 class ClientProjectPage extends React.Component {
   render() {

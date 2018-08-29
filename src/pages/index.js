@@ -194,7 +194,6 @@ const ClassCard = styled.div`
 
 class HomePage extends React.Component {
   render() {
-
     return <div className="home-wrapper">
       <TopNav />
       <SectionHero>
@@ -202,7 +201,9 @@ class HomePage extends React.Component {
           Hola! 👋🏼 mi nombre es
           </h1>
 
-        <img className="portfolio-logo-img" src={NameLogo} />
+        <Link to="/about">
+          <img className="portfolio-logo-img" src={NameLogo} />
+        </Link>
 
         <i>
           <h5 className="hero-subheading-text">
@@ -214,7 +215,10 @@ class HomePage extends React.Component {
             </h5>
         </i>
 
-        <p className="  home-contact-links">
+        <p className="home-contact-links">
+          <Link to="/about">
+            About
+            </Link> /
           <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
             oscar@oskrhq.com
             </a> / <a href="https://github.com/ogonzal87" target="_blank">

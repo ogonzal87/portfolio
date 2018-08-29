@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "cc1fb577a1a062fdc96e1d03eea8b0fb",
         "owner": "internal-data-bridge"
       }
     },
@@ -516,7 +525,7 @@
           },
           {
             "name": "oskrhq-design-system",
-            "version": "3.3.1"
+            "version": "3.6.2"
           },
           {
             "name": "react-helmet",
@@ -573,14 +582,16 @@
       "siteMetadata": {
         "title": "OSKR Design & Code"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-08-02T05:14:28.545Z",
+      "buildTime": "2018-08-29T06:01:28.898Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "89f143e60d777977a340d2f949964bef",
+        "contentDigest": "b0f0ed3f300e27b47f0c958a29e98cb0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -601,7 +612,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ab09e491f950732baec5294b6f579e00",
+        "contentDigest": "952a72e497d0849463d1b3532c75a4ef",
         "owner": "internal-data-bridge"
       }
     },
@@ -621,7 +632,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "35c6568ffe26413ee13a83bff7a70490",
+        "contentDigest": "c39fb28d1fe04a13eb781df1615e9245",
         "owner": "internal-data-bridge"
       }
     },
@@ -641,7 +652,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5412e0f0cf2d51ea575fb2057c8370e3",
+        "contentDigest": "e352978344e0ca8e44654403c888b5ba",
         "owner": "internal-data-bridge"
       }
     },
@@ -661,7 +672,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "af38280e4ee9730b5971665906f4db40",
+        "contentDigest": "740b936457ad738aaa77fae0d89f7faa",
         "owner": "internal-data-bridge"
       }
     },
@@ -681,14 +692,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71c140f986ecfa0a5d460b521e31a494",
+        "contentDigest": "16f0936cd97ca07161b931357f459f3c",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8ff09cb6fddfc90f7c6679cb00b9e655"
+    "PLUGINS_HASH": "61e37247391f438ee0c2b8e495a33dba"
   },
   "componentDataDependencies": {
     "nodes": {},

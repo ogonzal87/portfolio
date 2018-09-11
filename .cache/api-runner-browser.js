@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
+      plugin: require('/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
       options: {"plugins":[],"trackingId":"UA-120916210-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"]},
     }]
 // During bootstrap, we write requires at top of this file which looks

@@ -267,6 +267,11 @@
       margin-top: 20px;
       box-shadow: ds-depth(100);
       transition: all ds-easing(base) ds-duration(slowest);
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: none;
+      }
 
       .img-thumbnail {
         object-fit: cover;

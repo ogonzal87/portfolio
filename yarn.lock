@@ -6264,9 +6264,9 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-oskrhq-design-system@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/oskrhq-design-system/-/oskrhq-design-system-3.0.2.tgz#e255bef1a1096bc73576e88fc619bf98eb031e80"
+oskrhq-design-system@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/oskrhq-design-system/-/oskrhq-design-system-3.6.3.tgz#03efc5debc82a1c1ba022f842950e04222ff0c45"
 
 p-finally@^1.0.0:
   version "1.0.0"

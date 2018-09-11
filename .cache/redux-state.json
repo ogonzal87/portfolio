@@ -593,13 +593,34 @@
       },
       "pathPrefix": "/oskrhq-portfolio",
       "polyfill": true,
-      "buildTime": "2018-09-11T05:44:21.563Z",
+      "buildTime": "2018-09-11T07:34:22.476Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ecc85c5edad2b97354f2bf91c4c627d3",
+        "contentDigest": "c58e1b5b47028f293b38668848ebc4e6",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6436bb2343b6ceb453e0d8630a9c5ef7",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -619,7 +640,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d9d8de0bdeb10dbd4e37f9c767fb6962",
+        "contentDigest": "d17c543a8d0c4dbc81bc8728c0d38d73",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -640,7 +661,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5500a9e4df231b22b51b8cc7e4173f2a",
+        "contentDigest": "37f23dd7da0020c32965bbbafdfa4511",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -661,7 +682,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d009a86488df253a595c61d5c30baa91",
+        "contentDigest": "5b29e663fcdd3ea134ed308e0dd9bd89",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -682,7 +703,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8d1931a2938aaae1e41c33f38680ac52",
+        "contentDigest": "51505239afc7148a3c6e22480983560b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -703,8 +724,29 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87291a41130360ec1ff92af919933421",
+        "contentDigest": "534b48c22bdad23ab46dcda7ef84430b",
         "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/ogonzalez2/Desktop/_DESIGN-SYSTEMS/portfolio-2018/ds-portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6df31f0efd39a9a9c9b8797452588b8e",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }

@@ -13,6 +13,8 @@ import thoughtsImg from '../assets/images/hand-brush/thoughts.png'
 import mediumPost1Img from '../assets/images/duotone1.jpg'
 import mediumPost2Img from '../assets/images/duotone2.jpg'
 import mediumPost3Img from '../assets/images/duotone3.jpg'
+import mediumPost4Img from '../assets/images/walle-min.png'
+import mediumPost5Img from '../assets/images/oskrhq-ds-min.jpg'
 import PortfolioFooter from '../components/footer'
 import DesignProcessCard from '../components/design-process-card'
 import CreativeLabMosque from '../components/creative-lab-mosque'
@@ -209,7 +211,7 @@ class HomePage extends React.Component {
           <h5 className="hero-subheading-text">
             I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">
               Design Technologist
-              </a> and User Experience Designer. By day I design + {"<code />"} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">
+              </a> and Product Designer. By day I design + {"<code />"} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">
               Design Systems
               </a>. By night I enjoy hand lettering, making moss art and doing illustrations.
             </h5>
@@ -330,11 +332,11 @@ class HomePage extends React.Component {
           </DesignProcessCard>
         <img src={designProcessPath3} alt="" className="design-process-path3" />
         <DesignProcessCard numberImg={number4} title="Prototype" gridAreaName="design-process-card4" badgeType="warning" badgeText="Explore">
-          <strong>How does the solution feel like?</strong> Create an experience for the solution you chose that delivers the least Cognitive Dissonance and most positive feelings. Resist the temptation of going Hifi too fast. Remember, Pixel Paranoia is expensive. Chill, and go old school first. Start with a pen, pencil, a big eraser and gallons of coffee. Show concepts fast guerrilla style if necessary. Oh and before you test, do yourself a favor and show the prototypes to the PM.
+          <strong>How does the solution feel like?</strong> Create an experience for the solution you chose that delivers the least Cognitive Dissonance and most positive feelings. Resist the temptation of going Hi-fi too fast. Remember, Pixel Paranoia is expensive. Chill, and go old school first. Start with a pen, pencil, a big eraser and gallons of coffee. Show concepts fast guerrilla style if necessary. Oh and before you test, do yourself a favor and show the prototypes to the PM.
           </DesignProcessCard>
         <img src={designProcessPath4} alt="" className="design-process-path4" />
         <DesignProcessCard numberImg={number5} title="Test" gridAreaName="design-process-card5" badgeType="success" badgeText="Materialize">
-          <strong>Learn. Learn. Learn.</strong> The primary goal is to learn. The secondary goal is to validate assumptions and your hypothesis. Remember, there is no failing nor passing. There is only learning. Every iteration and test you perform gets you closer to the optimal solution.
+          <strong>Fail fast.</strong> The primary goal is to learn. The secondary goal is to validate assumptions and your hypothesis. Every iteration you perform gets you closer to an optimal solution.
           </DesignProcessCard>
         <img src={designProcessPath1} alt="" className="design-process-path5" />
         <DesignProcessCard numberImg={number6} title="Implement" gridAreaName="design-process-card6" badgeType="success" badgeText="Materialize">
@@ -351,7 +353,7 @@ class HomePage extends React.Component {
           <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" className="home-post-card" target="_blank">
             <img src={mediumPost1Img} alt="" className="img-thumbnail" />
             <div className="post-text-container">
-              <p>The Anatomy of All Digital Interfaces</p>
+              <h6>The Anatomy of All Digital Interfaces</h6>
               <span className="ds-overlay-text-style">
                 MEDIUM, MUZ.LI
                 </span>
@@ -360,7 +362,7 @@ class HomePage extends React.Component {
           <a href="https://medium.muz.li/crafting-a-new-visual-language-912d3ac8df43" className="home-post-card" target="_blank">
             <img src={mediumPost3Img} alt="" className="img-thumbnail" />
             <div className="post-text-container">
-              <p>Crafting a New Visual Language</p>
+              <h6>Crafting a New Visual Language</h6>
               <span className="ds-overlay-text-style">
                 MEDIUM, MUZ.LI
                 </span>
@@ -369,9 +371,27 @@ class HomePage extends React.Component {
           <a href="https://blog.prototypr.io/a-dictionary-for-a-design-language-3afae1579586" className="home-post-card" target="_blank">
             <img src={mediumPost2Img} alt="" className="img-thumbnail" />
             <div className="post-text-container">
-              <p>A Dictionary for a Design Language</p>
+              <h6>A Dictionary for a Design Language</h6>
               <span className="ds-overlay-text-style">
                 MEDIUM, PROTOTYPR
+                </span>
+            </div>
+          </a>
+          <a href="https://uxdesign.cc/humanizing-interfaces-yep-cheesy-but-it-works-da6c8ca8aee7" className="home-post-card" target="_blank">
+            <img src={mediumPost4Img} alt="" className="img-thumbnail" />
+            <div className="post-text-container">
+              <h6>Homosapien-ing Interfaces</h6>
+              <span className="ds-overlay-text-style">
+                MEDIUM, UX Collective
+                </span>
+            </div>
+          </a>
+          <a href="https://medium.com/@ogonzal87/how-i-made-a-themeable-design-system-for-my-professional-brand-oskrhq-ds-1c10f5b87587" className="home-post-card" target="_blank">
+            <img src={mediumPost5Img} alt="" className="img-thumbnail" />
+            <div className="post-text-container">
+              <h6>How I made a themeable Design System for my Professional Brand</h6>
+              <span className="ds-overlay-text-style">
+                MEDIUM
                 </span>
             </div>
           </a>

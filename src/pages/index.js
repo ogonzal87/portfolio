@@ -211,7 +211,7 @@ class HomePage extends React.Component {
           <h5 className="hero-subheading-text">
             I’m a <a href="https://uxplanet.org/ux-engineers-what-we-are-2b0c4d10b3a6" target="_blank">
               UX Engineer
-              </a> and Product Designer. By day I design + {"<code />"} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">
+              </a> and Product Designer. By day I design + {"<code />"} digital products and also craft <a href="https://codesandbox.io/embed/oskrhq-playground-app-x7mhz?fontsize=14&theme=dark&view=preview" target="_blank">
               Design Systems
               </a>. By night I enjoy making art with code, making moss art and doing illustrations.
             </h5>

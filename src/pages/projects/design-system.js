@@ -42,17 +42,21 @@ class DSProjectPage extends React.Component {
       <div className="hero-container">
         <div className="hero-container__text-container">
           <span className="ds-overline-text-style">Company Work + Personal Project</span>
-          <h2 className="ds-display3-text-style hero-container__title">OSKRHQ.DS</h2>
+          <h2 className="ds-display3-text-style hero-container__title">OSKRHQ.DS 2.0</h2>
+
           <p>
             OSKRHQ.DS is a <strong><i>themeable</i></strong> Design System I created for my personal brand to achieve a harmonious identity through various media outputs and to showcase the process of creation and maintenance. <strong>In fact, this website, along with every design material I produce, consumes the system.</strong> More specifically, it is a Design Guide <strong>*and*</strong> Component Library written in ReactJS with a unique SASS architecture. It is also an open-sourced project you can download <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">here</a>, and has an accompanying UI Kit built in Sketch App with Smart symbols you can find <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank">here</a>. I also built it as a POC to persuade design and dev teams at my current employer to join me in building one for the company.
           </p>
+
+          <h3 className="ds-overline-text-style" style={{ background: "#5252ED", color: "white", paddingLeft: "8px", borderRadius: "3px" }}>Update</h3>
+          <p>The story told below was the first iteration of the system. I have since learned from feedback and usage and updated the Design System from the ground up carefully considering accessibility. You can find the latest and play with the code by hitting the button below.</p>
 
           <p className="ds-overline-text-style">Creative Direction and Multidisciplinary Design</p>
           <span className="ds-overline-text-style">Design Systems</span>
           <span className="ds-overline-text-style">Development</span>
           <span className="ds-overline-text-style">Sales</span>
           <span className="ds-overline-text-style">Research</span>
-          <a href="https://oskrhq-ds.surge.sh/" className="project-btn__cta" target="_blank">
+          <a href="https://codesandbox.io/embed/oskrhq-playground-app-x7mhz?fontsize=14&theme=dark&view=preview" className="project-btn__cta" target="_blank">
             <DSButton type="primary" size="medium">View the Site</DSButton>
           </a>
         </div>

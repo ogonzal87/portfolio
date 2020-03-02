@@ -209,18 +209,18 @@ class HomePage extends React.Component {
 
         <i>
           <h5 className="hero-subheading-text">
-            I’m a <a href="https://blog.prototypr.io/your-ux-team-needs-a-design-technologist-heres-why-3426be8f78a" target="_blank">
-              Design Technologist
+            I’m a <a href="https://uxplanet.org/ux-engineers-what-we-are-2b0c4d10b3a6" target="_blank">
+              UX Engineer
               </a> and Product Designer. By day I design + {"<code />"} digital products and also craft <a href="https://oskrhq-ds.surge.sh/" target="_blank">
               Design Systems
-              </a>. By night I enjoy hand lettering, making moss art and doing illustrations.
+              </a>. By night I enjoy making art with code, making moss art and doing illustrations.
             </h5>
         </i>
 
         <p className="home-contact-links">
           <Link to="/about">
             About
-            </Link> /
+            </Link> / {" "}
           <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
             oscar@oskrhq.com
             </a> / <a href="https://github.com/ogonzal87" target="_blank">

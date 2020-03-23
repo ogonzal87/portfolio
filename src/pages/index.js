@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import NameLogo from '../assets/logos/name.svg'
+import NameLogo from '../assets/logos/logo3.svg'
 import number1 from '../assets/images/hand-brush/01.png'
 import number2 from '../assets/images/hand-brush/02.png'
 import number3 from '../assets/images/hand-brush/03.png'
@@ -291,6 +291,7 @@ class HomePage extends React.Component {
 
 
 
+
       <a href="https://skl.sh/2yhdemt" target="_blank" className="class-link">
         <div className="section-title-container ">
           <img src={classHandLetteringImg} alt="" className="home-brush-lettering class" />
@@ -307,43 +308,6 @@ class HomePage extends React.Component {
           </div>
         </ClassCard>
       </a>
-
-      <DesignProcessCardGrid>
-        <div className="section-title-container design-process-title">
-          <img src={processImg} alt="" className="home-brush-lettering process" />
-        </div>
-        <DesignProcessCard numberImg={number1} title="Empathize" gridAreaName="design-process-card1" badgeType="tertiary" badgeText="Understand">
-          <strong>It's not me. It's you.</strong> Begin by understanding what motivates and discourages the user and the business. Like my mom used to say when I was a kid; "do not <span className="strikethrough-text">
-            <i>judge a man</i>
-          </span> [design for a user] until you've walked a mile in <span className="strikethrough-text">
-            <i>his</i>
-          </span> [his/her] shoes."`
-          </DesignProcessCard>
-        <img src={designProcessPath1} alt="" className="design-process-path1" />
-        <DesignProcessCard numberImg={number2} title="Define" gridAreaName="design-process-card2" badgeType="tertiary" badgeText="Understand">
-          <strong>What's the problem?</strong> Combine the research and observations from Step Uno, begin highlighting opportunities for innovation, and define the problem clearly. Helps to step back and look at the picture from 10,000 feet and ask yourself; <i
-          >
-            "Why is there is this a problem in first place?"
-            </i>
-        </DesignProcessCard>
-        <img src={designProcessPath2} alt="" className="design-process-path2" />
-        <DesignProcessCard numberImg={number3} title="Ideate" gridAreaName="design-process-card3" badgeType="warning" badgeText="Explore">
-          <strong>What's the solution?</strong> Come up with as many crazy ideas as possible to solve the problem, choose one solution, and formulate a testable hypothesis with it. A Scientific Method always helps. See? I learned something in science class... Oh, and don't forget to collaborate on this one! You don't know everything.
-          </DesignProcessCard>
-        <img src={designProcessPath3} alt="" className="design-process-path3" />
-        <DesignProcessCard numberImg={number4} title="Prototype" gridAreaName="design-process-card4" badgeType="warning" badgeText="Explore">
-          <strong>How does the solution feel like?</strong> Create an experience for the solution you chose that delivers the least Cognitive Dissonance and most positive feelings. Resist the temptation of going Hi-fi too fast. Remember, Pixel Paranoia is expensive. Chill, and go old school first. Start with a pen, pencil, a big eraser and gallons of coffee. Show concepts fast guerrilla style if necessary. Oh and before you test, do yourself a favor and show the prototypes to the PM.
-          </DesignProcessCard>
-        <img src={designProcessPath4} alt="" className="design-process-path4" />
-        <DesignProcessCard numberImg={number5} title="Test" gridAreaName="design-process-card5" badgeType="success" badgeText="Materialize">
-          <strong>Fail fast.</strong> The primary goal is to learn. The secondary goal is to validate assumptions and your hypothesis. Every iteration you perform gets you closer to an optimal solution.
-          </DesignProcessCard>
-        <img src={designProcessPath1} alt="" className="design-process-path5" />
-        <DesignProcessCard numberImg={number6} title="Implement" gridAreaName="design-process-card6" badgeType="success" badgeText="Materialize">
-          <strong>Move on or go again?</strong> Depends on the results of your tests. Prepare for another run through the process, or if the hypothesis was validated, implement the solution and go get drinks with the team. <br />
-          <strong>☝🏽 Important:</strong> Remember to invite the boss.
-          </DesignProcessCard>
-      </DesignProcessCardGrid>
 
       <div>
         <div className="section-title-container">

@@ -31,8 +31,8 @@ const MosqueGrid = styled.div`
   height: 100%; 
   grid-template-areas:
     "a   a   e"
-    "a   a   g"
-    "b   c   h"
+    "a   a   h"
+    "b   c   g"
     "f   d   d"
     "i   i   j"
     "i   i   j"

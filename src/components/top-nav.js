@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo2 from '../assets/logos/logo2.svg'
+import logo2 from '../assets/logos/logo4.svg'
 import ResumePDF from '../assets/images/oscar-gonzalez-resume.pdf'
 
 const TopNav = ({ work, about, resume, ...props }) => {

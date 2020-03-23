@@ -76,4 +76,20 @@ html {
     }
   }
 
+  .hightlighted-offset {
+    position: relative;
+    display:inline-block;
+  }
+  .hightlighted-offset::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: ds-color(primary, 100);
+    left: 0;
+    bottom: 0;
+    height: .6em;
+    z-index: -1;
+    mix-blend-mode: difference;
+  }
+
 }

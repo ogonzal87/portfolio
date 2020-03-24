@@ -292,8 +292,8 @@ class HomePage extends React.Component {
 
 
 
-      <a href="https://skl.sh/2yhdemt" target="_blank" className="class-link">
-        <div className="section-title-container ">
+      <a href="https://skl.sh/2yhdemt" target="_blank" className="class-link home-page-section">
+        <div className="section-title-container">
           <img src={classHandLetteringImg} alt="" className="home-brush-lettering class" />
         </div>
         <ClassCard className="class-card">
@@ -309,7 +309,7 @@ class HomePage extends React.Component {
         </ClassCard>
       </a>
 
-      <div>
+      <div className="home-page-section">
         <div className="section-title-container">
           <img src={thoughtsImg} alt="" className="home-brush-lettering thoughts" />
         </div>

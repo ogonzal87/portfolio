@@ -40,6 +40,10 @@ $breakpoints: (
 html {
   background: #f9fafc; 
 
+  @include respond-to(phone) {
+    padding: ds-space();
+  }
+
   .crafted-quote {
     font-size: ds-font-size(H6);
     padding: ds-space(bit-loose);
@@ -80,6 +84,7 @@ html {
     position: relative;
     display:inline-block;
   }
+
   .hightlighted-offset::after {
     content: "";
     position: absolute;

@@ -17,7 +17,7 @@ const TopNav = ({ work, about, resume, ...props }) => {
     Resume
     </a> : "";
 
-  return <div className="top-nav">
+  return <nav className="top-nav">
     <Link exact to="/">
       <img src={logo2} className="logo" />
     </Link>
@@ -26,7 +26,7 @@ const TopNav = ({ work, about, resume, ...props }) => {
       <li>{AboutLink}</li>
       <li>{ResumeLink}</li>
     </ul>
-  </div>;
+  </nav>;
 }
 
 export default TopNav

@@ -6,6 +6,12 @@
   padding-bottom: 200px;
   overflow: hidden;
 
+  .home-contact-links {
+    margin-top: ds-space(super-loose) * 2;
+    position: absolute;
+    bottom: ds-space(loose);
+  }
+
   @include respond-to(phone) {
     p {
       font-size: ds-font-size(body2);
@@ -22,8 +28,7 @@
   .portfolio-logo-img {
     width: 100%;
     max-width: 723px;
-    // margin-bottom: -40px;
-    filter: drop-shadow(0 50px 5px rgba(0,0,0,.07));
+    filter: drop-shadow(0 50px 5px rgba(0, 0, 0, 0.07));
 
     @include respond-to(phone) {
       width: 350px;
@@ -42,8 +47,8 @@
   }
 
   .hero-subheading-text {
-    max-width: 664px;
-    color: ds-color(neutral, 600);
+    max-width: 42ch;
+    color: darken(ds-color(neutral, 600), 25%);
     font-weight: ds-font-weight(light);
     text-align: center;
 
@@ -68,7 +73,7 @@
 
     @include respond-to(phone) {
       max-width: 88px;
-      top: - ds-space(extra-loose);
+      top: -ds-space(extra-loose);
       left: 0;
     }
   }
@@ -105,7 +110,7 @@
     }
 
     .project-card__footer-text {
-      color: ds-color(neutral,200);
+      color: ds-color(neutral, 200);
 
       @include respond-to(phone) {
         display: none;
@@ -113,7 +118,8 @@
     }
   }
 
-  .project-link, .class-link {
+  .project-link,
+  .class-link {
     min-width: 90%;
     display: block;
     margin: 0 auto;
@@ -123,9 +129,9 @@
     }
   }
 
-  .class-link {
+  .class-section {
     position: relative;
-    margin-top: 400px;
+    margin-top: 200px;
 
     @include respond-to(phone) {
       margin-top: 200px;
@@ -157,7 +163,7 @@
     position: absolute;
     min-width: 800px;
     height: 200px;
-    opacity: .2;
+    opacity: 0.8;
     z-index: -1;
 
     &.process {
@@ -185,6 +191,34 @@
       }
     }
 
+    &.studio {
+      min-width: 600px;
+      top: -350px;
+      left: -100px;
+      transform: rotate(-10deg);
+
+      @include respond-to(phone) {
+        top: -100px;
+        right: -160px;
+        min-width: 400px;
+        height: 100px;
+      }
+    }
+
+    &.code {
+      min-width: 600px;
+      top: -200px;
+      left: -100px;
+      transform: rotate(-10deg);
+
+      @include respond-to(phone) {
+        top: -100px;
+        right: -160px;
+        min-width: 400px;
+        height: 100px;
+      }
+    }
+
     &.thoughts {
       min-width: 800px;
       top: -120px;
@@ -200,57 +234,103 @@
     }
   }
 
-  .design-process-img2 {
+  .studio-section {
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
     margin: 0 auto;
-    max-width: 800px;;
-  }
 
+    .text-container {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      max-width: 65ch;
+      margin-right: 48px;
 
-  .design-process-path1 {
-    grid-area: "design-process-path1";
-    z-index: -2;
+      .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .column {
+          list-style: none;
+          padding-left: 0;
+        }
+
+        h4 {
+          margin: ds-space() 0 0 0;
+        }
+      }
+    }
+
+    img {
+      max-width: 490px;
+      border-radius: 0 16px 16px 0;
+    }
 
     @include respond-to(phone) {
-      max-width: 370px;
+      margin: 0 auto;
+      flex-direction: column;
     }
   }
 
-  .design-process-path2 {
-    grid-area: "design-process-path2";
-    z-index: -2;
+  .code-section {
+    padding: 200px 0;
+    max-width: 1200px;
+    margin: 0 auto;
 
-    @include respond-to(phone) {
-      max-width: 370px;
+    .code-cards-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 24px;
+      grid-row-gap: 24px;
+      padding: 0;
+
+      .code-card {
+        list-style: none;
+        padding: 0;
+        border-radius: 12px;
+        background-color: ds-color(neutral, 100);
+        box-shadow: ds-depth(100);
+
+        img {
+          border-radius: 12px 12px 0 0;
+          width: 100%;
+          height: 310px;
+          object-fit: cover;
+        }
+
+        .card-bottom-container {
+          padding: ds-space() ds-space(bit-loose) ds-space(bit-loose)
+            ds-space(bit-loose);
+
+          .card-text {
+            h5 {
+              margin-top: 8px;
+            }
+
+            p {
+              margin: 0 0 ds-space() 0;
+            }
+          }
+
+          a {
+            min-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
+      }
     }
   }
 
-  .design-process-path3 {
-    grid-area: "design-process-path3";
-    z-index: -2;
-
-    @include respond-to(phone) {
-      max-width: 370px;
-    }
+  .thoughts-section {
+    padding: 200px 0;
   }
-
-  .design-process-path4 {
-    grid-area: "design-process-path4";
-    z-index: -2;
-
-    @include respond-to(phone) {
-      max-width: 370px;
-    }
-  }
-
-  .design-process-path5 {
-    grid-area: "design-process-path5";
-    z-index: -2;
-
-    @include respond-to(phone) {
-      max-width: 370px;
-    }
-  }
-
 
   .home-posts-container {
     margin: 0 auto;
@@ -275,7 +355,6 @@
       @include respond-to(phone) {
         width: 100%;
       }
-     
 
       &:hover {
         text-decoration: none;
@@ -291,7 +370,7 @@
 
       .post-text-container {
         padding: 1rem 1.5rem;
-        border-radius:0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
       }
 
       h6 {
@@ -308,4 +387,3 @@
     }
   }
 }
-

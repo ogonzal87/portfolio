@@ -36,7 +36,7 @@ const AboutPage = () => {
 
         <div className="text-container">
           <p className=" ">
-            Hi. My name is Oscar and I am a Colombian coffee addict (I blame it on my roots). I am also a self-taught designer and developer. I actually went to Business School, not by choice... 😒 and hated it. My passion is anything Design and Development related. When I am not creating digital products, I play my uke, ride my bike "La Negra", Latin dance and scuba dive every chance I get. I love nature so much I even trim its bushes... Literally. Creating moss art is one of my favorite hobbies. Check it out <a href="https://www.instagram.com/musgho/" target="_blank">
+            On a more personal note... My name is Oscar and I am a Colombian coffee addict (I blame it on my roots). I am also a self-taught designer and developer. I actually went to Business School, not by choice... 😒. My passion is anything Design-y and Development-y. When I am not creating digital things, I play my uke, ride my bike "La Negra", Latin dance and scuba dive every chance I get. Also, I love nature so much I even trim its bushes... Literally. Creating moss art is one of my favorite hobbies. Check it out <a href="https://www.instagram.com/musgho/" target="_blank">
               here
               </a>.
             </p>
@@ -46,8 +46,7 @@ const AboutPage = () => {
           <p className="special-text-styling">Current Interests</p>
           <p className="ds-body1-text-style">
             I am really into decentralized autonomous systems, crypto
-            assets, machine learning and AR.Currently learning while working
-            on a side project coding a DApp using Ethereum.
+            assets, machine learning, 3D design, AR and VR.
             </p>
         </div>
 

@@ -20,7 +20,7 @@ const CodeProjectCard = ({
       <a
         className="ds-btn ds-btn-secondary ds-btn-medium ds-btn-fluid"
         href="https://instagram.com/a/r/?effect_id=1077625679243023"
-        blank="_blank"
+        target="_blank"
       >
         {buttonName || "Play with code"}
       </a>

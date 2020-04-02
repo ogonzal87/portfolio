@@ -11,14 +11,15 @@ $background-nav: #f9fafc;
   align-items: center;
   justify-content: space-between;
   z-index: 999;
-  
-  .logo {
-    max-width: 50px;
-    padding: 0 ds-space(extra-loose);
+  background: transparent;
+
+  .og-logo {
+    width: 150px;
+    padding: 0 og-space(space-48);
 
     @include respond-to(phone) {
-      max-width: ds-space(extra-loose);
-      padding: 0 ds-space(base);
+      max-width: og-space(space-48);
+      padding: 0 og-space(space-16);
     }
   }
 
@@ -29,29 +30,28 @@ $background-nav: #f9fafc;
     text-decoration: none;
 
     li {
-      padding: 0 ds-space(extra-loose);
+      padding: 0 og-space(space-48);
       text-transform: uppercase;
-      font-size: ds-font-size(caption);
+      font-size: og-font-size(caption);
 
       @include respond-to(phone) {
-        padding: 0 ds-space(base);
+        padding: 0 og-space(space-16);
       }
 
       a {
-        color: ds-color(neutral, 500);
-        transition: all ds-easing(base) ds-speed(slowest);
+        color: og-color(text, secondary);
+        transition: all og-easing(base) ds-speed(slowest);
 
         &:hover {
-          color: ds-color(primary, 400);
+          color: og-color(text, primary);
           cursor: pointer;
         }
       }
 
       .top-nav-link-isActive {
-        color: ds-color(primary, 400);
-        font-weight: ds-font-weight(bold);
+        color: og-color(text, link);
+        font-weight: og-font-weight(bold);
       }
     }
   }
 }
-

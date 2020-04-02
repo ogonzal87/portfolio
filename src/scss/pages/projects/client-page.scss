@@ -1,5 +1,5 @@
 .clients-container {
-  margin-top: ds-space(super-loose);
+  margin-top: og-space(space-64);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -14,5 +14,5 @@
 .client-avatar {
   border-radius: 50%;
   height: 60px;
-  margin-right: ds-space(tight);
+  margin-right: og-space(space-08);
 }

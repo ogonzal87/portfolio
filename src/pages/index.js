@@ -31,7 +31,7 @@ import designProcessPath3 from "../assets/images/design-process/path3.svg";
 import designProcessPath4 from "../assets/images/design-process/path4.svg";
 import TopNav from "../components/top-nav";
 
-import codeProjectsResoponseArray from "../assets/code-projects";
+import codeProjects from "../assets/code-projects";
 
 import CodeProjectCard from "../components/code-card";
 
@@ -46,6 +46,7 @@ const SectionHero = styled.div`
 `;
 
 const SectionProject = styled.div`
+  width: calc(100% + 40px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,16 +164,12 @@ const ClassCard = styled.div`
 `;
 
 class HomePage extends React.Component {
-  state = {
-    codeProjectsData: codeProjectsResoponseArray
-  };
-
   render() {
     return (
       <div className="home-wrapper">
         <TopNav />
         <SectionHero>
-          <h1 className="ds-overline-text-style hero-button-text-style">
+          <h1 className="og-text-style-overline hero-overline-text-style">
             Hola! 👋🏼 mi nombre es
           </h1>
 
@@ -243,11 +240,11 @@ class HomePage extends React.Component {
             <ProjectCard className="card-1">
               <img className="number" src={number1} />
               <div className="project-card-title-container">
-                <span className="ds-overline-text-style">
+                <span className="og-text-style-overline">
                   Company work + Personal Project
                 </span>
                 <h3 className="project-title">OSKRHQ Design System</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
+                <span className="og-text-style-overline project-card__footer-text">
                   DESIGN SYSTEMS | DEVELOPMENT | CREATIVE DIRECTION AND
                   MULTIDISCIPLINARY DESIGN | RESEARCH | SALES
                 </span>
@@ -261,9 +258,9 @@ class HomePage extends React.Component {
             <ProjectCard className="card-3">
               <img className="number" src={number2} />
               <div className="project-card-title-container">
-                <span className="ds-overline-text-style ">Client Work</span>
+                <span className="og-text-style-overline ">Client Work</span>
                 <h3 className="project-title">VIEWN</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
+                <span className="og-text-style-overline project-card__footer-text">
                   BRAND IDENTITY | CREATIVE DIRECTION AND MULTIDISCIPLINARY
                   DESIGN | UX RESEARCH
                 </span>
@@ -277,9 +274,9 @@ class HomePage extends React.Component {
             <ProjectCard className="card-2">
               <img className="number" src={number3} />
               <div className="project-card-title-container">
-                <span className="ds-overline-text-style">Personal Project</span>
+                <span className="og-text-style-overline">Personal Project</span>
                 <h3 className="project-title">YOLKO</h3>
-                <span className="ds-overline-text-style project-card__footer-text">
+                <span className="og-text-style-overline project-card__footer-text">
                   PRODUCT, INTERACTION AND EXPERIENCE DESIGN | DEVELOPMENT | UX
                   RESEARCH
                 </span>
@@ -318,7 +315,7 @@ class HomePage extends React.Component {
 
             <div className="columns">
               <div>
-                <h4 className="ds-overline-text-style">Design</h4>
+                <h4 className="og-text-style-overline">Design</h4>
                 <ul className="column">
                   <li>Product Design</li>
                   <li>User Interface</li>
@@ -329,7 +326,7 @@ class HomePage extends React.Component {
               </div>
 
               <div>
-                <h4 className="ds-overline-text-style">Code</h4>
+                <h4 className="og-text-style-overline">Code</h4>
                 <ul className="column">
                   <li>React web developer</li>
                   <li>Face filters for Social Media</li>
@@ -354,18 +351,20 @@ class HomePage extends React.Component {
           </div>
 
           <ul className="code-cards-list">
-            {this.state.codeProjectsData.map((item, key) => {
-              return (
-                <CodeProjectCard
-                  key={key}
-                  title={item.title}
-                  description={item.description}
-                  codeImg={item.codeImg}
-                  buttonName={item.buttonName}
-                  linkTo={item.linkTo}
-                />
-              );
-            })}
+            {codeProjects.map(
+              ({ src, title, description, href, buttonName }, key) => {
+                return (
+                  <CodeProjectCard
+                    key={key}
+                    title={title}
+                    description={description}
+                    src={src}
+                    buttonName={buttonName}
+                    href={href}
+                  />
+                );
+              }
+            )}
           </ul>
         </CodeSection>
 
@@ -454,9 +453,9 @@ class HomePage extends React.Component {
           </div>
           <ClassCard className="class-card">
             <div className="project-card-title-container">
-              <span className="ds-overline-text-style">SkillShare class</span>
+              <span className="og-text-style-overline">SkillShare class</span>
               <h3 className="project-title">Should Designers Code?</h3>
-              <span className="ds-overline-text-style project-card__footer-text">
+              <span className="og-text-style-overline project-card__footer-text">
                 A HUMBLE ATTEMPT TO BUILD EMPATHY BETWEEN DESIGNERS AND
                 DEVELOPERS
               </span>

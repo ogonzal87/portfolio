@@ -12,16 +12,16 @@
     position: relative;
   }
 
- .taking-clients {
+  .taking-clients {
     position: absolute;
-    left: - ds-space(super-loose) * 1.5;
-    top: - ds-space(super-loose);
-    color: ds-color(primary, 400);
+    left: og-space(space-64) * 1.5;
+    top: og-space(space-64);
+    color: og-color(text, link);
     max-width: 20ch;
     transform: rotate(-43deg);
 
     @include respond-to(phone) {
-      display: none;  
+      display: none;
     }
   }
 
@@ -33,23 +33,24 @@
 
     @include respond-to(phone) {
       display: block;
-      padding: ds-space(base);
-      margin-top: ds-space(super-loose) * 1.5;
+      padding: og-space(space-16);
+      margin-top: og-space(space-64) * 1.5;
       width: 100%;
     }
   }
 
   .text-container {
-    padding: ds-space(extra-loose) ds-space(extra-loose)* 1.5  ;
+    padding: og-space(space-48) og-space(space-48) * 1.5;
     max-width: 60ch;
     position: relative;
-    
+
     @include respond-to(phone) {
       display: block;
-      padding: ds-space(extra-loose) ds-space(loose) ds-space(super-loose) * 2 ds-space(loose);
+      padding: og-space(space-48) og-space(space-32) og-space(space-64) * 2
+        og-space(space-32);
 
       p {
-        @include ds-body1-text-style();
+        @include og-text-style-body1();
       }
     }
   }

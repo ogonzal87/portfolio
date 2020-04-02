@@ -7,11 +7,11 @@
     max-width: 375px;
 
     p {
-      @include ds-body2-text-style();
+      @include og-text-style-body2();
     }
 
     h4 {
-      @include ds-H4-text-style(semibold);
+      @include og-text-style-heading4(semibold);
     }
   }
 
@@ -25,26 +25,26 @@
     position: relative;
 
     @include respond-to(phone) {
-      padding-top: ds-space(super-loose) * 1.5;
+      padding-top: og-space(space-64) * 1.5;
     }
-      
+
     .hero-container__text-container {
       max-width: 546px;
 
       @include respond-to(phone) {
         box-sizing: border-box;
         max-width: 100%;
-        padding: 0 ds-space();
-        
+        padding: 0 og-space(space-08);
+
         h1 {
-          font-size: ds-font-size(display2);
+          font-size: og-font-size(display2);
         }
       }
 
       .hero-container__title {
-        margin-top: ds-space(tight);
+        margin-top: og-space(space-08);
         margin-bottom: 40px;
-        color: ds-color(neutral, 600);
+        color: og-color(text, secondary);
       }
 
       .hero-container__description {
@@ -57,13 +57,12 @@
 
       .project-btn__cta {
         display: block;
-        margin-top: ds-space(loose);
+        margin-top: og-space(space-32);
         width: 200px;
       }
     }
 
     .hero-container__img-container {
-
       @include respond-to(phone) {
         display: none;
       }
@@ -93,7 +92,7 @@
       }
 
       .project-img {
-        filter: drop-shadow(0 8px 17px rgba(0,0,0,0.20));
+        filter: drop-shadow(0 8px 17px rgba(0, 0, 0, 0.2));
         max-width: 500px;
       }
     }
@@ -114,24 +113,24 @@
     text-align: center;
     margin-top: 300px;
     text-transform: uppercase;
-    font-weight: ds-font-weight(normal);
+    font-weight: og-font-weight(normal);
   }
 
   .case-study-dossier-container {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-column-gap: ds-space(super-loose);
+    grid-column-gap: og-space(space-64);
     grid-template-columns: 2fr 1fr 1fr;
-    margin-top: ds-space(extra-loose) * 3;
+    margin-top: og-space(space-48) * 3;
 
     @include respond-to(phone) {
       max-width: 100%;
-      padding: 0 ds-space();
+      padding: 0 og-space(space-08);
       box-sizing: border-box;
-      grid-column-gap: ds-space(loose);
+      grid-column-gap: og-space(space-32);
       grid-template-columns: 1fr;
-      margin-top: ds-space(extra-loose) * 2;
+      margin-top: og-space(space-48) * 2;
     }
 
     .dossier__problem-container {
@@ -160,7 +159,7 @@
       margin: 0px auto 100px auto;
     }
   }
-  
+
   .project-img-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
@@ -170,7 +169,7 @@
     @include respond-to(phone) {
       grid-template-columns: 1fr;
     }
-    
+
     .grid-img {
       min-height: 500px;
       max-height: 900px;
@@ -178,7 +177,7 @@
       background-repeat: no-repeat;
       background-position: center;
       width: 100%;
-      
+
       @include respond-to(phone) {
         min-height: 100%;
         display: block;
@@ -190,7 +189,7 @@
     }
 
     p {
-      padding: 0 ds-space(super-loose);
+      padding: 0 og-space(space-64);
     }
   }
 
@@ -204,20 +203,20 @@
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-column-gap: ds-space(super-loose);
+    grid-column-gap: og-space(space-64);
     grid-template-columns: 1fr 2fr;
-    margin-top: ds-space(super-loose)*7;
+    margin-top: og-space(space-64) * 7;
 
     @include respond-to(phone) {
       grid-template-columns: 1fr;
       max-width: 100%;
-      margin-top: ds-space(super-loose) * 4;
-      padding: 0 ds-space();
+      margin-top: og-space(space-64) * 4;
+      padding: 0 og-space(space-08);
       box-sizing: border-box;
     }
 
     &.no-top-margin {
-      margin-top: ds-space(super-loose)*2;
+      margin-top: og-space(space-64) * 2;
     }
 
     .project-design-process-title-container {
@@ -228,17 +227,15 @@
         max-width: 260px;
         top: -100px;
         left: -120px;
-        opacity: .5;
+        opacity: 0.5;
       }
 
       .design-process__section-title {
-        color: ds-color(primary, 600);
+        color: og-color(text, secondary);
         text-transform: uppercase;
-        font-weight: ds-font-weight(normal);
+        font-weight: og-font-weight(normal);
       }
     }
-
-    
   }
 
   .project-things-learned-container {
@@ -246,4 +243,3 @@
     margin: 0 auto 200px auto;
   }
 }
-

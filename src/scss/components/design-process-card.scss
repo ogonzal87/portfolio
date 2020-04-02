@@ -8,54 +8,52 @@
     flex: 1;
 
     .design-process__number {
+      position: absolute;
+      top: -50px;
+      max-width: 100px;
+      z-index: -1;
+    }
+
+    .design-process__card {
+      background: og-color(background, canvas);
+      min-height: 200px;
+      max-width: 400px;
+      width: 100%;
+      padding: og-space(space-16) og-space(space-32);
+      box-sizing: border-box;
+      box-shadow: 0 15px 45px -5px rgba(10, 16, 34, 0.3);
+      border-radius: 8px;
+      position: relative;
+
+      @include respond-to(phone) {
+        padding: og-space(space-08) og-space(space-16);
+        min-height: 150px;
+        max-width: 370px;
+      }
+
+      .design-process-badge {
+        text-transform: uppercase;
+        display: block;
+        padding: og-space(space-08) og-space(space-24);
+        text-align: center;
+        border-radius: 0 8px 0 0;
         position: absolute;
-        top: -50px;
-        max-width: 100px;
-        z-index: -1;
-      }
+        right: 0;
+        top: 0;
 
-      .design-process__card {
-        background: ds-color(neutral, 000);
-        min-height: 200px;
-        max-width: 400px;
-        width: 100%;
-        padding: ds-space(base) ds-space(loose);
-        box-sizing: border-box;
-        box-shadow: 0 15px 45px -5px rgba(10, 16, 34, .3);
-        border-radius: 8px;
-        position: relative;
-
-        @include respond-to(phone) {
-          padding: ds-space(tight) ds-space(base);
-          min-height: 150px;
-          max-width: 370px;
+        &.tertiary {
+          color: og-color(text, info);
+          background: og-color(background, info-hover);
         }
-
-        .design-process-badge {
-          text-transform: uppercase;
-          display: block;
-          padding: ds-space(tight) ds-space(bit-loose); 
-          text-align: center;
-          border-radius: 0 8px 0 0;
-          position: absolute;
-          right: 0;
-          top: 0;
-
-          &.tertiary {
-            color: ds-color(tertiary, 400);
-            background: ds-color(tertiary, 100);
-          }
-          &.success {
-            color: ds-color(success, 400);
-            background: ds-color(success, 100);
-          }
-          &.warning {
-            color: ds-color(warning, 500);
-            background: ds-color(warning, 100);
-          }
+        &.success {
+          color: og-color(text, positive);
+          background: og-color(background, positive-hover);
+        }
+        &.warning {
+          color: og-color(text, negative);
+          background: og-color(background, negative-hover);
         }
       }
+    }
   }
-
-  
 }

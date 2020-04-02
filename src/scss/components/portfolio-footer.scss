@@ -7,12 +7,12 @@
   bottom: 0;
   box-sizing: border-box;
 
-   @include respond-to(phone) {
+  @include respond-to(phone) {
     position: relative;
 
     a {
-      @include ds-body1-text-style();
-      color: ds-color(primary, 400);
+      @include og-text-style-body1();
+      color: og-color(text, link);
     }
-   }
+  }
 }

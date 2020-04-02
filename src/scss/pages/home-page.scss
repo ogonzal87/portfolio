@@ -7,14 +7,14 @@
   overflow: hidden;
 
   .home-contact-links {
-    margin-top: ds-space(super-loose) * 2;
+    margin-top: og-space(space-64) * 2;
     position: absolute;
-    bottom: ds-space(loose);
+    bottom: og-space(space-32);
   }
 
   @include respond-to(phone) {
     p {
-      font-size: ds-font-size(body2);
+      font-size: og-font-size(body2);
     }
 
     padding-bottom: 100px;
@@ -36,8 +36,8 @@
     }
   }
 
-  .hero-button-text-style {
-    color: ds-color(neutral, 500);
+  .hero-overline-text-style {
+    color: og-color(text, secondary);
     letter-spacing: 1px;
     margin-bottom: 50px;
 
@@ -48,13 +48,15 @@
 
   .hero-subheading-text {
     max-width: 42ch;
-    color: darken(ds-color(neutral, 600), 25%);
-    font-weight: ds-font-weight(light);
+    color: lighten(og-color(text, secondary), 1%);
+    font-weight: og-font-weight(light);
     text-align: center;
+    margin-top: og-rem(42px);
+    line-height: 2rem;
 
     @include respond-to(phone) {
-      font-size: ds-font-size(body1);
-      padding: ds-space(base);
+      font-size: og-font-size(body1);
+      padding: og-space(space-16);
     }
   }
 
@@ -73,7 +75,7 @@
 
     @include respond-to(phone) {
       max-width: 88px;
-      top: -ds-space(extra-loose);
+      top: og-space(space-48);
       left: 0;
     }
   }
@@ -82,13 +84,13 @@
     position: absolute;
     bottom: 40px;
     right: 40px;
-    color: ds-color(neutral, 000);
+    color: og-color(text, primary-on-dark);
     text-transform: uppercase;
     display: block;
     text-align: right;
 
-    .ds-overline-text-style {
-      color: ds-color(neutral, 000);
+    .og-text-style-overline {
+      color: og-color(text, primary-on-dark);
       text-align: right;
       display: block;
 
@@ -98,19 +100,19 @@
     }
 
     .project-title {
-      margin-top: ds-space(base);
-      margin-bottom: ds-space(base);
-      color: ds-color(neutral, 000);
+      margin-top: og-space(space-16);
+      margin-bottom: og-space(space-16);
+      color: og-color(text, primary-on-dark);
 
       @include respond-to(phone) {
-        font-size: ds-font-size(H4);
-        margin-top: ds-space(extra-tight);
-        margin-bottom: ds-space(extra-tight);
+        font-size: og-font-size(heading4);
+        margin-top: og-space(space-04);
+        margin-bottom: og-space(space-04);
       }
     }
 
     .project-card__footer-text {
-      color: ds-color(neutral, 200);
+      color: og-color(text, primary-on-dark);
 
       @include respond-to(phone) {
         display: none;
@@ -120,8 +122,7 @@
 
   .project-link,
   .class-link {
-    min-width: 90%;
-    display: block;
+    min-width: 100%;
     margin: 0 auto;
 
     @include respond-to(phone) {
@@ -259,7 +260,7 @@
         }
 
         h4 {
-          margin: ds-space() 0 0 0;
+          margin: og-space(space-08) 0 0 0;
         }
       }
     }
@@ -291,8 +292,8 @@
         list-style: none;
         padding: 0;
         border-radius: 12px;
-        background-color: ds-color(neutral, 100);
-        box-shadow: ds-depth(100);
+        background-color: og-color(background, canvas);
+        box-shadow: og-elevation(100);
 
         img {
           border-radius: 12px 12px 0 0;
@@ -302,8 +303,8 @@
         }
 
         .card-bottom-container {
-          padding: ds-space() ds-space(bit-loose) ds-space(bit-loose)
-            ds-space(bit-loose);
+          padding: og-space(space-08) og-space(space-24) og-space(space-24)
+            og-space(space-24);
 
           .card-text {
             h5 {
@@ -311,7 +312,7 @@
             }
 
             p {
-              margin: 0 0 ds-space() 0;
+              margin: 0 0 og-space(space-08) 0;
             }
           }
 
@@ -336,7 +337,7 @@
     margin: 0 auto;
     max-width: 1400px;
     display: grid;
-    grid-row-gap: ds-space(extra-loose);
+    grid-row-gap: og-space(space-48);
     grid-template-columns: 1fr 1fr 1fr;
 
     @include respond-to(phone) {
@@ -348,8 +349,8 @@
       color: inherit;
       width: 400px;
       margin-top: 20px;
-      box-shadow: ds-depth(100);
-      transition: all ds-easing(base) ds-duration(slowest);
+      box-shadow: og-elevation(100);
+      transition: all og-easing(base) ds-duration(slowest);
       text-decoration: none;
 
       @include respond-to(phone) {
@@ -374,15 +375,15 @@
       }
 
       h6 {
-        margin: 0 0 ds-space(extra-tight) 0;
+        margin: 0 0 og-space(space-04) 0;
       }
 
       span {
-        color: ds-color(neutral, 500);
+        color: og-color(text, secondary);
       }
 
       &:hover {
-        box-shadow: ds-depth(300);
+        box-shadow: og-elevation(300);
       }
     }
   }

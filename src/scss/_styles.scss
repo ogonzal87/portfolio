@@ -1,7 +1,9 @@
+@import "./og-ds-styles/_styles.scss";
+
 $breakpoints: (
-  phone:  767px,
+  phone: 767px,
   tablet: 992px,
-  desktop:  1200px
+  desktop: 1200px
 );
 
 /// Mixin to manage responsive breakpoints
@@ -15,7 +17,7 @@ $breakpoints: (
       @content;
     }
   }
- 
+
   // If the key doesn't exist in the map
   @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
@@ -23,36 +25,34 @@ $breakpoints: (
   }
 }
 
-
-@import 'node_modules/oskrhq-design-system/styles/styles.scss';
 // Pages
-@import './pages/home-page.scss';
-@import './pages/about-page.scss';
-@import './pages/project-page.scss';
-@import './pages/projects/yolko-page.scss';
-@import './pages/projects/ds-page.scss';
-@import './pages/projects/client-page.scss';
+@import "./pages/home-page.scss";
+@import "./pages/about-page.scss";
+@import "./pages/project-page.scss";
+@import "./pages/projects/yolko-page.scss";
+@import "./pages/projects/ds-page.scss";
+@import "./pages/projects/client-page.scss";
 //Components
-@import './components/portfolio-footer.scss';
-@import './components/design-process-card.scss';
-@import './components/top-nav.scss';
+@import "./components/portfolio-footer.scss";
+@import "./components/design-process-card.scss";
+@import "./components/top-nav.scss";
 
 html {
-  background: #f9fafc; 
+  background: #f9fafc;
 
   @include respond-to(phone) {
-    padding: ds-space();
+    padding: og-space(space-08);
   }
 
   .crafted-quote {
-    font-size: ds-font-size(H6);
-    padding: ds-space(bit-loose);
-    color: ds-color(neutral, 600);
+    font-size: og-font-size(body1);
+    padding: og-space(space-24);
+    color: og-color(text, secondary);
     font-style: italic;
 
     @include respond-to(phone) {
-      font-size: ds-font-size(subheading);
-      padding: ds-space();
+      font-size: og-font-size(subheading);
+      padding: og-space(space-08);
     }
   }
 
@@ -71,12 +71,12 @@ html {
     text-align: center;
     margin-top: 100px;
     text-transform: uppercase;
-    font-weight: ds-font-weight(normal);
+    font-weight: og-font-weight(normal);
   }
 
   li {
     @include respond-to(phone) {
-      font-size: ds-font-size(body2);
+      font-size: og-font-size(body2);
     }
   }
 
@@ -88,19 +88,20 @@ html {
     content: "";
     position: absolute;
     width: 100%;
-    background: #00FFF0;
+    background: #00fff0;
     left: 0;
     bottom: -3px;
-    height: .6em;
+    height: 0.6em;
     z-index: -1;
     mix-blend-mode: difference;
   }
 }
 
-::-moz-selection { /* Code for Firefox */
-  background: #00FFF0;
+::-moz-selection {
+  /* Code for Firefox */
+  background: #00fff0;
 }
 
 ::selection {
-  background: #00FFF0;
+  background: #00fff0;
 }

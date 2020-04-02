@@ -5,12 +5,12 @@
       max-width: 600px;
     }
 
-    .ds-overline-text-style {
-      margin-top: ds-space(loose);
+    .og-text-style-overline {
+      margin-top: og-space(space-32);
     }
 
     .project-btn__cta {
-      margin-top: ds-space(super-loose);
+      margin-top: og-space(space-64);
     }
   }
 }

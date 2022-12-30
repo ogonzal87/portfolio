@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Oscar Gonzalez oskrhq.com/",
   "dependencies": {
-    "gatsby": "^1.9.223",
+    "gatsby": "^5.3.3",
     "gatsby-cli": "^2.11.1",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-favicon": "^2.1.1",
